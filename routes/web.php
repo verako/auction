@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/',['as'=>'home', function () {
     return view('welcome');
+}]);
+Route::get('/card', function () {
+    return view('card');
 });

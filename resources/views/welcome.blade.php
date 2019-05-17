@@ -1,99 +1,142 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+@extends('default.app')
+@section('left_menu')
+            <div class="col-12 col-lg-3">
+              <nav class="navbar bg-light">
+                <!-- Links -->
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Категория 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Категория 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Категория 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Категория 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Категория 5</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Категория 6</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-        </div>
-    </body>
-</html>
+@endsection  
+@section('content')
+            <div class="col-12 col-lg-9">
+              <div class="row">                
+                <div class="col-6 col-lg-4">
+                  <div class="card" >
+                    <a href="/card"><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>                
+                    <div class="card-body">
+                      <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                      <h5 class="price bold">520 грн</h5>
+                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="#" class="btn btn-light del">Удалить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4">
+                  <div class="card" >
+                    <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                      <h5 class="price bold">520 грн</h5>
+                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="#" class="btn btn-light del">Удалить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4">
+                  <div class="card" >
+                    <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                      <h5 class="price bold">520 грн</h5>
+                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="#" class="btn btn-light del">Удалить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4">
+                  <div class="card" >
+                    <a href=""><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                      <h5 class="price bold">520 грн</h5>
+                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="#" class="btn btn-light del">Удалить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4">
+                  <div class="card" >
+                    <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                      <h5 class="price bold">520 грн</h5>
+                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="#" class="btn btn-light del">Удалить</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4">
+                  <div class="card" >
+                    <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                      <h5 class="price bold">520 грн</h5>
+                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="#" class="btn btn-light del">Удалить</a>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-light shows">Показать больше</a>
+              </div>
+            </div>
+@endsection
+@section('content_home')          
+          <div class="row">
+            <div class="col-12 col-lg-12 advantag">
+              <h3>Преимущества работы с нами</h3>
+            </div>
+            <div class="col-6 col-lg-6 advantages center">
+              <img src="img\callcenter1.jpg">
+            </div>
+            <div class="col-6 col-lg-6 text">
+              <h5>Мы прислушиваемся к Вашим пожеланиям</h5>
+              <p> Служба поддержки всегда поможет разрешить спорные ситуации и учтет все Ваши предложения</p>
+            </div>
+            <div class="col-6 col-lg-6 text">
+              <h5>But I must explain to you how</h5>
+              <p> all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete accountpleasure itself, because it is pleasur</p>
+            </div>
+            <div class="col-6 col-lg-6 advantages center">
+              <img src="img\callcenter1.jpg">
+            </div>
+            <div class="col-6 col-lg-6 advantages center">
+              <img src="img\callcenter1.jpg">
+            </div>
+            <div class="col-6 col-lg-6 text">
+              <h5>But I must explain to you how</h5>
+              <p> all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete accountpleasure itself, because it is pleasur</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-12 center">
+              <h2 class="base-text-color shows">Желаете зарабатывать на продаже коллекционных товаров?</h2>
+              <h5>Загрузите ваши товары прямо сейчас!</h5>
+              <a href="#" class="btn add-color shows white">Добавить товар</a>
+            </div>
+          </div> 
+@endsection 
