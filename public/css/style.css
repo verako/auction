@@ -105,6 +105,9 @@ input[type="text"]:focus {
 .center{
     text-align: center;
 }
+.seller{
+    background-color: #E4C7AD;
+}
 /*navbar*/
 .count {
     display: inline-block;
@@ -179,6 +182,7 @@ input[type="text"]:focus {
 .breadcrumb{
     padding: 0;
     background-color: #fff;
+    margin-bottom: 40px;
 }
 .price {
     margin-top: 20px;    
@@ -224,18 +228,15 @@ footer{
     padding-right: 10px;
 }
 
-
+/*один товар*/
 /*карусель одного товара*/
-
 #bx-pager a img:hover,
 #bx-pager a.active img{
     border: solid #E4C7AD 1px;
 }
-
 #bx-pager img{
     width: 20%;
 }
-
 .oneproduct .bx-wrapper .bx-controls-direction a{
     top:130%;
 }
@@ -243,7 +244,10 @@ footer{
     display: inline-block;
     width: 370px;
 }
-/*один товар*/
+/*\карусель одного товара*/
+.lot h3{
+    margin:30px 0;
+}
 .oneproduct{
     text-align: center;
     margin-bottom: 25px;
@@ -252,20 +256,65 @@ footer{
     display: table;
     content: " ";
 }
-
 .about_lot_title {
     border: 1px solid #ececec;
     padding: 16px 9px 5px 19px;
-    margin-bottom: 20px;
     min-height: 72px;
     font-size: 14px;
-    text-align: center;   
-    
+    text-align: center;    
 }
-.about_lot_title div{
-    margin-right: 30px
-}#ececec;
-
+.info div{
+    margin-right: 30px;
+}
 .about_lot_title span{
     font-weight: bold;
+}
+.prices, .rate{
+    margin-left: 20px;
+    margin-right: 0;
+    text-align: left;
+}
+.rate{
+    margin-top: 20px;
+}
+.prices span{
+    font-size: 20px;
+}
+.rate input{
+    margin: 20px;
+}
+.follow{
+    margin-left: 20px;
+}
+.description span{
+    font-weight: bold;
+}
+.description h4{
+    margin-top: 40px;
+}
+.comment{
+    list-style: none;
+    padding: 0;
+}
+.seller{
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 18px;
+    line-height: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 2px;
+}
+.time{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.comment p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.send{
+    margin:30px 0;
 }
