@@ -26,9 +26,7 @@
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script type="text/javascript" src="js\jquery.bxslider.js"></script>
         <script type="text/javascript" src="js\jquery.elevateZoom-3.0.8.min.js"></script>
-        <script type="text/javascript" src="js\script.js"></script>
-
-       
+        <script type="text/javascript" src="js\script.js"></script>       
     </head>
     <body>
             @if (Route::has('login'))
@@ -44,6 +42,7 @@
                     @endauth
                 </div>
             @endif
+@section('head')           
         <header class="header ">
           <div class="container">
             <div class="row flex-nowrap justify-content-between align-items-center">
@@ -60,7 +59,10 @@
                 </ul>   
                 <ul class="reg row flex-nowrap justify-content-flex-end">
                   <li>
-                    <a href="" class="card-user"><i class="far fa-user"></i> User </a>
+                    <a href="/profile" class="card-user"><i class="far fa-user"></i> User </a>
+                  </li>
+                  <li>
+                    <a href="/cabinet" class="card-user "><i class="fas fa-briefcase"></i> Личный кабинет</a>
                   </li>
                   <li>
                     <a class="base-text-color" href="#"><i class="fas fa-sign-out-alt"></i> Выход</a>
@@ -78,7 +80,7 @@
           </div>
           <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 base-color">
             <div class="container">
-              <a class="navbar-brand" href="#">LOGO</a>
+              <a class="navbar-brand" href="/">LOGO</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>            
               <div class="collapse navbar-collapse " id="navbarCollapse">
                 <ul class="navbar-nav ">
@@ -116,10 +118,11 @@
             </div>
           </nav>
         </header>  
-
+@show
         <div class="container">
-          <div class="row">
-@yield('left_menu')     
+          <div class="row">    
+@yield('left_menu') 
+@yield('breadcrumb')    
 @yield('content')            
           </div>
 @yield('content_home')                 
@@ -167,7 +170,7 @@
           <div class="copyright center white add-color">
             <p>© auction.com 2019 </p>
           </div>  
-        </footer>        
+        </footer> 
+@show                
     </body>
 </html>
-@show 

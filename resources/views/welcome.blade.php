@@ -25,7 +25,7 @@
                 </ul>
               </nav>
             </div>
-@endsection  
+@endsection 
 @section('content')
             <div class="col-12 col-lg-9">
               <div class="row">                

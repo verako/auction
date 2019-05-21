@@ -108,6 +108,13 @@ input[type="text"]:focus {
 .seller{
     background-color: #E4C7AD;
 }
+.ui-state-active, .ui-widget-content .ui-state-active, /*в кабинете акардион*/
+.ui-widget-header .ui-state-active, a.ui-button:active, 
+.ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #E4C7AD;
+    background: #E4C7AD;
+    color: #ffffff;
+}
 /*navbar*/
 .count {
     display: inline-block;
@@ -258,15 +265,17 @@ footer{
 }
 .about_lot_title {
     border: 1px solid #ececec;
-    padding: 16px 9px 5px 19px;
+    padding: 16px 0;
+    padding-left: 16px;
     min-height: 72px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;    
 }
 .info div{
     margin-right: 30px;
 }
 .about_lot_title span{
+    font-size: 14px;
     font-weight: bold;
 }
 .prices, .rate{
@@ -318,3 +327,84 @@ footer{
 .send{
     margin:30px 0;
 }
+
+/*cabinet*/
+.cabinet h5{
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.avatar{
+    text-align: center;
+}
+.avatar img{
+    width: 200px;
+}
+.basic{
+    margin-left: 15px;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+.basic div{
+    margin-left: 8%;
+}
+.main{
+    margin: 20px 15px;
+    padding-left: 0;
+}
+.accordion ul{
+    list-style: none;
+    text-align: left;
+}
+/*профиль*/
+.feedback{
+    margin:20px 0;
+}
+.feedback div{
+    text-align: left;
+    overflow-y:auto; 
+    height:200px;
+}
+.feedback .fa-thumbs-up, .feedback .fa-thumbs-down{
+    margin-left: 20px;
+}
+.feedback table{
+    text-align: center;
+}
+.img_refresh i{
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+.cabinet .user_avatar .img_refresh{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #e5e5e5;
+    background: #ffffff;
+    padding: 6px 0 0 6px;
+    position: absolute;
+    left: 25%;
+    top:-5%;
+    z-index: 2;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: .4;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.cabinet .user_avatar .img_refresh {
+    display: none;
+} 
+.user_avatar:hover .img_refresh{
+    cursor: pointer;
+    display: block;
+}
+/*.user_avatar:hover ::before {
+    display: block;
+    content: '';
+    width: 17px;
+    height: 13px;
+    margin-left: -8px;
+    background: url(/i/userpage_icons.svg) -674px -178px no-repeat;
+    position: absolute;
+    
+    
+}*/

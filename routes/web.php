@@ -17,3 +17,9 @@ Route::get('/',['as'=>'home', function () {
 Route::get('/card', function () {
     return view('card');
 });
+Route::get('/cabinet', function () {
+    return view('cabinet');
+});
+Route::get('/profile', function () {
+    return view('profile');
+});

@@ -1,16 +1,17 @@
 @extends('default.app')
-	
-@section('content')
-	
-	@section('breadcrumb')
+@yield('head')
+@section('breadcrumb')
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-        	    <li class="breadcrumb-item"><a href="/" class="base-text-color">Главная</a></li>
-        	    <li class="breadcrumb-item"><a href="#" class="base-text-color">Категория</a></li>
-    			<li class="breadcrumb-item active" aria-current="page">Название лота</li>
+                <li class="breadcrumb-item"><a href="/" class="base-text-color">Главная</a></li>
+                <li class="breadcrumb-item"><a href="#" class="base-text-color">Категория</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Название лота</li>
             </ol>
         </nav>
-    @show 
+@endsection
+@section('content')
+	
+	
 <div class="lot" >
     <div class="about_lot_title row info">
         <div>
