@@ -157,10 +157,12 @@
               <div class="col-12 col-lg-3">
                 <p class="base-text-color bold">Сменить язык интерфейса</p>
                 <ul class="info">                  
-                  <li><select class="base-color base-border-color">
-                    <option>Русский</option>
-                    <option>Украинский</option>
-                  </select></li>
+                  <li>
+                    <select class="base-color base-border-color">
+                      <option>Русский</option>
+                      <option>Украинский</option>
+                    </select>
+                  </li>
                   <li><a href="#" class="btn btn-light top"><i class="fas fa-angle-up"></i></a></li>
                 </ul>
                 

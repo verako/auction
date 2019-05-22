@@ -116,7 +116,7 @@ input[type="text"]:focus {
     color: #ffffff;
 }
 /*navbar*/
-.count {
+.count, .count_chat {
     display: inline-block;
     position: absolute;
     left: auto;
@@ -129,6 +129,10 @@ input[type="text"]:focus {
     font-size: 11px;
     line-height: 16px;
     color: #fff;
+}
+.count_chat{
+    right: 255px;
+    top: 265px;
 }
 .messages{
     font-size: 20px;
@@ -339,13 +343,22 @@ footer{
 .avatar img{
     width: 200px;
 }
-.basic{
+.basic, .basic_edit{
     margin-left: 15px;
     margin-right: 0;
     margin-bottom: 30px;
 }
 .basic div{
     margin-left: 8%;
+}
+.basic_edit div{
+    margin-left: 3%;
+}
+.basic .favorites,.basic_edit .favorites{
+    margin-top: 10px;
+}
+.basic_edit{
+    padding-bottom: 0;
 }
 .main{
     margin: 20px 15px;
@@ -374,8 +387,7 @@ footer{
     margin-top: 20%;
     font-size: 20px;
 }
-
-.cabinet .user_avatar .img_refresh{
+.cabinet .avatar .img_refresh{
     width: 150px;
     height: 150px;
     border: 1px solid #e5e5e5;
@@ -390,21 +402,34 @@ footer{
     opacity: .4;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
-.cabinet .user_avatar .img_refresh {
+.cabinet .avatar .img_refresh {
     display: none;
 } 
-.user_avatar:hover .img_refresh{
+.avatar:hover .img_refresh{
     cursor: pointer;
     display: block;
 }
-/*.user_avatar:hover ::before {
-    display: block;
-    content: '';
-    width: 17px;
-    height: 13px;
-    margin-left: -8px;
-    background: url(/i/userpage_icons.svg) -674px -178px no-repeat;
+.avatar input{
+    opacity:0;
+    width: 300px;
+    height: 300px;
     position: absolute;
-    
-    
-}*/
+    left: 0;
+    cursor: pointer;
+}
+/*chat*/
+.my{
+    text-align: right;
+}
+.my_text{
+    //text-align: right;
+    width: 80%;
+    margin-left:20%;
+}
+.text_guest{
+    width: 80%
+}
+.hr{
+    margin-top: 0;
+    margin-bottom: 30px;
+}

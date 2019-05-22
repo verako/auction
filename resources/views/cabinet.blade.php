@@ -15,7 +15,7 @@
             <img src="img/user.png">
             <div class="about_lot_title row main">
                 <div class="col-12"><a href="/profile" class="card-user">Профиль</a></div>
-                <div class="col-12"><a href="" class="card-user">Создать лот <i class="fas fa-plus"></i></a> </div>               
+                <div class="col-12"><a href="/add_lot" class="card-user">Создать лот <i class="fas fa-plus"></i></a> </div>               
             </div>
             <div class="about_lot_title row main">
                 <div class="col-12 col-lg-12 accordion ui-accordion ui-widget ui-helper-reset" role="tablist">
@@ -51,9 +51,40 @@
                     <p><i class="fas fa-comment-dots"></i> Отзывы: <br><span>5 / 2</span> </p>
                 </div>
                 <div>
-                    <p><a href="" class="card-user"><i class="fas fa-wallet"></i> Кошелёк</a><br><span>5.20</span></p>
-                </div>       
+                    <p><a href="" class="card-user" data-toggle="modal" data-target="#purseModal"><i class="fas fa-wallet"></i> Кошелёк</a><br><span>5.20</span></p>
+                </div>            
             </div>
+<!-- modal окно  -->
+                    <div class="modal fade" id="purseModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Движение средств</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <table border="0" cellpadding="10">
+                               <tr>
+                                <th>Дата / время</th>
+                                <th>Комментарий</th>
+                                <th>Сумма</th>
+                                <th>Баланс</th>
+                               </tr>
+                               <tr>
+                                <td>20.05.2019 14:12</td>
+                                <td>Название лота</td>
+                                <td>1250 грн</td>
+                                <td>250 грн</td>
+                               </tr>               
+                            </table>
+                            <a  href="#" type="submit" class=" btn add-color white " aria-haspopup="true" aria-expanded="false">Пополнить</a>  
+                          </div>                         
+                        </div>
+                      </div>
+                    </div>
+<!-- /modal окно  -->
             <h5>Мои лоты</h5>
             <div class="about_lot_title row basic">
                 <table border="0" cellpadding="20">
@@ -73,7 +104,7 @@
                     <td>25.05.2019</td>
                     <td>250 грн</td>
                     <td>1250 грн</td>
-                    <td><a href="" class="card-user"><i class="far fa-envelope messages"></i></a></td>
+                    <td><a href="/chat" class="card-user"><i class="far fa-envelope messages"></i><i class="count_chat">3</i></a></td>
                     <td>1</td>
                     <td>нет</td>
                    </tr>               
@@ -98,7 +129,7 @@
                     <td>25.05.2019</td>
                     <td>250 грн</td>
                     <td>1250 грн</td>
-                    <td><a href="" class="card-user"><i class="far fa-envelope messages"></i></a></td>
+                    <td><a href="/chat" class="card-user"><i class="far fa-envelope messages"></i></a></td>
                     <td>1</td>
                     <td>нет</td>
                    </tr>               

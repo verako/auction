@@ -42,9 +42,9 @@
                 <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom" ></li>
             </ul>
             <div id="bx-pager" >
-                <a  data-slide-index="2" href=""><img src="img/moneta.jpg" ></a>              
+                <a  data-slide-index="0" href=""><img src="img/moneta.jpg" ></a>              
                 <a  data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>              
-                <a  data-slide-index="0" href=""><img src="img/antikvariat.jpg" ></a>
+                <a  data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>
             </div>
         </div>
         <div class="col-12 col-lg-8 oneproduct">

@@ -23,3 +23,9 @@ Route::get('/cabinet', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+Route::get('/chat', function () {
+    return view('chat');
+});
+Route::get('/add_lot', function () {
+    return view('add_lot');
+});

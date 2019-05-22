@@ -136,7 +136,7 @@
             <div class="col-12 col-lg-12 center">
               <h2 class="base-text-color shows">Желаете зарабатывать на продаже коллекционных товаров?</h2>
               <h5>Загрузите ваши товары прямо сейчас!</h5>
-              <a href="#" class="btn add-color shows white">Добавить товар</a>
+              <a href="/add_lot" class="btn add-color shows white">Добавить лот</a>
             </div>
           </div> 
 @endsection 

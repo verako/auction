@@ -12,26 +12,70 @@
 @section('content')
 <div class="cabinet col-12">
     <div class="row">
-        <div class="col-12 col-lg-3 user_avatar avatar">
-            <img class="" src="img/user.png" >
-           
-            <div class="img_refresh"><i class="fas fa-pencil-alt"></i> <input type="file" value="обновить"></div>
+        <div class="col-12 col-lg-3 avatar">
+            <img class="" src="img/user.png" >           
+            <div class="img_refresh"><i class="fas fa-pencil-alt"></i> <input type="file"></div>
         </div>
         <div class="col-12 col-lg-9">
-            <div class="about_lot_title row basic">
+            <div class="about_lot_title row basic_edit">
+                <div><a href="#" class="btn favorites" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-pencil-alt"></i></a></div>
                 <div>
-                    <p>Фамилия Имя <br><span>mail@mail.com</span></p>
+                    <p><i class="far fa-user"></i> Фамилия Имя <br><i class="far fa-envelope "></i> mail@mail.com</p>
+                    
                 </div>
                 <div>
-                    <p>Область, Город <br><span>Дата регистрации</span> </p>
+                    <p><i class="fas fa-map-marker-alt"></i> Область, Город <br><span>Дата регистрации <br><i class="far fa-calendar-alt"></i> 20.05.2019</span> </p>
                 </div>
                 <div>
-                    <p>Деловой рейтинг: <br><span>Покупатель:</span> 0 <br><span>Продавец:</span> 0 </p>
+                    <p><i class="fas fa-chart-line"></i> Деловой рейтинг: <br><span>Покупатель:</span> 0 / <span>Продавец:</span> 0 </p>
                 </div>
                 <div>
                     <a href="#" class="btn favorites">Подписаться</a>
                 </div>        
-            </div>             
+            </div> 
+<!-- modal окно  -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Редактирование данных профиля</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form action="/" method="post">
+                                {{ csrf_field() }}
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Имя:</label>
+                                <input type="text" class="form-control" id="recipient-name" name="name" value="имя пользователя" required>
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-email" class="col-form-label">Актуальная почта(логин остается прежним!):</label>
+                                <input type="email" class="form-control" id="recipient-email" name="email" required>
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-select" class="col-form-label">Область:</label>
+                                <select class="language base-border-color" id="recipient-select" name="select">
+                                    <option>Запорожская</option>
+                                    <option>Киевская</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-sity" class="col-form-label">Город:</label>
+                                <input type="text" class="form-control" id="recipient-sity" name="sity" value="Город" required>
+                              </div>
+                              <div class="modal-footer">
+                                <a  href="#" type="submit" class=" btn add-color white " aria-haspopup="true" aria-expanded="false">Сохранить</a>
+                                <a href="#" class="btn favorites" data-dismiss="modal">Закрыть</a>                               
+                                <span class="pull-right margintop20">* Заполните, пожалуйста, все обязательные поля!</span>
+                              </div>
+                            </form>
+                          </div>                         
+                        </div>
+                      </div>
+                    </div>
+<!-- /modal окно  -->            
         </div>
     </div>
     <div class="row">
