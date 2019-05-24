@@ -26,6 +26,7 @@
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script type="text/javascript" src="js\jquery.bxslider.js"></script>
         <script type="text/javascript" src="js\jquery.elevateZoom-3.0.8.min.js"></script>
+        <script type="text/javascript" src="js/jquery.deepcheckbox.js"></script>
         <script type="text/javascript" src="js\script.js"></script>       
     </head>
     <body>

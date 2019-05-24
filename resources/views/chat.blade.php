@@ -23,10 +23,11 @@
                     <p class="my_text">lorem At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod m</p>
                 </li>
             </ul>
-            <hr>
+            <hr class="hr">
             <form>                
                 <textarea name="comment" cols="60" rows="3" placeholder="Напишите в чат"></textarea><br>
-                <a href="#" class="btn add-color white send">Написать</a>
+                <a href="#" type="submit" class="btn add-color white chat">Написать</a>
+                <a href="#" class="btn favorites">Пригласить модератора</a>
             </form>
 </div>
 @endsection
