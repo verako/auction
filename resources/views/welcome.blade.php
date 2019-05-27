@@ -31,72 +31,78 @@
               <div class="row">                
                 <div class="col-6 col-lg-4">
                   <div class="card" >
+                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href="/card"><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>                
                     <div class="card-body">
                       <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
                       <a href="#" class="btn btn-light del">Удалить</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-6 col-lg-4">
                   <div class="card" >
+                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
                     <div class="card-body">
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
                       <a href="#" class="btn btn-light del">Удалить</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-6 col-lg-4">
                   <div class="card" >
+                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
                     <div class="card-body">
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
                       <a href="#" class="btn btn-light del">Удалить</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-6 col-lg-4">
                   <div class="card" >
+                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>
                     <div class="card-body">
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
                       <a href="#" class="btn btn-light del">Удалить</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-6 col-lg-4">
                   <div class="card" >
+                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
                     <div class="card-body">
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
                       <a href="#" class="btn btn-light del">Удалить</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-6 col-lg-4">
                   <div class="card" >
+                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
                     <div class="card-body">
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User</a>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
                       <a href="#" class="btn btn-light del">Удалить</a>
                     </div>
                   </div>
@@ -134,8 +140,8 @@
           </div>
           <div class="row">
             <div class="col-12 col-lg-12 center">
-              <h2 class="base-text-color shows">Желаете зарабатывать на продаже коллекционных товаров?</h2>
-              <h5>Загрузите ваши товары прямо сейчас!</h5>
+              <h2 class="base-text-color shows">Желаете зарабатывать на продаже товаров?</h2>
+              <h5>Загрузите их прямо сейчас!</h5>
               <a href="/add_lot" class="btn add-color shows white">Добавить лот</a>
             </div>
           </div> 

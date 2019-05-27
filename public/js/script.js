@@ -63,6 +63,14 @@ $(document).ready(function () {
 		});
 
 
+		//календарь
+		$('#datetime').click(function(){
+			event.cancelBubble=true;
+		    $(this).select();
+		    //$(this).lcs(this);
+		});
+					    
+
   
 
 

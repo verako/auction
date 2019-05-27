@@ -9,7 +9,7 @@
         </nav>
 @endsection
 @section('content')
-<div class="col-12">
+<div class="col-12 add_lot">
     <hr class="hr">
     <form action="/" method="post">
         {{ csrf_field() }}
@@ -81,36 +81,66 @@
             <label for="file" class="col-form-label">Загрузите фото (не более 12 шт):</label>
             <input type="file" id="file">
         </div>        
-        <div class="form-group">
-            <div>
-                <input type="radio" name="toggle" value="UKR" id="ukr">
-                <label for="ukr">1 грн</label>
-                <input type="radio" name="toggle" value="RU" id="ru" checked="">
-                <label for="ru"></label>                      
-            </div>
-            <label for="price" class="col-form-label">Начальная стоимость:</label>
-            <input type="text" id="price">
+        <div class="form-group check">
+            <input type="checkbox" id="switch" /><label class="switch" for="switch">1 грн</label>
+            <p>c 1 грн</p>
+            <label for="price" class="col-form-label">Стартовая цена:</label>
+            <input type="number" id="price">
         </div>
-
-
-
+        <div class="form-group check">
+            <label for="step-select" class="col-form-label">Не менее:</label>
+                <select class="region" id="step-select" name="select">
+                    <option>1 грн</option>
+                    <option>10 грн</option>
+                    <option>20 грн</option>
+                    <option>50 грн</option>
+                    <option>100 грн</option>
+                    <option>150 грн</option>
+                </select>
+            <label for="price" class="col-form-label">Шаг цены:</label>
+            <input type="number" id="price">
+        </div>
         <div class="form-group">
-            <label for="recipient-select" class="col-form-label">Область:</label>
-                <select class="language " id="recipient-select" name="select">
+            <label for="datetime" class="col-form-label">Выберите дату окончания:</label>
+            <input type="text" value="dd-mm-yy" id="datetime"   onfocus="this.select();lcs(this)" >
+            <label for="hour" class="col-form-label">Время:</label>
+            <input type="time" id="hour">         
+        </div>
+        <div class="form-group check">
+            <input type="checkbox" id="switch2" /><label class="switch2" for="switch2">+5</label>
+            <p>установить антиснайпинг +5 мин</p>            
+        </div>
+        <div class="form-group">
+            <label for="material" class="col-form-label">Материал:</label>
+            <input type="text" class="form-control" id="material" name="material" value="Материал" required>
+        </div>
+        <div class="form-group">
+            <label for="defects" class="col-form-label">Дефекты:</label>
+            <input type="text" class="form-control" id="defects" name="defects" value="Дефекты" required>
+        </div>
+        <div class="form-group">
+            <label for="region-select" class="col-form-label">Область:</label>
+                <select class="region" id="region-select" name="select">
                     <option>Запорожская</option>
                     <option>Киевская</option>
                 </select>
         </div>
         <div class="form-group">
-            <label for="sity" class="col-form-label">Ваш город</label>
-            <input type="text" class="form-control" id="video" name="sity" value="Город" required>
+            <label for="sity" class="col-form-label">Ваш город:</label>
+            <input type="text" class="form-control" id="sity" name="sity" value="Город" required>
         </div>
-                              
-                              <div class="modal-footer">
-                                <a  href="#" type="submit" class=" btn add-color white " aria-haspopup="true" aria-expanded="false">Сохранить</a>
-                                <a href="#" class="btn favorites" data-dismiss="modal">Закрыть</a>                               
-                                <span class="pull-right margintop20">* Заполните, пожалуйста, все обязательные поля!</span>
-                              </div>
+        <div class="form-group">
+            <label for="payment" class="col-form-label">Оплата:</label>
+            <input type="text" class="form-control" id="payment" name="payment" value="Оплата" required>
+        </div>
+        <div class="form-group">
+            <label for="delivery" class="col-form-label">Доставка:</label>
+            <input type="text" class="form-control" id="delivery" name="delivery" value="Доставка" required>
+        </div>
+        <div class="form-group">
+            <a  href="#" type="submit" class=" btn add-color white " aria-haspopup="true" aria-expanded="false">Сохранить</a>
+            <span class="pull-right margintop20">* Заполните, пожалуйста, все обязательные поля!</span>
+        </div>
     </form>
     
 </div>

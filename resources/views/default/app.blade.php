@@ -24,9 +24,10 @@
       <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script type="text/javascript" src="js\jquery.bxslider.js"></script>
-        <script type="text/javascript" src="js\jquery.elevateZoom-3.0.8.min.js"></script>
-        <script type="text/javascript" src="js/jquery.deepcheckbox.js"></script>
+        <script type="text/javascript" src="js\jquery.bxslider.js"></script><!-- карусель -->
+        <script type="text/javascript" src="js\jquery.elevateZoom-3.0.8.min.js"></script><!-- zoom по наведению --> 
+        <script type="text/javascript" src="js\jquery.deepcheckbox.js"></script><!-- список с чекбоксами -->
+        <script type="text/javascript" src="js\calendar.js"></script>
         <script type="text/javascript" src="js\script.js"></script>       
     </head>
     <body>
