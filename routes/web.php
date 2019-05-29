@@ -29,3 +29,9 @@ Route::get('/chat', function () {
 Route::get('/add_lot', function () {
     return view('add_lot');
 });
+Route::get('/categories', function () {
+    return view('categories');
+});
+Route::get('/search', function () {
+    return view('search');
+});

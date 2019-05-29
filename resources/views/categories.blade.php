@@ -1,32 +1,68 @@
 @extends('default.app')
+@section('breadcrumb')
+    <div class="col-12">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/" class="base-text-color">Главная</a></li>
+                <li class="breadcrumb-item"><a href="/cabinet" class="base-text-color">Категория</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Подкатегория</li>
+            </ol>
+        </nav>
+    </div>
+@endsection
 @section('left_menu')
-            <div class="col-12 col-lg-3">
-              <nav class="navbar bg-light">
-                <!-- Links -->
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="/categories">Категория 1</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 2</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 3</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 4</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 5</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 6</a>
-                  </li>
-                </ul>
-              </nav>
+            <div class="col-12 col-lg-3 example about_lot_title  feedback">
+                <div class="anchor ">
+                    <ul >
+                        <li >
+                            <input type="checkbox" data-id="id_lota"  data-name="Часы старинные" /> 
+                            <label class="ul"><i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы старинные</label>
+                            <ul class="open">
+                                <li >
+                                    <input type="checkbox" data-id="id_lota" data-name="Часы наручные" /> <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы наручные</label>
+                                    <ul class="open">
+                                        <li><input type="checkbox" data-id="id_lota" data-name="Amsterdam" /><label> Чайка</label></li>
+                                        <li><input type="checkbox" data-id="id_lota" data-name="Haarlem" /><label> Haarlem</label></li>
+                                        <li><input type="checkbox" data-id="id_lota" data-name="Alkmaar" /> <label> Alkmaar</label></li>
+                                    </ul>
+                                </li>
+                                <li >
+                                   <input type="checkbox" data-id="id_lota" data-name="Часы настольные" /> <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы настольные</label>
+                                    <ul class="open">
+                                        <li><input type="checkbox" data-id="id_lota" data-name="Amsterdam" /><label> Чайка</label></li>
+                                        <li><input type="checkbox" data-id="id_lota" data-name="Haarlem" /><label> Haarlem</label></li>
+                                        <li><input type="checkbox" data-id="id_lota" data-name="Alkmaar" /> <label> Alkmaar</label></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li >
+                            <input type="checkbox" data-id="id_lota"  data-name="Нумизматика" /> 
+                            <label class="ul"><i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Нумизматика</label>
+                            <ul class="open">
+                                <li >
+                                    <input type="checkbox" data-id="id_lota" data-name="Монеты СССР" /> <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Монеты СССР</label>
+                                    <ul class="open">
+                                        <li><input type="checkbox" data-id="id_lota" data-name="Amsterdam" /><label> Чайка</label></li>
+                                        <li><input type="checkbox" data-id="id_lota" data-name="Haarlem" /><label> Haarlem</label></li>
+                                        <li><input type="checkbox" data-id="id_lota" data-name="Alkmaar" /> <label> Alkmaar</label></li>
+                                    </ul>
+                                </li>
+                                <li >
+                                   <input type="checkbox" data-id="id_lota" data-name="Монеты Украины" /> <label class="ul">  Монеты Украины</label>
+                                    
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="checkbox" data-id="id_lota"  data-name=" Живопись" /> 
+                            <label class="ul"> Живопись </label>
+                        </li>
+                    </ul>
+                </div>
             </div>
 @endsection 
-@section('content')
+@section('content') 
             <div class="col-12 col-lg-9">
               <div class="row">                
                 <div class="col-6 col-lg-4">
@@ -107,42 +143,20 @@
                     </div>
                   </div>
                 </div>
-                <a href="#" class="btn btn-light shows">Показать больше</a>
+                <div class="col-12 more">
+                    <a href="#" class="btn btn-light shows">Показать больше</a>
+                </div>                
+                <div class="col-12 page">
+                    <ul id="pagination-flickr">
+                        <li class="previous-off"><</li>
+                        <li class="active">1</li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li class="next"><a href="">></a></li>
+                    </ul>
+                </div>
               </div>
-            </div>
-@endsection
-@section('content_home')          
-          <div class="row">
-            <div class="col-12 col-lg-12 advantag">
-              <h3>Преимущества работы с нами</h3>
-            </div>
-            <div class="col-6 col-lg-6 advantages center">
-              <img src="img\callcenter1.jpg">
-            </div>
-            <div class="col-6 col-lg-6 text">
-              <h5>Мы прислушиваемся к Вашим пожеланиям</h5>
-              <p> Служба поддержки всегда поможет разрешить спорные ситуации и учтет все Ваши предложения</p>
-            </div>
-            <div class="col-6 col-lg-6 text">
-              <h5>But I must explain to you how</h5>
-              <p> all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete accountpleasure itself, because it is pleasur</p>
-            </div>
-            <div class="col-6 col-lg-6 advantages center">
-              <img src="img\callcenter1.jpg">
-            </div>
-            <div class="col-6 col-lg-6 advantages center">
-              <img src="img\callcenter1.jpg">
-            </div>
-            <div class="col-6 col-lg-6 text">
-              <h5>But I must explain to you how</h5>
-              <p> all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete accountpleasure itself, because it is pleasur</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-lg-12 center">
-              <h2 class="base-text-color shows">Желаете зарабатывать на продаже товаров?</h2>
-              <h5>Загрузите их прямо сейчас!</h5>
-              <a href="/add_lot" class="btn add-color shows white">Добавить лот</a>
-            </div>
-          </div> 
+            </div>            
 @endsection 
+             

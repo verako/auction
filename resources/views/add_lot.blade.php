@@ -14,7 +14,7 @@
     <form action="/" method="post">
         {{ csrf_field() }}
         <div class="form-group">
-            <label for="category" class="col-form-label">Выбеоите категории</label>
+            <label for="category" class="col-form-label">Выберите категории</label>
             <div class="example about_lot_title  feedback">
                 <div class="anchor ">
                     <ul >
@@ -71,11 +71,11 @@
         </div>
         <div class="form-group">
             <label for="name" class="col-form-label">Название лота (не более 60-ти символов)</label>
-            <input type="text" class="form-control" id="name" name="name" value="Название лота" required>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Название лота" required>
         </div> 
         <div class="form-group">
             <label for="video" class="col-form-label">Ссылка на видео</label>
-            <input type="text" class="form-control" id="video" name="video" value="Ссылка на видео" required>
+            <input type="text" class="form-control" id="video" name="video" placeholder="Ссылка на видео" required>
         </div>
         <div class="form-group">
             <label for="file" class="col-form-label">Загрузите фото (не более 12 шт):</label>
@@ -112,11 +112,11 @@
         </div>
         <div class="form-group">
             <label for="material" class="col-form-label">Материал:</label>
-            <input type="text" class="form-control" id="material" name="material" value="Материал" required>
+            <input type="text" class="form-control" id="material" name="material" placeholder="Материал" required>
         </div>
         <div class="form-group">
             <label for="defects" class="col-form-label">Дефекты:</label>
-            <input type="text" class="form-control" id="defects" name="defects" value="Дефекты" required>
+            <input type="text" class="form-control" id="defects" name="defects" placeholder="Дефекты" required>
         </div>
         <div class="form-group">
             <label for="region-select" class="col-form-label">Область:</label>
@@ -127,15 +127,20 @@
         </div>
         <div class="form-group">
             <label for="sity" class="col-form-label">Ваш город:</label>
-            <input type="text" class="form-control" id="sity" name="sity" value="Город" required>
+            <input type="text" class="form-control" id="sity" name="sity" placeholder="Город" required>
         </div>
         <div class="form-group">
             <label for="payment" class="col-form-label">Оплата:</label>
-            <input type="text" class="form-control" id="payment" name="payment" value="Оплата" required>
+            <input type="text" class="form-control" id="payment" name="payment" placeholder="Оплата" required>
         </div>
         <div class="form-group">
             <label for="delivery" class="col-form-label">Доставка:</label>
-            <input type="text" class="form-control" id="delivery" name="delivery" value="Доставка" required>
+            <input type="text" class="form-control" id="delivery" name="delivery" placeholder="Доставка" required>
+        </div>
+        <div class="form-group">
+            <label for="description" class="col-form-label">Описание:</label>
+            <textarea class="form-control" id="description" name="description" placeholder ="Описание" required></textarea>
+          
         </div>
         <div class="form-group">
             <a  href="#" type="submit" class=" btn add-color white " aria-haspopup="true" aria-expanded="false">Сохранить</a>

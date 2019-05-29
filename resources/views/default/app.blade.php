@@ -100,7 +100,7 @@
                 <form class="form-inline ">
                   <input class="form-control search" type="text" placeholder="Поиск" aria-label="Search">
                   
-                  <button class="btn btn-light " type="submit"><a class="text-muted " href="#">
+                  <button class="btn btn-light " type="submit"><a class="text-muted " href="/search">
                       <i class="fas fa-search white"></i>
                   </a></button>
                 </form>
@@ -123,8 +123,8 @@
 @show
         <div class="container">
           <div class="row">    
-@yield('left_menu') 
-@yield('breadcrumb')    
+@yield('breadcrumb')  
+@yield('left_menu')   
 @yield('content')            
           </div>
 @yield('content_home')                 
