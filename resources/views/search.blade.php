@@ -77,17 +77,17 @@
                     <label for="contactChoice4">от меньшего к большему</label>
 
                     <p>Цене:</p>
-                    <input type="radio" id="contactChoice5" name="contact" value="email">
+                    <input type="radio" id="contactChoice5" name="contact1" value="email">
                     <label for="contactChoice5">от большего к меньшему</label><br>
 
-                    <input type="radio" id="contactChoice6" name="contact" value="phone">
+                    <input type="radio" id="contactChoice6" name="contact1" value="phone">
                     <label for="contactChoice6">от меньшего к большему</label>
                     
                     <p>Количеству ставок:</p>
-                    <input type="radio" id="contactChoice7" name="contact" value="email">
+                    <input type="radio" id="contactChoice7" name="contact2" value="email">
                     <label for="contactChoice7">от большего к меньшему</label><br>
 
-                    <input type="radio" id="contactChoice8" name="contact" value="phone">
+                    <input type="radio" id="contactChoice8" name="contact2" value="phone">
                     <label for="contactChoice8">от меньшего к большему</label>
                 </div>
                 <div class="sorting_price">
@@ -203,8 +203,7 @@
                 </div>
                 <div class="col-12 more">
                     <a href="#" class="btn btn-light shows">Показать больше</a>
-                </div>
-                
+                </div>                
                 <div class="col-12 page">
                     <ul id="pagination-flickr">
                         <li class="previous-off"><</li>

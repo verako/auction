@@ -30,7 +30,8 @@
             <p><a href="" class="card-user"><i class="far fa-user"></i>User</a><span>(+165)</span> </p>
         </div>
         <div>
-            <a href="#" class="btn favorites">Подписаться</a>
+            <a href="#" class="btn favorites">Подписаться на продавца</a>
+          
         </div>        
     </div>
     <h3>Название лота </h3>
@@ -40,11 +41,53 @@
                 <li><img src="img/moneta.jpg" data-zoom-image="img/moneta.jpg" id="zoom2"></li>
                 <li><img src="img/antikvariat-metall.jpg" data-zoom-image="img/antikvariat-metall.jpg" id="zoom1"></li>              
                 <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom" ></li>
+                <li>
+                    <iframe width="360" height="360" src="https://www.youtube.com/embed/jvipPYFebWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+                <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom3" ></li>
+                <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom4" ></li>
+                <li><img src="img/moneta.jpg"  data-zoom-image="img/moneta.jpg" id="zoom5" ></li>
+                <li><img src="img/antikvariat-metall.jpg"  data-zoom-image="img/antikvariat-metall.jpg" id="zoom6" ></li>
             </ul>
             <div id="bx-pager" >
                 <a  data-slide-index="0" href=""><img src="img/moneta.jpg" ></a>              
                 <a  data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>              
                 <a  data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>
+                <a  data-slide-index="3" href=""><img src="img/fon.jpg" /></a>
+                <a  data-slide-index="4" href=""><img src="img/antikvariat.jpg" ></a>
+                <a  data-slide-index="5" href=""><img src="img/antikvariat.jpg" /></a>
+                <a  data-slide-index="6" href=""><img src="img/moneta.jpg" ></a>
+                <a  data-slide-index="7" href=""><img src="img/antikvariat-metall.jpg" ></a>
+
+
+
+
+            <!-- <ul id="gallery">
+                <li>
+                    <a  data-slide-index="0" href=""><img src="img/moneta.jpg" ></a> 
+                </li>
+                <li>
+                    <a  data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>   
+                </li>
+                <li>
+                    <a  data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>
+                </li>
+                <li>
+                    <a  data-slide-index="3" href=""><img src="img/fon.jpg" /></a>
+                </li>
+                <li>
+                    <a  data-slide-index="4" href=""><img src="img/antikvariat.jpg" ></a>
+                </li>
+                <li>
+                    <a  data-slide-index="5" href=""><img src="img/antikvariat.jpg" /></a>
+                </li>
+                <li>
+                    <a  data-slide-index="6" href=""><img src="img/moneta.jpg" ></a>
+                </li>
+                <li>
+                    <a  data-slide-index="7" href=""><img src="img/antikvariat-metall.jpg" ></a>
+                </li>
+            </ul>  --> 
             </div>
         </div>
         <div class="col-12 col-lg-8 oneproduct">
@@ -52,51 +95,67 @@
                 <div class="col-6 col-lg-6">
                     <p>Стартовая цена: <br><span>150 грн</span> </p>
                 </div>
-                <div class="col-6 col-lg-6">
-                    <p>Текущая ставка: <br><span>3000 грн</span> (<a href="" class="card-user">15 ставок</a>) </p>
+                <div class="col-6 col-lg-6 actual">
+                    <p>Текущая ставка: (<a href="" class="card-user">15 ставок</a>)<br><span>3000 грн</span> <span class="nbu"> ~ 111 $</span>  </p>
                 </div>
                 <div class="col-6 col-lg-6">
                     <p>Окончание: <br><span>15.04.2019 18:55</span> </p>
                 </div>
-                <div class="col-6 col-lg-6">
+                <div class="col-6 col-lg-6 actual">
                     <p>Осталось: <br><span>1 день 18:55:02</span> </p>
-                    <div>
-                        <a href="#" class="btn favorites">В топ</a>
-                    </div>  
+                     
                 </div>                  
             </div>
             <div class="row rate">
                 <div class="col-12 col-lg-12">
                     <form>
                        <label for="rate">Сделать ставку</label>
-                       <input type="number" name="rate" value="3050"> 
+                       <input type="text" name="rate" value="3050"> 
                        <label for="autorate">Автоставка</label>
-                       до <input type="number" name="autorate" value="2200"><br>
-                       <p>Шаг цены мин. 50 грн</p>
+                       до <input type="text" name="autorate" value="2200"><br>
+                       <p>Шаг цены мин. <span class="step">50 грн</span> </p>
                        <a href="#" class="btn add-color white">Сделать стаку</a>
-                       <a href="#" class="btn favorites follow">Следить за товаром</a>
+                       <a href="#" class="btn favorites follow_lot">Следить за лотом</a>
                     </form>                    
                 </div>                
             </div>
         </div> 
         <div class="col-12 col-lg-12 description">
             <h4>Описание</h4>
+            <div id="tabs">
+              <ul>
+                <li><a href="#tabs-1">Основное</a></li>
+                <li><a href="#tabs-2">Оплата / Доставка</a></li>
+              </ul>
+              <div id="tabs-1">                
+                <div class="col-12">                           
+                    <table border="0" cellpadding="20">
+                        <tr>
+                            <th>Материал</th>
+                            <th>Состояние</th>
+                            <th>Реставрация</th>
+                            <th>Дефекты</th>
+                            <th>Местонахождение</th>
+                        </tr>
+                        <tr>
+                            <td>серебро</td>
+                            <td>по фото по фото по фото ммпо фото</td>
+                            <td>нет</td>
+                            <td>по фото </td>
+                            <td>Одесская обл, г. Одесса</td>
+                        </tr>               
+                    </table>  
+                </div>        
+              </div>
+              <div id="tabs-2">
+                <p>Оплата: <span>на карту</span></p>
+               
+                <p>Доставка: <span>новая почта</span></p>
+              </div>              
+            </div>
+                     
             <hr>
-            <p>Материал: <span>серебро</span></p>
-            <hr>
-            <p>Состояние: <span>по фото</span></p>
-            <hr>
-            <p>Реставрация: <span>нет</span></p>
-            <hr>
-            <p>Дефекты: <span>по фото</span></p>
-            <hr>
-            <p>Местонахождение: <span>Одесская обл, г. Одесса</span></p>
-            <hr>
-            <p>Оплата: <span>на карту</span></p>
-            <hr>
-            <p>Доставка: <span>новая почта</span></p>
-            <hr>
-            <p>Описание: <span> Отличный экземпляр. Украсит любую коллекцию</span></p>
+            <p><span>Описание: </span> Отличный экземпляр. Украсит любую коллекцию</p>
 
             <h4>Комментарии:</h4>
             <ul class="comment">

@@ -4,58 +4,57 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/" class="base-text-color">Главная</a></li>
-                <li class="breadcrumb-item"><a href="/cabinet" class="base-text-color">Категория</a></li>
+                <li class="breadcrumb-item"><a href="/categories" class="base-text-color">Категория</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Подкатегория</li>
             </ol>
         </nav>
     </div>
 @endsection
 @section('left_menu')
-            <div class="col-12 col-lg-3 example about_lot_title  feedback">
+            <div class="col-12 col-lg-3 example about_lot_title  search">
                 <div class="anchor ">
                     <ul >
                         <li >
-                            <input type="checkbox" data-id="id_lota"  data-name="Часы старинные" /> 
-                            <label class="ul"><i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы старинные</label>
+
+                            <label class="ul"><i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Часы старинные</a> </label>
                             <ul class="open">
                                 <li >
-                                    <input type="checkbox" data-id="id_lota" data-name="Часы наручные" /> <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы наручные</label>
+                                     <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы наручные</label>
                                     <ul class="open">
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Amsterdam" /><label> Чайка</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Haarlem" /><label> Haarlem</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Alkmaar" /> <label> Alkmaar</label></li>
+                                        <li><label> Чайка</label></li>
+                                        <li><label> Haarlem</label></li>
+                                        <li><label> Alkmaar</label></li>
                                     </ul>
                                 </li>
                                 <li >
-                                   <input type="checkbox" data-id="id_lota" data-name="Часы настольные" /> <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы настольные</label>
+                                    <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы настольные</label>
                                     <ul class="open">
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Amsterdam" /><label> Чайка</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Haarlem" /><label> Haarlem</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Alkmaar" /> <label> Alkmaar</label></li>
+                                        <li><label> Чайка</label></li>
+                                        <li><label> Haarlem</label></li>
+                                        <li><label> Alkmaar</label></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                         <li >
-                            <input type="checkbox" data-id="id_lota"  data-name="Нумизматика" /> 
                             <label class="ul"><i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Нумизматика</label>
                             <ul class="open">
                                 <li >
-                                    <input type="checkbox" data-id="id_lota" data-name="Монеты СССР" /> <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Монеты СССР</label>
+                                     <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Монеты СССР</label>
                                     <ul class="open">
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Amsterdam" /><label> Чайка</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Haarlem" /><label> Haarlem</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Alkmaar" /> <label> Alkmaar</label></li>
+                                        <li><label> Чайка</label></li>
+                                        <li><label> Haarlem</label></li>
+                                        <li><label> Alkmaar</label></li>
                                     </ul>
                                 </li>
                                 <li >
-                                   <input type="checkbox" data-id="id_lota" data-name="Монеты Украины" /> <label class="ul">  Монеты Украины</label>
+                                   <label class="ul">  Монеты Украины</label>
                                     
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <input type="checkbox" data-id="id_lota"  data-name=" Живопись" /> 
+                            
                             <label class="ul"> Живопись </label>
                         </li>
                     </ul>

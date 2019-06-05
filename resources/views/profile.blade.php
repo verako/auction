@@ -29,8 +29,9 @@
                 <div>
                     <p><i class="fas fa-chart-line"></i> Деловой рейтинг: <br><span>Покупатель:</span> 0 / <span>Продавец:</span> 0 </p>
                 </div>
-                <div>
+                <div class="margin-bottom">
                     <a href="#" class="btn favorites">Подписаться</a>
+                    <a href="#" class="btn favorites">Заблокировать для меня</a>
                 </div>        
             </div> 
 <!-- modal окно  -->
@@ -56,7 +57,7 @@
                               </div>
                               <div class="form-group">
                                 <label for="recipient-select" class="col-form-label">Область:</label>
-                                <select class="language base-border-color" id="recipient-select" name="select">
+                                <select class="region base-border-color" id="recipient-select" name="select">
                                     <option>Запорожская</option>
                                     <option>Киевская</option>
                                 </select>
@@ -150,6 +151,36 @@
                             <td><span><i class="far fa-user"></i></span><a href="" class="card-user">User</a> </td>
                             <td>0 / 0</td>
                             <td>25</td>
+                        </tr>                
+                    </table>  
+                </div> 
+            </div>
+        </div>
+        <div class="col-12">
+            <h5>Заблокированы для меня</h5>
+            <div class="about_lot_title row feedback">
+                <div class="col-12">                           
+                    <table border="0" cellpadding="20">
+                        <tr>
+                            <th>№</th>
+                            <th>Имя</th>
+                            <th>Рейтинг</th>
+                            <th>Количество лотов</th>
+                            <th>Отписаться</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><span><i class="far fa-user"></i></span><a href="" class="card-user">User</a> </td>
+                            <td>0 / 0</td>
+                            <td>25</td>
+                            <td><a href="#" class="btn favorites">Разблокировать</a></td>
+                        </tr> 
+                        <tr>
+                            <td>2</td>
+                            <td><span><i class="far fa-user"></i></span><a href="" class="card-user">User</a> </td>
+                            <td>0 / 0</td>
+                            <td>25</td>
+                            <td><a href="#" class="btn favorites">Разблокировать</a></td>
                         </tr>                
                     </table>  
                 </div> 

@@ -23,6 +23,7 @@
                     <div>
                        <ul>
                            <li><a href="" class="card-user">Активные</a></li>
+                           <li><a href="" class="card-user">С резервной ценой</a></li>
                            <li><a href="" class="card-user">Завершенные</a></li>
                            <li><a href="" class="card-user">Проданные</a></li>
                            <li><a href="" class="card-user">Удаленные</a></li>

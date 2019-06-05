@@ -26,89 +26,182 @@
               </nav>
             </div>
 @endsection 
-@section('content')
-            <div class="col-12 col-lg-9">
-              <div class="row">                
-                <div class="col-6 col-lg-4">
-                  <div class="card" >
-                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
-                    <a href="/card"><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>                
-                    <div class="card-body">
-                      <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
-                      <h5 class="price bold">520 грн</h5>
-                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Сделать ставку</a>
+@section('content')            
+            <div class="col-12 col-lg-9 welcome">
+              <div id="tabs">
+              <ul>
+                <li><a href="#tabs-1">Интересные лоты</a></li>
+                <li><a href="#tabs-2">Популярные лоты</a></li>
+              </ul>
+              <div id="tabs-1">                
+                <div class="row">                
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href="/card"><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>                
+                      <div class="card-body">
+                        <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Сделать ставку</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-6 col-lg-4">
-                  <div class="card" >
-                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
-                    <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
-                      <h5 class="price bold">520 грн</h5>
-                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-6 col-lg-4">
-                  <div class="card" >
-                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
-                    <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
-                      <h5 class="price bold">520 грн</h5>
-                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-6 col-lg-4">
-                  <div class="card" >
-                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
-                    <a href=""><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
-                      <h5 class="price bold">520 грн</h5>
-                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-6 col-lg-4">
-                  <div class="card" >
-                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
-                    <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
-                      <h5 class="price bold">520 грн</h5>
-                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-6 col-lg-4">
-                  <div class="card" >
-                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
-                    <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
-                      <h5 class="price bold">520 грн</h5>
-                      <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <a href="#" class="btn btn-light shows">Показать больше</a>
+                  <a href="#" class="btn btn-light shows">Показать больше</a>
+                </div>     
               </div>
+              <div id="tabs-2">
+                <div class="row">
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
+                    </div>
+                  </div>               
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href="/card"><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>                
+                      <div class="card-body">
+                        <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Сделать ставку</a>
+                      </div>
+                    </div>
+                  </div>            
+                  
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-4">
+                    <div class="card" >
+                      <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                      <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                        <h5 class="price bold">520 грн</h5>
+                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="#" class="btn btn-light del">Удалить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-light shows">Показать больше</a>
+                </div>
+              </div>              
+            </div>
+              
             </div>
 @endsection
 @section('content_home')          

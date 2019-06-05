@@ -8,7 +8,10 @@ html, body {
                 margin: 0;
             }
 
-/* all color */   
+/* all color */ 
+.btn{
+    background-color: #FEF3D4;
+}  
 .navbar-brand{
     color: #fff;
 }
@@ -19,7 +22,7 @@ html, body {
     background-color: #E4C7AD !important;
 }
 .base-border-color{
-    border:1px #953014 solid;
+    border:1px #FEF3D4 solid;
 }
 .base-text-color{
     color: #953014;
@@ -30,12 +33,13 @@ html, body {
 .add-color{
     background-color:#953014;
 }
+
 .bg-light {
     background-color: #fff !important;
 }
 .btn-light{
     background-color: #E4C7AD;
-    border-color: #953014;
+    border-color: #FEF3D4;
     color: #fff;
 }
 .btn-light:hover {
@@ -48,6 +52,7 @@ html, body {
     border-color: #953014;
     color: #953014;
 } 
+
 .navbar-dark .navbar-nav .nav-link, .white  {
     color: #fff;
 }
@@ -71,6 +76,10 @@ html, body {
 }
 .favorites:hover{
     background-color: #ececec;
+}
+.regulations:hover{
+ background-color: #953014;
+ border-radius: 5px;
 }
 /*убрать голубое свечение*/
 .form-inline input[type="text"], select, .form-control input[type="text"]{  
@@ -115,9 +124,17 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 .ui-state-active, .ui-widget-content .ui-state-active, /*в кабинете акардион*/
 .ui-widget-header .ui-state-active, a.ui-button:active, 
 .ui-button:active, .ui-button.ui-state-active:hover {
-    border: 1px solid #E4C7AD;
-    background: #E4C7AD;
+    border: 1px solid #ddd;
+    background: #953014;
     color: #ffffff;
+}
+.add_lot_header{
+    margin-right: 2%;
+
+color: #953014;
+}
+.ui-widget-header{
+    background-color: #fff;
 }
 /*navbar*/
 .count, .count_chat {
@@ -135,8 +152,8 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
     color: #fff;
 }
 .count_chat{
-    right: 255px;
-    top: 265px;
+    right: 235px;
+    top: 275px;
 }
 .messages{
     font-size: 20px;
@@ -163,18 +180,50 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
     border-radius: 5px;
 }
 .form-inline{
-    width: 80%;
+    width: 60%;
 }
 .form-inline .form-control{
     width: 80%;
     margin: 0 10px;
 }
+.ui-tabs .ui-tabs-nav{
+    padding: 0 15px;
+}
+ .ui-tabs .ui-tabs-panel{
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    //border-bottom: none;
+}
+ .ui-widget-content{
+    border: none;
+}
+ .ui-widget-header{
+     border: none;
+}
+ .ui-state-active, .ui-widget-content .ui-state-active, 
+ .ui-widget-header .ui-state-active, a.ui-button:active,
+ .ui-button:active, .ui-button.ui-state-active:hover {
+    background: #fff;
+    
+}
+ .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #212529;
+}
+.welcome .ui-state-default a,.welcome .ui-state-default a:link,
+.welcome .ui-state-default a:visited,.welcome a.ui-button,.welcome a:link.ui-button,
+.welcome a:visited.ui-button,.welcome .ui-button {
+    color: #485059;
+}
+
 /*card*/
 .col-lg-3{
     padding: 5px 5px;
 }
 .card{
     border: 1px #fff solid;
+}
+.card-img-top{
+    height: 278px;
 }
 .follow{
   position: absolute;
@@ -269,7 +318,7 @@ footer{
     border: solid #E4C7AD 1px;
 }
 #bx-pager img{
-    width: 20%;
+    width: 15%;
 }
 .oneproduct .bx-wrapper .bx-controls-direction a{
     top:130%;
@@ -278,12 +327,70 @@ footer{
     display: inline-block;
     width: 370px;
 }
+.oneproduct .bx-wrapper .bx-controls-direction .bx-next{
+    right: -5%;
+    z-index: 999;
+}
+.oneproduct .bx-wrapper .bx-controls-direction .bx-prev{
+    left: -10%;
+    z-index: 999;
+}
+/*#bx-pager a.active img{
+    border: none;
+}*/
+
+/*галерея миниатюр*/
+/*.gallery{
+    position: relative;
+}
+.wrap{
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.gallery ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 700%;
+    position: relative;
+}
+
+.gallery ul li{
+    float: left;
+    margin: 0 2px;
+    width: 80px;
+}
+
+#next, #prev{
+    position: absolute;
+    width: 35px;
+    height: 60px;
+    background: url(../img/button1.png) no-repeat;
+    top: 30%;
+    margin-top: -10px;
+    display: block;
+    z-index: 99;
+}
+#prev{ 
+    left: -15px;
+}
+#next{ 
+    background-position: 0 -60px
+}
+
+@media (max-width: 1199px){
+    #bx-pager{
+    display: none;
+}
+}*/
+
 /*\карусель одного товара*/
 .lot h3{
     margin:30px 0;
 }
 .oneproduct{
-    text-align: center;
+   text-align: center;
     margin-bottom: 25px;
 }
 .oneproduct:after{
@@ -314,14 +421,34 @@ footer{
 .rate{
     margin-top: 20px;
 }
+.prices{
+    padding: 0;
+}
+.actual{
+    background-color: #FDF2D3;
+}
+.prices div{
+    padding:10px 20px ;
+}
 .prices span{
     font-size: 20px;
+}
+.prices .nbu{
+    font-size: 14px;
+    color: #6c757d;
 }
 .rate input{
     margin: 20px;
 }
+.step{
+    background-color: #FDF2D3;
+    font-size: 20px;
+}
 .follow{
     margin-left: 20px;
+}
+.follow_lot{
+     margin-left: 20px;
 }
 .description span{
     font-weight: bold;
@@ -377,6 +504,7 @@ footer{
 }
 .basic_edit div{
     margin-left: 3%;
+    margin-right: 3%;
 }
 .basic .favorites,.basic_edit .favorites{
     margin-top: 10px;
@@ -391,6 +519,14 @@ footer{
 .accordion ul{
     list-style: none;
     text-align: left;
+    padding: 0;
+}
+.accordion .ui-state-active,.accordion .ui-widget-content .ui-state-active,
+.accordion .ui-widget-header .ui-state-active,.accordion a.ui-button:active,
+.accordion .ui-button:active,.accordion .ui-button.ui-state-active:hover {
+
+    background: #953014;
+
 }
 /*профиль*/
 .feedback{
@@ -441,6 +577,9 @@ footer{
     left: 0;
     cursor: pointer;
 }
+.margin-bottom{
+    margin-bottom: 20px;
+}
 /*chat*/
 .my{
     text-align: right;
@@ -468,6 +607,9 @@ footer{
 }
 .anchor label{
     font-weight: normal;
+}
+.anchor a{
+    color: #212529;
 }
 .add_lot .form-group{
     margin: 50px 0;

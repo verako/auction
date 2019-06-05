@@ -28,6 +28,7 @@
         <script type="text/javascript" src="js\jquery.elevateZoom-3.0.8.min.js"></script><!-- zoom по наведению --> 
         <script type="text/javascript" src="js\jquery.deepcheckbox.js"></script><!-- список с чекбоксами -->
         <script type="text/javascript" src="js\calendar.js"></script>
+        <!-- <script type="text/javascript" src="js\plugin.js"></script> --> <!-- галерея для миниатюр -->
         <script type="text/javascript" src="js\script.js"></script>       
     </head>
     <body>
@@ -104,15 +105,19 @@
                       <i class="fas fa-search white"></i>
                   </a></button>
                 </form>
+                <!-- <button class="btn btn-light " type="submit"> -->
+                  <a href="/add_lot" class="btn add_lot_header">Добавить лот</a>
+                <!-- </button> -->
                 <ul class="navbar-nav ">
                   <li class="nav-item dropdown base-color base-border-color">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Правила</a>
+                    <a class="nav-link dropdown-toggle regulations" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>
                       <div class="dropdown-menu base-color">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">О нас</a>
+                        <a class="dropdown-item" href="#">Правила</a>
+                        <a class="dropdown-item" href="#">Часно задаваемые вопросы</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
+                        <a class="dropdown-item" href="#">Как купить?</a>
+                        <a class="dropdown-item" href="#">Как продать?</a>
                       </div>
                   </li>               
                 </ul>
