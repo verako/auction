@@ -13,6 +13,44 @@ $(document).ready(function () {
 			responsive: true            //адаптивность
 		});
 
+
+		$('.bx-prev').hide();
+		$('.bx-next').click(function(){
+			$('.bx-prev').show();
+			var active = $('#bx-pager a.active').next('a').attr('hidden');
+			if (active=='hidden') {
+				//
+				$('#bx-pager a.active').next('a').removeAttr('hidden');
+				$('#bx-pager a.active').prev('a').prev('a').prev('a').attr('hidden','hidden');
+				//$('#bx-pager a.active').next('a').removeAttr('hidden');
+				var last=$('#bx-pager a:last').attr('hidden');
+				//console.log(last);
+				if (last==undefined) {
+					$('.bx-next').hide();
+
+				}			
+			}		       
+		  });
+
+
+		$('.bx-prev').click(function(){
+			$('.bx-next').show();
+			var active = $('#bx-pager a.active').prev('a').attr('hidden');
+			if (active=='hidden') {
+				//
+				$('#bx-pager a.active').prev('a').removeAttr('hidden');
+				$('#bx-pager a.active').next('a').next('a').next('a').attr('hidden','hidden');
+				//$('#bx-pager a.active').prev('a').removeAttr('hidden');.attr('class', 'active');
+						
+			}	
+			var first=$('#bx-pager a:first').attr('hidden');
+				console.log(first);
+				if (first==undefined) {//
+					$('.bx-prev').hide();
+
+				}		       
+		  });
+
 		//увеличительное стекло на 1 товаре
 
          $('#zoom').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});

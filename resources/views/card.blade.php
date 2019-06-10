@@ -41,53 +41,20 @@
                 <li><img src="img/moneta.jpg" data-zoom-image="img/moneta.jpg" id="zoom2"></li>
                 <li><img src="img/antikvariat-metall.jpg" data-zoom-image="img/antikvariat-metall.jpg" id="zoom1"></li>              
                 <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom" ></li>
-                <li>
-                    <iframe width="360" height="360" src="https://www.youtube.com/embed/jvipPYFebWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </li>
                 <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom3" ></li>
                 <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom4" ></li>
                 <li><img src="img/moneta.jpg"  data-zoom-image="img/moneta.jpg" id="zoom5" ></li>
                 <li><img src="img/antikvariat-metall.jpg"  data-zoom-image="img/antikvariat-metall.jpg" id="zoom6" ></li>
             </ul>
             <div id="bx-pager" >
-                <a  data-slide-index="0" href=""><img src="img/moneta.jpg" ></a>              
+                <a  data-slide-index="0" href="" ><img src="img/moneta.jpg" ></a>              
                 <a  data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>              
                 <a  data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>
-                <a  data-slide-index="3" href=""><img src="img/fon.jpg" /></a>
-                <a  data-slide-index="4" href=""><img src="img/antikvariat.jpg" ></a>
-                <a  data-slide-index="5" href=""><img src="img/antikvariat.jpg" /></a>
-                <a  data-slide-index="6" href=""><img src="img/moneta.jpg" ></a>
-                <a  data-slide-index="7" href=""><img src="img/antikvariat-metall.jpg" ></a>
-
-
-
-
-            <!-- <ul id="gallery">
-                <li>
-                    <a  data-slide-index="0" href=""><img src="img/moneta.jpg" ></a> 
-                </li>
-                <li>
-                    <a  data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>   
-                </li>
-                <li>
-                    <a  data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>
-                </li>
-                <li>
-                    <a  data-slide-index="3" href=""><img src="img/fon.jpg" /></a>
-                </li>
-                <li>
-                    <a  data-slide-index="4" href=""><img src="img/antikvariat.jpg" ></a>
-                </li>
-                <li>
-                    <a  data-slide-index="5" href=""><img src="img/antikvariat.jpg" /></a>
-                </li>
-                <li>
-                    <a  data-slide-index="6" href=""><img src="img/moneta.jpg" ></a>
-                </li>
-                <li>
-                    <a  data-slide-index="7" href=""><img src="img/antikvariat-metall.jpg" ></a>
-                </li>
-            </ul>  --> 
+                <a  data-slide-index="3" href=""><img src="img/antikvariat.jpg" ></a>
+                <a  data-slide-index="4" href="" hidden><img src="img/antikvariat.jpg" /></a>
+                <a  data-slide-index="5" href="" hidden><img src="img/moneta.jpg" ></a>
+                <a  data-slide-index="6" href="" hidden><img src="img/antikvariat-metall.jpg" ></a>
+      
             </div>
         </div>
         <div class="col-12 col-lg-8 oneproduct">

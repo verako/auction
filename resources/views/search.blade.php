@@ -63,31 +63,31 @@
                 <div class="sorting">
                     <h6>Сортировать по:</h6>
                     <p>Времени окончания:</p>
-                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                    <input type="radio" id="contactChoice1" name="contact" >
                     <label for="contactChoice1">от большего к меньшему</label><br>
 
-                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                    <input type="radio" id="contactChoice2" name="contact" >
                     <label for="contactChoice2">от меньшего к большему</label>
                     
                     <p>Времени выставления:</p>
-                    <input type="radio" id="contactChoice3" name="contact" value="email">
+                    <input type="radio" id="contactChoice3" name="contact" >
                     <label for="contactChoice3">от большего к меньшему</label><br>
 
-                    <input type="radio" id="contactChoice4" name="contact" value="phone">
+                    <input type="radio" id="contactChoice4" name="contact" >
                     <label for="contactChoice4">от меньшего к большему</label>
 
                     <p>Цене:</p>
-                    <input type="radio" id="contactChoice5" name="contact1" value="email">
+                    <input type="radio" id="contactChoice5" name="contact1" >
                     <label for="contactChoice5">от большего к меньшему</label><br>
 
-                    <input type="radio" id="contactChoice6" name="contact1" value="phone">
+                    <input type="radio" id="contactChoice6" name="contact1" >
                     <label for="contactChoice6">от меньшего к большему</label>
                     
                     <p>Количеству ставок:</p>
-                    <input type="radio" id="contactChoice7" name="contact2" value="email">
+                    <input type="radio" id="contactChoice7" name="contact2" >
                     <label for="contactChoice7">от большего к меньшему</label><br>
 
-                    <input type="radio" id="contactChoice8" name="contact2" value="phone">
+                    <input type="radio" id="contactChoice8" name="contact2" >
                     <label for="contactChoice8">от меньшего к большему</label>
                 </div>
                 <div class="sorting_price">
@@ -104,8 +104,8 @@
                     <input type="radio" id="sorting_price4" name="sorting_price">
                     <label for="sorting_price4">более 1000 грн</label><br>
 
-                    <input type="number" name="" placeholder="от"> 
-                    <input type="number" name="" placeholder="до">
+                    <input type="text" name="" placeholder="от"> 
+                    <input type="text" name="" placeholder="до">
                 </div>
                 <div class="region_select">
                     <h6>Область:</h6>
@@ -117,11 +117,13 @@
                         <li><input type="checkbox" name="" /> <label> Житомирская</label></li>
                     </ul>
                 </div>
+                <a href="#" class="btn btn-light">Сброс фильтра</a>
             </div>  
 @endsection 
 
 @section('content') 
             <div class="col-12 col-lg-9">
+              <h3>По Вашему запросу найдено 25 лотов</h3>
               <div class="row">                
                 <div class="col-6 col-lg-4">
                   <div class="card" >

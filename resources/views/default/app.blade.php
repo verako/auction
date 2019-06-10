@@ -114,7 +114,7 @@
                       <div class="dropdown-menu base-color">
                         <a class="dropdown-item" href="#">О нас</a>
                         <a class="dropdown-item" href="#">Правила</a>
-                        <a class="dropdown-item" href="#">Часно задаваемые вопросы</a>
+                        <a class="dropdown-item" href="#">Часто задаваемые вопросы</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Как купить?</a>
                         <a class="dropdown-item" href="#">Как продать?</a>

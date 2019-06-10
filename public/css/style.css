@@ -318,7 +318,7 @@ footer{
     border: solid #E4C7AD 1px;
 }
 #bx-pager img{
-    width: 15%;
+    width: 20%;
 }
 .oneproduct .bx-wrapper .bx-controls-direction a{
     top:130%;
@@ -712,7 +712,7 @@ ul{
 .search .sorting_price, .search .sorting, .search .region_select {
     margin-top: 40px;
 }
-.sorting_price input[type="number"]{
+.sorting_price input[type="text"]{
     width: 40%;
 }
 .more{
