@@ -46,15 +46,46 @@
                 <li><img src="img/moneta.jpg"  data-zoom-image="img/moneta.jpg" id="zoom5" ></li>
                 <li><img src="img/antikvariat-metall.jpg"  data-zoom-image="img/antikvariat-metall.jpg" id="zoom6" ></li>
             </ul>
-            <div id="bx-pager" >
-                <a  data-slide-index="0" href="" ><img src="img/moneta.jpg" ></a>              
-                <a  data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>              
-                <a  data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>
-                <a  data-slide-index="3" href=""><img src="img/antikvariat.jpg" ></a>
-                <a  data-slide-index="4" href="" hidden><img src="img/antikvariat.jpg" /></a>
-                <a  data-slide-index="5" href="" hidden><img src="img/moneta.jpg" ></a>
-                <a  data-slide-index="6" href="" hidden><img src="img/antikvariat-metall.jpg" ></a>
-      
+            <div id="bx-pager" class ="carousel-min">
+                <a class="carousel-element" data-slide-index="0" href="" ><img src="img/moneta.jpg" ></a>              
+                <a class="carousel-element" data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>              
+                <a class="carousel-element" data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>
+                <a class="carousel-element" data-slide-index="3" href=""><img src="img/antikvariat.jpg" ></a>
+                <a class="carousel-element" data-slide-index="4" href=""><img src="img/antikvariat.jpg" /></a>
+                <a class="carousel-element" data-slide-index="5" href=""><img src="img/moneta.jpg" ></a>
+                <a class="carousel-element" data-slide-index="6" href=""><img src="img/antikvariat-metall.jpg" ></a>      
+            </div>
+            <p class="center-text"><a href="#" id="js-prev">Назад</a>
+            <a href="#" id="js-next">Вперед</a></p>
+<!--  карусель мобильная версия -->
+            <div class="carousel slide mobilever" data-ride="carousel" id="light1">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/moneta.jpg" alt="First slide"> 
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/antikvariat-metall.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/antikvariat.jpg" alt="Third slide">
+                    </div> 
+                    <div class="carousel-item ">
+                        <img src="img/moneta.jpg" alt="First slide"> 
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/antikvariat-metall.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/antikvariat.jpg" alt="Third slide">
+                    </div>                        
+                </div>
+            <!-- /.carousel-inner -->
+                    <a class="carousel-control-prev" href="#light1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#light1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
             </div>
         </div>
         <div class="col-12 col-lg-8 oneproduct">

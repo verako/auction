@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
         <!-- <link href="css/animate.min.css" rel="stylesheet"> -->
         <link rel="stylesheet" type="text/css" href="css\jquery.bxslider.css">
+        <link rel="stylesheet" href="owl-carousel\owl.carousel.css"/>
         <link rel="stylesheet" type="text/css" href="css\style.css">
 
         <!-- js -->
@@ -28,6 +29,7 @@
         <script type="text/javascript" src="js\jquery.elevateZoom-3.0.8.min.js"></script><!-- zoom по наведению --> 
         <script type="text/javascript" src="js\jquery.deepcheckbox.js"></script><!-- список с чекбоксами -->
         <script type="text/javascript" src="js\calendar.js"></script>
+        <script type="text/javascript" src="owl-carousel\owl.carousel.min.js"></script>
         <!-- <script type="text/javascript" src="js\plugin.js"></script> --> <!-- галерея для миниатюр -->
         <script type="text/javascript" src="js\script.js"></script>       
     </head>
