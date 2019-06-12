@@ -4,6 +4,7 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/" class="base-text-color">Главная</a></li>
+                <li class="breadcrumb-item"><a href="/cabinet" class="base-text-color">Кабинет</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Добавление лота</li>
             </ol>
         </nav>
@@ -14,82 +15,97 @@
     <form action="/" method="post">
         {{ csrf_field() }}
         <div class="form-group">
-            <label for="category" class="col-form-label">Выберите категории</label>
+            <label for="category" class="col-form-label">* Выберите категории</label>
             <div class="example about_lot_title  feedback">
                 <div class="anchor ">
                     <ul >
                         <li >
-                            <input type="checkbox" data-id="id_lota"  data-name="Часы старинные" /> 
                             <label class="ul"><i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы старинные</label>
                             <ul class="open">
                                 <li >
-                                    <input type="checkbox" data-id="id_lota" data-name="Часы наручные" /> <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы наручные</label>
+                                    <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы наручные</label>
                                     <ul class="open">
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Amsterdam" /><label> Чайка</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Haarlem" /><label> Haarlem</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Alkmaar" /> <label> Alkmaar</label></li>
+                                        <li><input type="radio" data-id="id_lota" data-name="Amsterdam" name="category"> <label> Чайка</label></li>
+                                        <li><input type="radio" data-id="id_lota" data-name="Haarlem" name="category"> <label> Haarlem</label></li>
+                                        <li><input type="radio" data-id="id_lota" data-name="Alkmaar" name="category"> <label> Alkmaar</label></li>
                                     </ul>
                                 </li>
                                 <li >
-                                   <input type="checkbox" data-id="id_lota" data-name="Часы настольные" /> <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы настольные</label>
+                                   <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Часы настольные</label>
                                     <ul class="open">
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Amsterdam" /><label> Чайка</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Haarlem" /><label> Haarlem</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Alkmaar" /> <label> Alkmaar</label></li>
+                                        <li><input type="radio" data-id="id_lota" data-name="Amsterdam" name="category"><label> Чайка</label></li>
+                                        <li><input type="radio" data-id="id_lota" data-name="Haarlem" name="category"><label> Haarlem</label></li>
+                                        <li><input type="radio" data-id="id_lota" data-name="Alkmaar" name="category"> <label> Alkmaar</label></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li >
-                            <input type="checkbox" data-id="id_lota"  data-name="Нумизматика" /> 
+                        <li > 
                             <label class="ul"><i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Нумизматика</label>
                             <ul class="open">
                                 <li >
-                                    <input type="checkbox" data-id="id_lota" data-name="Монеты СССР" /> <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Монеты СССР</label>
+                                    <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i> Монеты СССР</label>
                                     <ul class="open">
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Amsterdam" /><label> Чайка</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Haarlem" /><label> Haarlem</label></li>
-                                        <li><input type="checkbox" data-id="id_lota" data-name="Alkmaar" /> <label> Alkmaar</label></li>
+                                        <li><input type="radio" data-id="id_lota" data-name="Amsterdam" name="category"> <label> Чайка</label></li>
+                                        <li><input type="radio" data-id="id_lota" data-name="Haarlem" name="category"> <label> Haarlem</label></li>
+                                        <li><input type="radio" data-id="id_lota" data-name="Alkmaar" name="category"> <label> Alkmaar</label></li>
                                     </ul>
                                 </li>
                                 <li >
-                                   <input type="checkbox" data-id="id_lota" data-name="Монеты Украины" /> <label class="ul">  Монеты Украины</label>
+                                   <input type="radio" data-id="id_lota" data-name="Монеты Украины" name="category"> <label class="ul">  Монеты Украины</label>
                                     
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <input type="checkbox" data-id="id_lota"  data-name=" Живопись" /> 
+                            <input type="radio" data-id="id_lota"  data-name=" Живопись" name="category"> 
                             <label class="ul"> Живопись </label>
                         </li>
                     </ul>
                 </div>
             </div>    
-            <div>
+            <!-- <div>
                 <p>Выбранные категории: <span class="selected-readable"></span></p>
+            </div> -->
+        </div>
+        <div class="form-group row">
+            <div class="col-6">
+                <input type="text" class="form-control" id="name" name="name" placeholder="* Название лота" required>
             </div>
-        </div>
-        <div class="form-group">
-            <label for="name" class="col-form-label">Название лота (не более 60-ти символов)</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Название лота" required>
+            <div class="col-6">
+                <label for="name" class="col-form-label restrictions">Название лота (не более 60-ти символов) не должно быть написано заглавными (БОЛЬШИМИ) буквами, не должно содержать знаки пунктуации и символы ^#@&gt;&lt;.</label>
+            </div>        
         </div> 
-        <div class="form-group">
-            <label for="video" class="col-form-label">Ссылка на видео</label>
-            <input type="text" class="form-control" id="video" name="video" placeholder="Ссылка на видео" required>
-        </div>
-        <div class="form-group">
-            <label for="file" class="col-form-label">Загрузите фото (не более 12 шт):</label>
-            <input type="file" id="file">
+        <div class="form-group row">
+            <div class="col-6 custom-file">
+                <label class="custom-file-label" for="exampleInputFile">* Выберите фото</label>               
+                <input type='file' class="custom-file-input" name="image" id="exampleInputFile" onchange="preview(this);" multiple="multiple">
+                <div id='previewImg'></div>
+            </div>
+            <div class="col-6" >
+                <label for="exampleInputFile" class="col-form-label restrictions">В лоте
+                    допускаются исключительно изображения конкретного предмета,
+                    выставляемого данным продавцом на аукцион, не более 12 фото.
+                    Максимальный размер фотографии — 3 мегабайта! Загрузить можно файлы с расширением .jpg, .jpeg, .png. </label>
+            </div>
         </div>        
-        <div class="form-group check">
-            <input type="checkbox" id="switch" /><label class="switch" for="switch">1 грн</label>
-            <p>c 1 грн</p>
-            <label for="price" class="col-form-label">Стартовая цена:</label>
-            <input type="number" id="price">
+        <div class="form-group check row">
+            <div class="col-6 start-price" >
+                <input type="checkbox" id="switch"><label class="switch" for="switch">1 грн</label>
+                <p>c 1 грн</p>
+                <label for="price" class="col-form-label" >Стартовая цена:</label>
+                <input type="number" id="price" >
+            </div>
+            <div class="col-6" >
+                <label for="price" class="col-form-label restrictions">Стартовая цена должна быть такой во сколько Вы по минимуму оцениваете
+                    продаваемый лот (цена за которую вы согласны продать лот), в случае отказа продавать лот будут предприняты
+                    санкции согласно правил аукциона. </label>
+            </div>
         </div>
         <div class="form-group check">
             <label for="step-select" class="col-form-label">Не менее:</label>
                 <select class="region" id="step-select" name="select">
+                    <option selected disabled>выберите шаг</option>
                     <option>1 грн</option>
                     <option>10 грн</option>
                     <option>20 грн</option>
@@ -97,8 +113,8 @@
                     <option>100 грн</option>
                     <option>150 грн</option>
                 </select>
-            <label for="price" class="col-form-label">Шаг цены:</label>
-            <input type="number" id="price">
+            <label for="step-price" class="col-form-label">Шаг цены:</label>
+            <input type="number" id="step-price">
         </div>
         <div class="form-group">
             <label for="datetime" class="col-form-label">Выберите дату окончания:</label>

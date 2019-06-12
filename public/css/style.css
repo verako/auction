@@ -82,13 +82,22 @@ html, body {
  border-radius: 5px;
 }
 /*убрать голубое свечение*/
-.form-inline input[type="text"], select, .form-control input[type="text"]{  
+.form-inline input[type="text"], select, .form-control input[type="text"]{
         -webkit-box-shadow: none;
         outline: -webkit-focus-ring-color auto 0px;
-} 
+}
+/*a:active, a:focus { outline: none; }*/
+
+/*input, textarea {outline:none;}*/
+/*input:active, textarea:active {outline:none;}*/
+/*:focus {outline:none;}*/
+/*textarea {resize:none;}*/
+/*textarea {resize:vertical;}*/
+/*textarea {resize:horizontal;}*/
+
 input[type="text"], input[type="number"], input[type="time"],  input[type="file"], select, .form-control{
     border-radius: 5px;
-    border-color: #E4C7AD;
+    //border-color: #E4C7AD;
 }
 input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, input[type="file"]:focus, .form-control:focus {
     border-color: #953014;
@@ -247,7 +256,21 @@ color: #953014;
 .card:hover .follow{
      opacity: 0.8;
 }
-
+.card-title{
+    display: block;
+    overflow: hidden;
+    height: 42px;
+}
+.card:hover .card-title{
+    overflow: visible;
+    height: auto;
+}
+.bet{
+    display: none;
+}
+.card:hover .bet{
+    display: block;
+}
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3,
 .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, 
 .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, 
@@ -270,8 +293,11 @@ color: #953014;
 .price {
     margin-top: 20px;    
 }
-.del{
-    margin-left: 40%;
+.start-price{
+    display: flex;
+}
+.bet{
+    margin-top: 20px;
 }
 .shows{
     margin:50px auto;    
@@ -290,6 +316,8 @@ color: #953014;
     margin-top: 40px;
     margin-bottom: 70px;
 }
+
+
 footer{
     
     padding-top: 30px;
@@ -348,7 +376,22 @@ footer{
     width: 90%;
     max-width: 90px;
 }
-
+/*карусель для мобильной версии*/
+.mobilever{
+    display: none;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+   /* height: 30px;
+    width: 30px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    //border: 1px solid black;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+}
+    */
+}
 
 /*\карусель одного товара*/
 .lot h3{
@@ -570,7 +613,36 @@ footer{
 
 /*add_lot*/
 .add_lot label{
-    font-weight: bold;
+    //font-weight: bold;
+}
+.thumb{
+    height: 100px;
+    width: 150px;
+    padding-left: 10px;
+}
+#previewImg{
+    height: 100px;
+    overflow: auto;
+}
+.restrictions {
+    margin-left: 10px;
+    border: 1.5px solid #E9EFED;
+    border-radius: 5px;
+    padding: 10px;
+}
+.restrictions::after {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 18px;
+    position: absolute;
+    left: 2px;
+    top: 20%;
+    margin-top: -9px;
+    background: url(../img/td_note_txt_add.png) 0 0 no-repeat;
+}
+.add_lot input[type="text"]{
+   // width: 95%;
 }
 .anchor label{
     font-weight: normal;
@@ -738,27 +810,13 @@ ul{
 #pagination-flickr a:hover{ 
     border:solid 1px #ddd; 
 }
-.mobilever{
-    display: none;
-}
-.carousel-control-prev-icon, .carousel-control-next-icon {
-   /* height: 30px;
-    width: 30px;
-    outline: black;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    //border: 1px solid black;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
-}
-    */
-}
+
 @media (max-width: 991px){
+    /*для планшетов скрывем одну карусель, показываем друю*/
     .owl-wrapper-outer, .center-text, .bxslider, .bx-controls-direction, .bx-wrapper{
         display: none;
     }
     .mobilever{
     display: block;
-}
-    
+    }
 }

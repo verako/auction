@@ -1,55 +1,17 @@
 $(document).ready(function () {
-	// var str=$(".card-title").text();
-	// consele.log('str');
+	
 	$(function (){
-		var html = $('.del').hide();
+		
+
 		$('.login').hide();
 
-		 //один товар
+// просмотр фото в карточке лота
 		$('.bxslider').bxSlider({
 			nextText: '',
    			prevText: '',
 			pagerCustom: '#bx-pager',   //нажатие на картинку снизу
 			responsive: true            //адаптивность
-		});
-
-
-		// $('.bx-prev').hide();
-		// $('.bx-next').click(function(){
-		// 	$('.bx-prev').show();
-		// 	var active = $('#bx-pager a.active').next('a').attr('hidden');
-		// 	if (active=='hidden') {
-		// 		//
-		// 		$('#bx-pager a.active').next('a').removeAttr('hidden');
-		// 		$('#bx-pager a.active').prev('a').prev('a').prev('a').attr('hidden','hidden');
-		// 		//$('#bx-pager a.active').next('a').removeAttr('hidden');
-		// 		var last=$('#bx-pager a:last').attr('hidden');
-		// 		//console.log(last);
-		// 		if (last==undefined) {
-		// 			$('.bx-next').hide();
-
-		// 		}			
-		// 	}		       
-		//   });
-
-
-		// $('.bx-prev').click(function(){
-		// 	$('.bx-next').show();
-		// 	var active = $('#bx-pager a.active').prev('a').attr('hidden');
-		// 	if (active=='hidden') {
-		// 		//
-		// 		$('#bx-pager a.active').prev('a').removeAttr('hidden');
-		// 		$('#bx-pager a.active').next('a').next('a').next('a').attr('hidden','hidden');
-		// 		//$('#bx-pager a.active').prev('a').removeAttr('hidden');.attr('class', 'active');
-						
-		// 	}	
-		// 	var first=$('#bx-pager a:first').attr('hidden');
-		// 		console.log(first);
-		// 		if (first==undefined) {//
-		// 			$('.bx-prev').hide();
-
-		// 		}		       
-		//   });
+		});		
 
 		//увеличительное стекло на 1 товаре
 
@@ -62,11 +24,7 @@ $(document).ready(function () {
          $('#zoom6').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
          $('#zoom7').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
 
-
-
-
-
-
+		//карусель миниатюр в карточке лота
 		var carousel = $(".carousel-min");
 
             // Запускаем плагин карусели
@@ -103,8 +61,8 @@ $(document).ready(function () {
                 return false;
             });
 
-// Вперед
-// При клике на "Вперед"
+			// Вперед
+			// При клике на "Вперед"
             $('#js-next').click(function () {
 
                 // Запускаем перемотку вправо
@@ -112,16 +70,21 @@ $(document).ready(function () {
 
                 return false;
             });
-
-
-
 	});
+// \просмотр фото в карточке лота
 
-
-
-
-	
-
+//просмотр изображений перед загрузкой
+		window.preview = function (input) {
+		    if (input.files && input.files[0]) {
+		        $(input.files).each(function () {
+		            var reader = new FileReader();
+		            reader.readAsDataURL(this);
+		            reader.onload = function (e) {
+		                $("#previewImg").append("<img class='thumb' src='" + e.target.result + "'>");
+		            }
+		        });
+		    }
+		}
 
 
 	$( function() {
@@ -180,7 +143,15 @@ $(document).ready(function () {
 		    $(this).select();
 		    //$(this).lcs(this);
 		});
-					    
+//если цена с 1 грн, не активно поле ввода цены
+    $('#switch').change(function(){
+        if ($(this).prop('checked')==false)  {
+            $('.start-price #price').prop('disabled',false);
+        }
+        else{
+            $('#price').prop('disabled',true);;
+		}
+    });
 
   
 
