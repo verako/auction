@@ -143,15 +143,29 @@ $(document).ready(function () {
 		    $(this).select();
 		    //$(this).lcs(this);
 		});
-//если цена с 1 грн, не активно поле ввода цены
-    $('#switch').change(function(){
-        if ($(this).prop('checked')==false)  {
-            $('.start-price #price').prop('disabled',false);
-        }
-        else{
-            $('#price').prop('disabled',true);;
-		}
-    });
+
+		//если цена с 1 грн, не активно поле ввода цены
+		$('#switch').change(function(){
+			if ($(this).prop('checked')==false)  {
+				$('.start-price #price').prop('disabled',false);
+			}
+			else{
+				$('#price').prop('disabled',true);
+			}
+		});
+
+		//если резервная цена не активна, поле ввода цены не активно
+    	var dis=$('#reserve-price').prop('disabled',true);
+		$('#switch3').change(function(){
+			if ($(this).prop('checked')==true)  {
+				$('.start-price #reserve-price').prop('disabled',false);
+			}
+			else{
+				$('#reserve-price').prop('disabled',true);
+			}
+		});
+
+
 
   
 
