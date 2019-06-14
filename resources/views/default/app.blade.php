@@ -34,52 +34,53 @@
         <script type="text/javascript" src={{ asset("js\script.js")}}></script>
     </head>
     <body>
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
 @section('head')           
         <header class="header ">
           <div class="container">
             <div class="row flex-nowrap justify-content-between align-items-center">
               
               <div class="col-12 d-flex justify-content-end align-items-flex-end">
-                <ul class="login row flex-nowrap justify-content-flex-end">
-                  <li>
-                    <a class="base-text-color" href="#">Вход</a>
-                  </li>
-                  <li class="base-text-color">|</li>
-                  <li>
-                    <a class="base-text-color" href="#">Регистрация</a>
-                  </li>
-                </ul>   
-                <ul class="reg row flex-nowrap justify-content-flex-end">
-                  <li>
-                    <a href="/profile" class="card-user"><i class="far fa-user"></i> User </a>
-                  </li>
-                  <li>
-                    <a href="/cabinet" class="card-user "><i class="fas fa-briefcase"></i> Личный кабинет</a>
-                  </li>
-                  <li>
-                    <a class="base-text-color" href="#"><i class="fas fa-sign-out-alt"></i> Выход</a>
-                  </li>
-                  <li><a class="base-text-color" href="#"><i class="far fa-envelope messages"></i><i class="count">3</i></a></li>
-                   <li>
-                    <select class="language base-border-color">
-                      <option>Русский</option>
-                      <option>Украинский</option>
-                    </select>
-                  </li>
-                </ul>
+                  @if (Route::has('login'))
+                      <div class="top-right links">
+
+                          {{--@auth--}}
+                              <ul class="reg row flex-nowrap justify-content-flex-end">
+                                  <li>
+                                      <a href="/profile" class="card-user"><i class="far fa-user"></i> User </a>
+                                  </li>
+                                  <li>
+                                      <a href="/cabinet" class="card-user "><i class="fas fa-briefcase"></i> Личный кабинет</a>
+                                  </li>
+                                  <li><a class="base-text-color" href="#"><i class="far fa-envelope messages"></i><i class="count">3</i></a></li>
+                                  <li>
+                                      <a class="base-text-color" href="#"><i class="fas fa-sign-out-alt"></i> Выход</a>
+                                  </li>
+
+                                  @auth{{--@else--}}
+                              <ul class="login row flex-nowrap justify-content-flex-end">
+                                  <li>
+                                      <a class="base-text-color" href="{{ route('login') }}">Вход</a>
+                                  </li>
+                                  <li class="base-text-color">|</li>
+
+                              @if (Route::has('register'))
+                                      <li>
+                                          <a class="base-text-color" href="{{ route('register') }}">Регистрация</a>
+                                      </li>
+                              @endif
+                                  {{--<li>--}}
+                                      {{--<select class="language base-border-color">--}}
+                                          {{--<option>Русский</option>--}}
+                                          {{--<option>Украинский</option>--}}
+                                      {{--</select>--}}
+                                  {{--</li>--}}
+
+                          @endauth
+                              </ul>
+                      </div>
+                  @endif
+
               </div>
             </div>
           </div>
@@ -87,7 +88,7 @@
             <div class="container">
               <a class="navbar-brand" href="/">LOGO</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>            
-              <div class="collapse navbar-collapse " id="navbarCollapse">
+              <div class="collapse navbar-collapse left" id="navbarCollapse">
                 <ul class="navbar-nav ">
                   <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle add-color" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Каталог</a>

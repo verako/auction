@@ -3,7 +3,7 @@ $(document).ready(function () {
 	$(function (){
 		
 
-		$('.login').hide();
+		//$('.login').hide();
 
 // просмотр фото в карточке лота
 		$('.bxslider').bxSlider({
@@ -96,6 +96,8 @@ $(document).ready(function () {
 
     	//карточка лота
     	$( "#tabs" ).tabs();
+
+
   	});
 
 

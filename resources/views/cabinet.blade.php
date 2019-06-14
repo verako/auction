@@ -110,7 +110,7 @@
                     <td>нет</td>
                    </tr>               
                 </table>   
-            </div> 
+            </div>
             <h5>Лоты за которыми слежу</h5>
             <div class="about_lot_title row basic">
                 <table border="0" cellpadding="20">
@@ -135,7 +135,7 @@
                     <td>нет</td>
                    </tr>               
                 </table>   
-            </div>        
+            </div>
         </div>
     </div>
    

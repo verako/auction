@@ -14,11 +14,15 @@
     <div class="row">
         <div class="col-12 col-lg-3 avatar">
             <img class="" src="img/user.png" >           
-            <div class="img_refresh"><i class="fas fa-pencil-alt"></i> <input type="file"></div>
+            {{--<div class="img_refresh"><i class="fas fa-pencil-alt"></i> <input type="file"></div>--}}
         </div>
         <div class="col-12 col-lg-9">
             <div class="about_lot_title row basic_edit">
-                <div><a href="#" class="btn favorites" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-pencil-alt"></i></a></div>
+                <div>
+                    <a href="#" class="btn add_lot_header" data-toggle="modal" data-target="#exampleModal">
+                        <i class="fas fa-pencil-alt"></i>
+                    </a><br>
+                    <p class="edit-profile">редактировать </p></div>
                 <div>
                     <p><i class="far fa-user"></i> Фамилия Имя <br><i class="far fa-envelope "></i> mail@mail.com</p>
                     
@@ -27,7 +31,7 @@
                     <p><i class="fas fa-map-marker-alt"></i> Область, Город <br><span>Дата регистрации <br><i class="far fa-calendar-alt"></i> 20.05.2019</span> </p>
                 </div>
                 <div>
-                    <p><i class="fas fa-chart-line"></i> Деловой рейтинг: <br><span>Покупатель:</span> 0 / <span>Продавец:</span> 0 </p>
+                    <p><i class="fas fa-chart-line"></i> Деловой рейтинг: <br><span>Покупатель:</span> <span class="plus">+6</span> / <span class="minus">-1</span><br> <span>Продавец:</span> <span class="plus">+6</span> / <span class="minus">-1</span> </p>
                 </div>
                 <div class="margin-bottom">
                     <a href="#" class="btn favorites">Подписаться</a>
@@ -87,12 +91,12 @@
                     <ul class="comment">
                         <li>
                             <span><i class="far fa-user"></i></span>
-                            <a href="" class="card-user">User</a> <span class="time"> 20.05.2018 11:22 </span><i class="far fa-thumbs-up"></i>
+                            <a href="" class="card-user">User</a> <span class="time"> 20.05.2018 11:22 </span><i class="far fa-thumbs-up plus"></i>
                             <p>lorem At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod m</p>
                         </li>
                         <li>
                             <span ><i class="far fa-user"></i></span>
-                            <a href="" class="card-user">User</a> <span class="time"> 20.05.2018 11:22 </span><i class="far fa-thumbs-down"></i>
+                            <a href="" class="card-user">User</a> <span class="time"> 20.05.2018 11:22 </span><i class="far fa-thumbs-down minus"></i>
                             <p>lorem At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod m</p>
                         </li>
                     </ul>

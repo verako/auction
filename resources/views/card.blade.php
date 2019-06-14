@@ -27,7 +27,7 @@
             <p>Добавлено: <br><span>15.04.2019 18:55</span> </p>
         </div>
         <div>
-            <p><a href="" class="card-user"><i class="far fa-user"></i>User</a><span>(+165)</span> </p>
+            <p><a href="" class="card-user"><i class="far fa-user"></i>User</a><br><span class="plus">+6</span> / <span class="minus">-1</span> </p>
         </div>
         <div>
             <a href="#" class="btn favorites">Подписаться на продавца</a>
@@ -55,8 +55,10 @@
                 <a class="carousel-element" data-slide-index="5" href=""><img src="img/moneta.jpg" ></a>
                 <a class="carousel-element" data-slide-index="6" href=""><img src="img/antikvariat-metall.jpg" ></a>      
             </div>
-            <p class="center-text"><a href="#" id="js-prev">Назад</a>
-            <a href="#" id="js-next">Вперед</a></p>
+            <p class="center-text">
+                <a href="#" class="card-user" id="js-prev">Назад</a>
+                <a href="#" class="card-user" id="js-next">Вперед</a>
+            </p>
 <!--  карусель мобильная версия -->
             <div class="carousel slide mobilever" data-ride="carousel" id="light1">
                 <div class="carousel-inner">
@@ -94,14 +96,52 @@
                     <p>Стартовая цена: <br><span>150 грн</span> </p>
                 </div>
                 <div class="col-6 col-lg-6 actual">
-                    <p>Текущая ставка: (<a href="" class="card-user">15 ставок</a>)<br><span>3000 грн</span> <span class="nbu"> ~ 111 $</span>  </p>
+                    <p>Текущая ставка: (<a href="#" class="card-user" data-toggle="modal" data-target="#ratesModal">15 ставок</a>)<br><span>3000 грн</span> <span class="nbu"> ~ 111 $</span>  </p>
+ <!-- modal окно ставок -->
+                    <div class="modal fade" id="ratesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ставки</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <table border="0" cellpadding="20">
+                                        <tr>
+                                            <th>Имя</th>
+                                            <th>Дата/время</th>
+                                            <th>Ставка</th>
+                                        </tr>
+                                        <tr>
+                                            <td><span><i class="far fa-user"></i></span><a href="" class="card-user">User</a><br><span class="plus">+6</span> / <span class="minus">-1</span> </td>
+                                            <td>22.06.2019 22:10</td>
+                                            <td>250</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span><i class="far fa-user"></i></span><a href="" class="card-user">User</a><br><span class="plus">+6</span> / <span class="minus">-1</span> </td>
+                                            <td>21.06.2019 20:10</td>
+                                            <td>200</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span><i class="far fa-user"></i></span><a href="" class="card-user">User</a><br><span class="plus">+6</span> / <span class="minus">-1</span> </td>
+                                            <td>20.06.2019 22:10</td>
+                                            <td>150</td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- /modal окно ставок -->
                 </div>
                 <div class="col-6 col-lg-6">
                     <p>Окончание: <br><span>15.04.2019 18:55</span> </p>
                 </div>
                 <div class="col-6 col-lg-6 actual">
                     <p>Осталось: <br><span>1 день 18:55:02</span> </p>
-                     
                 </div>                  
             </div>
             <div class="row rate">
