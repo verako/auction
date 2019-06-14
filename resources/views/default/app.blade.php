@@ -16,22 +16,22 @@
         <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
         <!-- <link href="css/animate.min.css" rel="stylesheet"> -->
-        <link rel="stylesheet" type="text/css" href="css\jquery.bxslider.css">
-        <link rel="stylesheet" href="owl-carousel\owl.carousel.css"/>
-        <link rel="stylesheet" type="text/css" href="css\style.css">
+        <link rel="stylesheet" type="text/css" href={{ asset('css/jquery.bxslider.css') }}>
+        <link rel="stylesheet" href={{ asset('owl-carousel\owl.carousel.css') }}>
+        <link rel="stylesheet" type="text/css" href={{ asset('css/style.css') }}>
 
         <!-- js -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script type="text/javascript" src="js\jquery.bxslider.js"></script><!-- карусель -->
-        <script type="text/javascript" src="js\jquery.elevateZoom-3.0.8.min.js"></script><!-- zoom по наведению --> 
-        <script type="text/javascript" src="js\jquery.deepcheckbox.js"></script><!-- список с чекбоксами -->
-        <script type="text/javascript" src="js\calendar.js"></script>
-        <script type="text/javascript" src="owl-carousel\owl.carousel.min.js"></script>
+        <script type="text/javascript" src={{ asset("js\jquery.bxslider.js")}}></script><!-- карусель -->
+        <script type="text/javascript" src={{ asset("js\jquery.elevateZoom-3.0.8.min.js")}}></script><!-- zoom по наведению -->
+        <script type="text/javascript" src={{ asset("js\jquery.deepcheckbox.js")}}></script><!-- список с чекбоксами -->
+        <script type="text/javascript" src={{ asset("js\calendar.js")}}></script>
+        <script type="text/javascript" src={{ asset("owl-carousel\owl.carousel.min.js")}}></script>
         <!-- <script type="text/javascript" src="js\plugin.js"></script> --> <!-- галерея для миниатюр -->
-        <script type="text/javascript" src="js\script.js"></script>       
+        <script type="text/javascript" src={{ asset("js\script.js")}}></script>
     </head>
     <body>
             @if (Route::has('login'))

@@ -118,7 +118,7 @@
             <div class="col-6 left" >
                 <input type="checkbox" id="switch3"><label class="switch3" for="switch3">1 грн</label>
                 <p>Включить резервную цену</p>
-                <input type="number" id="reserve-price" placeholder="Резервная цена">
+                <input type="number" id="reserve-price" placeholder="Резервная цена" disabled="true">
             </div>
             <div class="col-6" >
                 <label for="reserve-price" class="col-form-label restrictions">Резервная цена это наименьшая сумма,
