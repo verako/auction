@@ -37,7 +37,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/') }}">Home</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
 
@@ -89,8 +89,8 @@
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>            
               <div class="collapse navbar-collapse " id="navbarCollapse">
                 <ul class="navbar-nav ">
-                  <li class="nav-item dropdown add-color">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Каталог</a>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle add-color" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Каталог</a>
                       <div class="dropdown-menu base-color">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -111,8 +111,8 @@
                   <a href="/add_lot" class="btn add_lot_header">Добавить лот</a>
                 <!-- </button> -->
                 <ul class="navbar-nav ">
-                  <li class="nav-item dropdown base-color base-border-color">
-                    <a class="nav-link dropdown-toggle regulations" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>
+                  <li class="nav-item dropdown  base-border-color">
+                    <a class="nav-link dropdown-toggle base-color regulations" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>
                       <div class="dropdown-menu base-color">
                         <a class="dropdown-item" href="#">О нас</a>
                         <a class="dropdown-item" href="#">Правила</a>

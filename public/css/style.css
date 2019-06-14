@@ -37,10 +37,8 @@ html, body {
 .add-color{
     background-color:#953014;
 }
-/*.add-color:hover{*/
-    /*background-color:#FEF3D4;*/
-    /*color: #953014;*/
-/*}*/
+
+
 .bg-light {
     background-color: #fff !important;
 }
@@ -58,13 +56,20 @@ html, body {
     background-color:  #E4C7AD;
     border-color: #953014;
     color: #953014;
-} 
+}
 
 .navbar-dark .navbar-nav .nav-link, .white  {
     color: #fff;
 }
+.navbar-dark .navbar-nav .nav-link:hover{
+     color: #953014;
+ }
 .white:hover{
     color: #E4C7AD;
+}
+.add-color:hover{
+    background-color:#FEF3D4;
+    color: #953014;
 }
 .nav-link{
     color: #212529;
@@ -92,6 +97,10 @@ html, body {
 .form-inline input[type="text"], select, .form-control input[type="text"]{
         -webkit-box-shadow: none;
         outline: -webkit-focus-ring-color auto 0px;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
 }
 /*a:active, a:focus { outline: none; }*/
 
@@ -187,7 +196,9 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 .language{
      font-size: 14px;
 }
-
+.dropdown-toggle{
+    border-radius: 5px;
+}
 .login{
     list-style: none;
 }
@@ -241,6 +252,28 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
     color: #485059;
 }
 
+/*register*/
+.registration{
+    margin-bottom: 40px;
+}
+.log{
+    margin-bottom: 150px;
+}
+.form-group{
+   margin: 20px 0;
+}
+.col-form-label{
+    margin-right: 20px;
+}
+.register{
+    background: #FEF3D4;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.register:hover{
+    background: #953014;
+    color: #ffffff;
+}
 /*card*/
 .col-lg-3{
     padding: 5px 5px;
