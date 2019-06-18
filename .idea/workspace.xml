@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47353ea5-4bde-46f7-86cd-cdd235a44d4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/add_lot.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add_lot.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/cabinet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cabinet.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/card.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/chat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/chat.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/default/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/default/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +28,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="config" value="1" />
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="js" value="1" />
           <entry key="php" value="27" />
           <entry key="rnc" value="1" />
@@ -43,7 +37,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Blade" value="21" />
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="JavaScript" value="1" />
           <entry key="PHP" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -52,16 +46,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="494" />
-          <entry key="js" value="303" />
-          <entry key="php" value="1398" />
+          <entry key="css" value="649" />
+          <entry key="js" value="486" />
+          <entry key="php" value="2200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="1398" />
-          <entry key="CSS" value="494" />
-          <entry key="JavaScript" value="303" />
+          <entry key="Blade" value="2200" />
+          <entry key="CSS" value="649" />
+          <entry key="JavaScript" value="486" />
         </counts>
       </usages-collector>
     </session>
@@ -71,13 +65,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="2794">
+              <caret line="159" selection-start-line="159" selection-end-line="159" />
               <folding>
                 <element signature="e#3586#3785#0" />
                 <element signature="e#3848#3956#0" />
                 <element signature="e#4076#4726#0" />
                 <element signature="e#4387#4720#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="324" column="16" selection-start-line="324" selection-start-column="13" selection-end-line="324" selection-end-column="16" />
+              <folding>
+                <marker date="1560866605527" expanded="true" signature="1773:1935" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,16 +98,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/search.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="201" column="22" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
+              <folding>
+                <element signature="e#5894#6763#0#HTML" />
+                <element signature="e#6780#7386#0#HTML" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/profile.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="131" column="30" selection-start-line="109" selection-start-column="20" selection-end-line="131" selection-end-column="30" />
+            <state relative-caret-position="282">
+              <caret line="119" column="115" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="115" />
               <folding>
                 <element signature="e#1871#4823#0#HTML" />
                 <marker date="1560518607797" expanded="true" signature="669:753" ph="..." />
@@ -113,25 +127,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/cabinet.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="1212">
+              <caret line="720" column="42" selection-start-line="720" selection-start-column="42" selection-end-line="720" selection-end-column="42" />
               <folding>
-                <element signature="e#1668#2159#0#HTML" />
+                <element signature="e#1063#1575#0#HTML" />
+                <element signature="e#1698#2124#0#HTML" />
                 <element signature="e#2951#4605#0#HTML" />
+                <element signature="e#4723#8824#0#HTML" />
                 <element signature="e#4726#5610#0#HTML" />
-                <element signature="e#5746#6603#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="589" column="1" lean-forward="true" selection-start-line="589" selection-start-column="1" selection-end-line="589" selection-end-column="1" />
-              <folding>
-                <marker date="1560521993648" expanded="true" signature="1773:1935" ph="..." />
+                <element signature="e#9134#13532#0#HTML" />
+                <element signature="e#9209#13513#0#HTML" />
+                <element signature="e#13365#17763#0#HTML" />
+                <element signature="e#13440#17744#0#HTML" />
+                <element signature="e#16791#20283#0#HTML" />
+                <element signature="e#20041#23257#0#HTML" />
+                <element signature="e#20208#23207#0#HTML" />
+                <element signature="e#21793#25009#0#HTML" />
+                <element signature="e#25652#28016#0#HTML" />
+                <element signature="e#25812#27966#0#HTML" />
+                <element signature="e#9137#11918#0#HTML" />
+                <element signature="e#31342#34613#0#HTML" />
+                <element signature="e#34048#36723#0#HTML" />
+                <element signature="e#34034#37305#0#HTML" />
+                <element signature="e#40044#42709#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -152,8 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="34" />
+            <state relative-caret-position="438">
+              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -177,9 +195,10 @@
         <option value="$PROJECT_DIR$/resources/views/add_lot.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/card.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/cabinet.blade.php" />
         <option value="$PROJECT_DIR$/public/js/script.js" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/search.blade.php" />
       </list>
     </option>
   </component>
@@ -277,9 +296,9 @@
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-21" />
-    <option name="y" value="19" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="23" />
+    <option name="y" value="33" />
     <option name="width" value="1616" />
     <option name="height" value="820" />
   </component>
@@ -300,6 +319,12 @@
               <item name="auction" type="b2602c69:ProjectViewProjectNode" />
               <item name="auction" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auction" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auction" type="b2602c69:ProjectViewProjectNode" />
@@ -353,15 +378,15 @@
       <option name="presentableId" value="Default" />
       <updated>1560338254038</updated>
       <workItem from="1560338255279" duration="27356000" />
-      <workItem from="1560493520760" duration="19324000" />
+      <workItem from="1560493520760" duration="39611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46680000" />
+    <option name="totallyTimeSpent" value="66967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="23" y="33" width="1616" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17994858" />
@@ -484,17 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="131" column="30" selection-start-line="109" selection-start-column="20" selection-end-line="131" selection-end-column="30" />
-          <folding>
-            <element signature="e#1871#4823#0#HTML" />
-            <marker date="1560518607797" expanded="true" signature="669:753" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -523,33 +537,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cabinet.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/profile.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="282">
+          <caret line="119" column="115" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="115" />
           <folding>
-            <element signature="e#1668#2159#0#HTML" />
-            <element signature="e#2951#4605#0#HTML" />
-            <element signature="e#4726#5610#0#HTML" />
-            <element signature="e#5746#6603#0#HTML" />
+            <element signature="e#1871#4823#0#HTML" />
+            <marker date="1560518607797" expanded="true" signature="669:753" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/cabinet.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="1212">
+          <caret line="720" column="42" selection-start-line="720" selection-start-column="42" selection-end-line="720" selection-end-column="42" />
+          <folding>
+            <element signature="e#1063#1575#0#HTML" />
+            <element signature="e#1698#2124#0#HTML" />
+            <element signature="e#2951#4605#0#HTML" />
+            <element signature="e#4723#8824#0#HTML" />
+            <element signature="e#4726#5610#0#HTML" />
+            <element signature="e#9134#13532#0#HTML" />
+            <element signature="e#9209#13513#0#HTML" />
+            <element signature="e#13365#17763#0#HTML" />
+            <element signature="e#13440#17744#0#HTML" />
+            <element signature="e#16791#20283#0#HTML" />
+            <element signature="e#20041#23257#0#HTML" />
+            <element signature="e#20208#23207#0#HTML" />
+            <element signature="e#21793#25009#0#HTML" />
+            <element signature="e#25652#28016#0#HTML" />
+            <element signature="e#25812#27966#0#HTML" />
+            <element signature="e#9137#11918#0#HTML" />
+            <element signature="e#31342#34613#0#HTML" />
+            <element signature="e#34048#36723#0#HTML" />
+            <element signature="e#34034#37305#0#HTML" />
+            <element signature="e#40044#42709#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="2794">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
           <folding>
             <element signature="e#3586#3785#0" />
             <element signature="e#3848#3956#0" />
@@ -561,10 +592,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="589" column="1" lean-forward="true" selection-start-line="589" selection-start-column="1" selection-end-line="589" selection-end-column="1" />
+        <state relative-caret-position="462">
+          <caret line="324" column="16" selection-start-line="324" selection-start-column="13" selection-end-line="324" selection-end-column="16" />
           <folding>
-            <marker date="1560521993648" expanded="true" signature="1773:1935" ph="..." />
+            <marker date="1560866605527" expanded="true" signature="1773:1935" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="201" column="22" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
+          <folding>
+            <element signature="e#5894#6763#0#HTML" />
+            <element signature="e#6780#7386#0#HTML" />
           </folding>
         </state>
       </provider>

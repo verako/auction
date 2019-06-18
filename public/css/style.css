@@ -126,6 +126,7 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 }
 .card-user{
     color: #212529;
+    cursor: pointer;
 }
 .card-user:hover{
     color: #953014;
@@ -187,8 +188,8 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
     color: #fff;
 }
 .count_chat{
-    right: 235px;
-    top: 275px;
+    right: 415px;
+    top: 260px;
 }
 .messages{
     font-size: 20px;
@@ -544,6 +545,20 @@ footer{
 
 
 /*cabinet*/
+#reserve_price,#advertised_lots,
+#completed_lots,#sold_lots,#del_lots,#archive_lots,
+#lots_follow,#auto_delivery, #completed_lot,#archive_sold_lot{
+    display: none;
+}
+table{
+    width: 100%;
+}
+tbody tr:nth-child(odd) {
+    background-color: #FEF3D4;/* фон нечетных строк :nth-child (2n)*/
+}
+thead{
+    background-color:#E4C7AD;
+}
 .cabinet h5{
     margin-left: 15px;
     margin-top: 40px;
@@ -554,13 +569,22 @@ footer{
 .avatar img{
     width: 200px;
 }
+.my_lot{
+    max-height: 500px;
+    overflow-y: auto;
+    padding-left: 0;
+}
 .basic, .basic_edit{
     margin-left: 15px;
     margin-right: 0;
     margin-bottom: 30px;
+
+}
+.main .card-user{
+margin-bottom: 5px;
 }
 .basic div{
-    margin-left: 8%;
+    margin-left: 5%;
 }
 .basic_edit div{
     margin-left: 3%;
@@ -581,12 +605,20 @@ footer{
     text-align: left;
     padding: 0;
 }
+
+.cabinet .ui-state-default,.cabinet .ui-widget-content .ui-state-default,
+.cabinet .ui-widget-header .ui-state-default,.cabinet .ui-button,
+html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: #FEF3D4;
+    font-weight: normal;
+    color: #454545;
+}
 .accordion .ui-state-active,.accordion .ui-widget-content .ui-state-active,
 .accordion .ui-widget-header .ui-state-active,.accordion a.ui-button:active,
 .accordion .ui-button:active,.accordion .ui-button.ui-state-active:hover {
 
-    background: #953014;
-
+    background: #E4C7AD;
 }
 /*профиль*/
 .feedback{

@@ -157,7 +157,7 @@ $(document).ready(function () {
 		});
 
 		//если резервная цена не активна, поле ввода цены не активно
-    	//var dis=$('#reserve-price').prop('disabled',true);
+
 		$('#switch3').change(function(){
 			if ($(this).prop('checked')==true)  {
 				$('.left #reserve-price').prop('disabled',false);
@@ -167,7 +167,20 @@ $(document).ready(function () {
 			}
 		});
 
+    $('.card-user').click(function(){
+    	var clas=$(this).attr( "class");
+        var a = clas.split(' ')[1];
+        $( "#basic > div").each( function( index, element) {
+        	// var id=$( element).attr( "id");
+        	if ($( element).attr( "id")==a){
+                $(element).css('display','block');
+			}
+        	else {
+                $(element).css('display','none');
+			}
+        });
 
+    });
 
   
 

@@ -134,7 +134,7 @@
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
                       <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Сделать ставку</a>
+                      <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
                 </div>
@@ -147,7 +147,7 @@
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
                       <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                      <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
                       <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                      <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
                 </div>
@@ -173,7 +173,7 @@
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
                       <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                      <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
                 </div>
@@ -186,7 +186,7 @@
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
                       <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                      <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
                 </div>
@@ -199,7 +199,7 @@
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
                       <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
-                      <a href="#" class="btn btn-light del">Удалить</a>
+                      <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
                 </div>
