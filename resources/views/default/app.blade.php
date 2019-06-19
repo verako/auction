@@ -39,8 +39,11 @@
         <header class="header ">
           <div class="container">
             <div class="row flex-nowrap justify-content-between align-items-center">
-              
-              <div class="col-12 d-flex justify-content-end align-items-flex-end">
+              <div class="col-0 col-lg-6 col-xl-6 quantity">
+                  <p><span>58652  </span> <i class="fas fa-gavel"></i> активных лота
+                  <span>/ 8652 </span> <i class="fas fa-user"></i> пользователей</p>
+              </div>
+              <div class="col-12 col-lg-6 col-xl-6 d-flex justify-content-end align-items-flex-end row">
                   @if (Route::has('login'))
                       <div class="top-right links">
 
@@ -80,7 +83,15 @@
                               </ul>
                       </div>
                   @endif
+                    {{--<div class="top-right links search_hed">--}}
+                      {{--<form class="form-inline ">--}}
+                          {{--<input class="form-control search" type="text" placeholder="Поиск" aria-label="Search">--}}
 
+                          {{--<button class="btn btn-light " type="submit"><a class="text-muted " href="/search">--}}
+                                  {{--<i class="fas fa-search white"></i>--}}
+                              {{--</a></button>--}}
+                      {{--</form>--}}
+                    {{--</div>--}}
               </div>
             </div>
           </div>
@@ -91,7 +102,7 @@
               <div class="collapse navbar-collapse left" id="navbarCollapse">
                 <ul class="navbar-nav ">
                   <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle add-color" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Каталог</a>
+                    <a class="nav-link dropdown-toggle add-color" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Разделы</a>
                       <div class="dropdown-menu base-color">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -103,14 +114,13 @@
                 </ul>
                 <form class="form-inline ">
                   <input class="form-control search" type="text" placeholder="Поиск" aria-label="Search">
-                  
+
                   <button class="btn btn-light " type="submit"><a class="text-muted " href="/search">
                       <i class="fas fa-search white"></i>
                   </a></button>
                 </form>
-                <!-- <button class="btn btn-light " type="submit"> -->
                   <a href="/add_lot" class="btn add_lot_header">Добавить лот</a>
-                <!-- </button> -->
+                  {{--<a href="/admin" class="btn add_lot_header">Админ</a>--}}
                 <ul class="navbar-nav ">
                   <li class="nav-item dropdown  base-border-color">
                     <a class="nav-link dropdown-toggle base-color regulations" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>

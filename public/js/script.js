@@ -1,9 +1,6 @@
 $(document).ready(function () {
 	
 	$(function (){
-		
-
-		//$('.login').hide();
 
 // просмотр фото в карточке лота
 		$('.bxslider').bxSlider({
@@ -86,7 +83,7 @@ $(document).ready(function () {
 		    }
 		}
 
-
+//jquery_ui
 	$( function() {
     	// кабинет
     	$( ".accordion" ).accordion({
@@ -120,7 +117,7 @@ $(document).ready(function () {
 			var prevprev=$(this).parent('li').parent('ul').prev().prev().parent('li').parent('ul').prev().prev();
 			var prev=$(this).parent('li').parent('ul').prev().prev();
 			var child=prev.next('label').next('ul').children('li').children('input:checkbox');
-			console.log(prevprev);
+			//console.log(prevprev);
 			child.each(function(i,elem) {
 				if ($(this).prop("checked")==false) {
 					prev.each(function(k,element){
@@ -139,14 +136,15 @@ $(document).ready(function () {
 		});
 
 
-		//календарь
+//add_lot
+//календарь
 		$('#datetime').click(function(){
 			event.cancelBubble=true;
 		    $(this).select();
 		    //$(this).lcs(this);
 		});
 
-		//если цена с 1 грн, не активно поле ввода цены
+//если цена с 1 грн, не активно поле ввода цены
 		$('#switch').change(function(){
 			if ($(this).prop('checked')==false)  {
 				$('.left #price').prop('disabled',false);
@@ -156,8 +154,7 @@ $(document).ready(function () {
 			}
 		});
 
-		//если резервная цена не активна, поле ввода цены не активно
-
+//если резервная цена не активна, поле ввода цены не активно
 		$('#switch3').change(function(){
 			if ($(this).prop('checked')==true)  {
 				$('.left #reserve-price').prop('disabled',false);
@@ -167,6 +164,7 @@ $(document).ready(function () {
 			}
 		});
 
+//в кабинете таб-переключатель между таблицами
     $('.card-user').click(function(){
     	var clas=$(this).attr( "class");
         var a = clas.split(' ')[1];
@@ -182,10 +180,21 @@ $(document).ready(function () {
 
     });
 
-  
+//в поиске фильтр по цене активация формы ручного ввода диапазона цен
+    $('.sorting_price input').on('change', function() {
+        var id_sorting=$('input[name=sorting_price]:checked', '.sorting_price').attr( "id");
+        if (id_sorting=='sorting_price5'||id_sorting=='sorting_price55'){
+        	console.log('log')
+            $('.from').prop('disabled',false);
+		}
+		else{
+            $('.from').prop('disabled',true);
+		}
+    });
 
 
-	//наверх кнопка
+
+//наверх кнопка
   	$('.top').click(function(){
 			//для разных браузеров либо html либо body анимируется
 			$('html, body').animate({

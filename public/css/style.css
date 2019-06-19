@@ -37,7 +37,15 @@ html, body {
 .add-color{
     background-color:#953014;
 }
-
+/*выпадающее меню*/
+.dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #FEF3D4 !important;
+    color: #953014;
+}
+.dropdown .dropdown-menu .dropdown-item:active{
+    background-color: #953014 !important;
+    color: #FEF3D4;
+}
 
 .bg-light {
     background-color: #fff !important;
@@ -173,6 +181,16 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 
 
 /*navbar*/
+.quantity{
+    color: #c5c5c5;
+}
+.quantity span{
+    font-size: 25px;
+}
+.quantity p{
+    font-size: 13px;
+    margin: 15px 10px 15px 0;
+}
 .count, .count_chat {
     display: inline-block;
     position: absolute;
@@ -217,8 +235,11 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 .dropdown{
     border-radius: 5px;
 }
+/*.search_hed{*/
+    /*width: 100%;*/
+/*}*/
 .form-inline{
-    width: 60%;
+    width: 55%;
 }
 .form-inline .form-control{
     width: 80%;
@@ -232,7 +253,8 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
     border-top: 1px solid #ddd;
     //border-bottom: none;
 }
- .ui-widget-content{
+
+.ui-widget-content{
     border: none;
 }
  .ui-widget-header{
@@ -252,7 +274,9 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 .welcome a:visited.ui-button,.welcome .ui-button {
     color: #485059;
 }
-
+.welcome .ui-widget.ui-widget-content {
+    border-left: none;
+}
 /*register*/
 .registration{
     margin-bottom: 40px;
@@ -458,7 +482,7 @@ footer{
     content: " ";
 }
 .about_lot_title {
-    border: 1px solid #ececec;
+    border: 1px solid #c5c5c5;
     border-radius: 5px;
     padding: 16px 0;
     padding-left: 16px;
@@ -877,7 +901,21 @@ ul{
     display: flex;
     justify-content: center;
 }
+.example{
+    text-align: left;
+}
+.sample{
+    padding-left: 5px;
+}
+.sample h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.transition{
+    width: 32px;
+    height: 32px;
 
+}
 /*пагинация*/
 .page{
     margin-bottom: 20px;
@@ -938,4 +976,8 @@ ul{
     .mobilever{
     display: block;
     }
+    .quantity{
+        display: none;
+    }
+
 }

@@ -11,6 +11,8 @@
 @endsection
 @section('left_menu')
             <div class="col-12 col-lg-3 example about_lot_title search">
+             <form action="/" method="post">
+                    {{ csrf_field() }}
                 <h6>Категории:</h6>
                 <div class="anchor">
                     <ul >
@@ -104,8 +106,10 @@
                     <input type="radio" id="sorting_price4" name="sorting_price">
                     <label for="sorting_price4">более 1000 грн</label><br>
 
-                    <input type="text" name="" placeholder="от"> 
-                    <input type="text" name="" placeholder="до">
+                    <input type="radio" id="sorting_price5" name="sorting_price">
+                    <label for="sorting_price5">ручной ввод:</label><br>
+                    <input type="text" class="from" name="from" placeholder="от" >
+                    <input type="text" class="from" name="to" placeholder="до" >
                 </div>
                 <div class="region_select">
                     <h6>Область:</h6>
@@ -117,13 +121,14 @@
                         <li><input type="checkbox" name="" /> <label> Житомирская</label></li>
                     </ul>
                 </div>
-                <a href="#" class="btn btn-light">Сброс фильтра</a>
+                <input type="reset" class=" btn  cleaning" value="Сброс фильтра">
+             </form>
             </div>  
 @endsection 
 
 @section('content') 
-            <div class="col-12 col-lg-9">
-              <h3>По Вашему запросу найдено 25 лотов</h3>
+            <div class="col-12 col-lg-9 sample" >
+              <h1>По Вашему запросу найдено 25 лотов</h1>
               <div class="row">                
                 <div class="col-6 col-lg-4">
                   <div class="card" >
@@ -133,7 +138,7 @@
                       <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                       <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
@@ -146,7 +151,7 @@
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                       <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
@@ -159,7 +164,7 @@
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                       <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
@@ -172,7 +177,7 @@
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                       <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
@@ -185,7 +190,7 @@
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                       <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
@@ -198,7 +203,7 @@
                       <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                       <h5 class="price bold">520 грн</h5>
                       <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                      <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                       <a href="#" class="btn btn-light bet">Сделать ставку</a>
                     </div>
                   </div>
@@ -214,6 +219,8 @@
                         <li><a href="">3</a></li>
                         <li><a href="">4</a></li>
                         <li class="next"><a href="">></a></li>
+                        <li><input type="text" class="transition" placeholder=""></li>
+                        <li class="next"><a href="">перейти</a></li>
                     </ul>
                 </div>
               </div>

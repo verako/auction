@@ -1,29 +1,81 @@
 @extends('default.app')
 @section('left_menu')
-            <div class="col-12 col-lg-3">
-              <nav class="navbar bg-light">
-                <!-- Links -->
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="/categories">Категория 1</a>
+            {{--<div class="col-12 col-lg-3">--}}
+              {{--<nav class="navbar bg-light">--}}
+                {{--<!-- Links -->--}}
+                {{--<ul class="navbar-nav">--}}
+                  {{--<li class="nav-item">--}}
+                    {{--<a class="nav-link" href="/categories">Категория 1</a>--}}
+                  {{--</li>--}}
+                  {{--<li class="nav-item">--}}
+                    {{--<a class="nav-link" href="#">Категория 2</a>--}}
+                  {{--</li>--}}
+                  {{--<li class="nav-item">--}}
+                    {{--<a class="nav-link" href="#">Категория 3</a>--}}
+                  {{--</li>--}}
+                  {{--<li class="nav-item">--}}
+                    {{--<a class="nav-link" href="#">Категория 4</a>--}}
+                  {{--</li>--}}
+                  {{--<li class="nav-item">--}}
+                    {{--<a class="nav-link" href="#">Категория 5</a>--}}
+                  {{--</li>--}}
+                  {{--<li class="nav-item">--}}
+                    {{--<a class="nav-link" href="#">Категория 6</a>--}}
+                  {{--</li>--}}
+                {{--</ul>--}}
+              {{--</nav>--}}
+            {{--</div>--}}
+            <div class="col-12 col-lg-3 example about_lot_title" >
+              <div class="anchor ">
+                <ul >
+                  <li >
+                    <label class="ul">
+                      <i class="fas fa-angle-down open"></i>
+                      <i class="fas fa-angle-right "></i>
+                      <a href="/categories"> Часы старинные</a>
+                    </label>
+                    <ul class="open">
+                      <li >
+                        <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Часы наручные</a></label>
+                        <ul class="open">
+                          <li><label><a href="#"> Чайка</a></label></li>
+                          <li><label><a href="#"> Haarlem</a></label></li>
+                          <li><label><a href="#"> Alkmaar</a></label></li>
+                        </ul>
+                      </li>
+                      <li >
+                        <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Часы настольные</a></label>
+                        <ul class="open">
+                          <li><label><a href="#"> Чайка</a></label></li>
+                          <li><label><a href="#"> Haarlem</a></label></li>
+                          <li><label><a href="#"> Alkmaar</a></label></li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 2</a>
+                  <li >
+                    <label class="ul"><i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Нумизматика</a></label>
+                    <ul class="open">
+                      <li >
+                        <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Монеты СССР</a></label>
+                        <ul class="open">
+                          <li><label><a href="#"> Чайка</a></label></li>
+                          <li><label><a href="#"> Haarlem</a></label></li>
+                          <li><label><a href="#"> Alkmaar</a></label></li>
+                        </ul>
+                      </li>
+                      <li >
+                        <label class="ul"><a href="#">  Монеты Украины</a></label>
+
+                      </li>
+                    </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 3</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 4</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 5</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Категория 6</a>
+                  <li>
+
+                    <label class="ul"><a href="#"> Живопись </a></label>
                   </li>
                 </ul>
-              </nav>
+              </div>
             </div>
 @endsection 
 @section('content')            
@@ -43,7 +95,7 @@
                         <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elito </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -56,7 +108,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -69,7 +121,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -82,7 +134,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -95,7 +147,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -108,7 +160,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -126,7 +178,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -139,7 +191,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -152,7 +204,7 @@
                         <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -166,7 +218,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -179,7 +231,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
@@ -192,7 +244,7 @@
                         <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
                         <h5 class="price bold">520 грн</h5>
                         <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
-                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span>(+65)</span>
+                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
                         <a href="#" class="btn btn-light bet">Сделать ставку</a>
                       </div>
                     </div>
