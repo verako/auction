@@ -89,6 +89,7 @@
                         <span class="carousel-control-next-icon"></span>
                     </a>
             </div>
+<!--  /карусель мобильная версия -->
         </div>
         <div class="col-12 col-lg-8 oneproduct">
             <div class="about_lot_title row prices">

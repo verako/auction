@@ -129,7 +129,114 @@
             </div>
 @endsection 
 @section('content') 
-            <div class="col-12 col-lg-9 sample" >
+            <div class="col-12 col-lg-9 categor" >
+                <h1>Название категории</h1>
+                <hr>
+
+                <div id="carouselExampleIndicators"  class="carousel slide " data-ride="carousel" id="light2">
+                    <h4>Рекламируемые лоты</h4>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active  ">
+                            <div class="row">
+                                <div class="col-6 col-lg-4">
+                                    <div class="card" >
+                                        <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                                        <a href="/card"><img class="card-img-top" src="img\1.jpg" alt="Card image cap"></a>
+                                        <div class="card-body">
+                                            <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                                            <h5 class="price bold">520 грн</h5>
+                                            <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                                            <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
+                                            <a href="#" class="btn btn-light bet">Сделать ставку</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4">
+                                    <div class="card" >
+                                        <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                                        <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
+                                        <div class="card-body">
+                                            <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                                            <h5 class="price bold">520 грн</h5>
+                                            <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                                            <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
+                                            <a href="#" class="btn btn-light bet">Сделать ставку</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4">
+                                    <div class="card" >
+                                        <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                                        <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
+                                        <div class="card-body">
+                                            <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                                            <h5 class="price bold">520 грн</h5>
+                                            <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                                            <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
+                                            <a href="#" class="btn btn-light bet">Сделать ставку</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item  ">
+                            <div class="row">
+                                <div class="col-6 col-lg-4">
+                                <div class="card" >
+                                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                                    <a href="/card"><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>
+                                    <div class="card-body">
+                                        <a href="/card" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                                        <h5 class="price bold">520 грн</h5>
+                                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
+                                        <a href="#" class="btn btn-light bet">Сделать ставку</a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-6 col-lg-4">
+                                <div class="card" >
+                                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                                    <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
+                                    <div class="card-body">
+                                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                                        <h5 class="price bold">520 грн</h5>
+                                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
+                                        <a href="#" class="btn btn-light bet">Сделать ставку</a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-6 col-lg-4">
+                                <div class="card" >
+                                    <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
+                                    <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
+                                    <div class="card-body">
+                                        <a href="#" class="card-title bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+                                        <h5 class="price bold">520 грн</h5>
+                                        <p class="ending">Окончание: 10.05.2019, 20:00:00+5</p>
+                                        <a href="" class="card-user"><i class="far fa-user"></i> User </a><span class="plus">(+6</span> / <span class="minus">-1)</span>
+                                        <a href="#" class="btn btn-light bet">Сделать ставку</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.carousel-inner -->
+                    {{--<a class="carousel-control-prev" href="#light2" role="button" data-slide="prev">--}}
+                        {{--<span class="carousel-control-prev-icon"></span>--}}
+                    {{--</a>--}}
+                    {{--<a class="carousel-control-next" href="#light2" role="button" data-slide="next">--}}
+                        {{--<span class="carousel-control-next-icon"></span>--}}
+                    {{--</a>--}}
+                </div>
+                <hr>
               <div class="row">                
                 <div class="col-6 col-lg-4">
                   <div class="card" >

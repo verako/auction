@@ -85,6 +85,9 @@ html, body {
 .nav-link:hover{
     color: #953014;
 }
+.nav-item{
+    margin-right: 15px;
+}
 .fa-facebook{
     color:#324F8B; 
 }
@@ -163,8 +166,9 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
     color: #ffffff;
 }
 .add_lot_header{
-    margin-right: 2%;
+   // margin-right: 2%;
     color: #953014;
+    height: 40px;
 }
 .add_lot_header:hover{
     background: #953014;
@@ -176,9 +180,16 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 .pull-right{
     color:#888;
 }
-
-
-
+/*карусель в категориях*/
+.carousel-indicators li{
+    background-color: #1b1e21;
+}
+#carouselExampleIndicators{
+    margin-bottom: 50px;
+}
+.carousel-indicators{
+    top: 100%;
+}
 
 /*navbar*/
 .quantity{
@@ -239,10 +250,10 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
     /*width: 100%;*/
 /*}*/
 .form-inline{
-    width: 55%;
+    //width: 55%;
 }
 .form-inline .form-control{
-    width: 80%;
+    width: 300px;
     margin: 0 10px;
 }
 .ui-tabs .ui-tabs-nav{
@@ -308,10 +319,16 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 }
 .card{
     border: 1px #fff solid;
+    text-align: center;
+}
+.card .card-body{
+    text-align: left;
 }
 .card-img-top{
     height: 278px;
+    width: auto;
 }
+
 .follow{
   position: absolute;
   width: 100%;
@@ -904,12 +921,16 @@ ul{
 .example{
     text-align: left;
 }
-.sample{
+.sample,.categor{
     padding-left: 5px;
 }
 .sample h1{
     text-align: center;
     margin-bottom: 30px;
+}
+.categor .carousel-inner .carousel-item .row div:first-child .card,
+.categor .carousel-inner .carousel-item .row div:last-child .card{
+    background-color: #FDF2D3;
 }
 .transition{
     width: 32px;
@@ -967,7 +988,23 @@ ul{
 #pagination-flickr a:hover{ 
     border:solid 1px #ddd; 
 }
-
+.search-menu{
+    display: block;
+}
+.search-head{
+    display: none;
+}
+@media (max-width: 767px){
+    .search-menu{
+        display: none;
+    }
+    .search-head{
+        display: block;
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+}
 @media (max-width: 991px){
     /*для планшетов скрывем одну карусель, показываем друю*/
     .owl-wrapper-outer, .center-text, .bxslider, .bx-controls-direction, .bx-wrapper{
@@ -979,5 +1016,29 @@ ul{
     .quantity{
         display: none;
     }
+    .form-inline .form-control{
+        margin: 0;
+        width: 100px;
+    }
+    .row{
+        margin-left: -15px;
+    }
+    .links ul{
+        padding-left: 0;
+    }
 
+}
+@media (min-width: 1170px){
+    .form-inline .form-control{
+        margin: 0;
+        margin-right: 5px;
+        width: 350px;
+    }
+}
+@media (min-width: 1210px){
+    .form-inline .form-control{
+        margin: 0;
+        margin-right: 5px;
+        width: 450px;
+    }
 }

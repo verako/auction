@@ -98,6 +98,14 @@
           <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 base-color">
             <div class="container">
               <a class="navbar-brand" href="/">LOGO</a>
+                <form class="form-inline search-head" onsubmit="location.href='/search';return false">
+                    <input class="form-control search" type="text" placeholder="Поиск" aria-label="Search"  >
+
+                    {{--<button class="btn btn-light " type="submit"><a class="text-muted " href="/search"onclick=" location.href='/search'">--}}
+                            {{--<i class="fas fa-search white"></i>--}}
+                        {{--</a></button>--}}
+                </form>
+                <a href="/add_lot" class="btn add_lot_header search-head"><i class="fas fa-plus"></i> лот</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>            
               <div class="collapse navbar-collapse left" id="navbarCollapse">
                 <ul class="navbar-nav ">
@@ -110,29 +118,29 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Separated link</a>
                       </div>
-                  </li>               
-                </ul>
-                <form class="form-inline ">
-                  <input class="form-control search" type="text" placeholder="Поиск" aria-label="Search">
+                  </li>
+                    <li class="nav-item">
+                        <form class="form-inline search-menu" onsubmit="location.href='/search';return false">
+                            <input class="form-control search" type="text" placeholder="Поиск" aria-label="Search">
 
-                  <button class="btn btn-light " type="submit"><a class="text-muted " href="/search">
-                      <i class="fas fa-search white"></i>
-                  </a></button>
-                </form>
-                  <a href="/add_lot" class="btn add_lot_header">Добавить лот</a>
-                  {{--<a href="/admin" class="btn add_lot_header">Админ</a>--}}
-                <ul class="navbar-nav ">
-                  <li class="nav-item dropdown  base-border-color">
-                    <a class="nav-link dropdown-toggle base-color regulations" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>
-                      <div class="dropdown-menu base-color">
-                        <a class="dropdown-item" href="#">О нас</a>
-                        <a class="dropdown-item" href="#">Правила</a>
-                        <a class="dropdown-item" href="#">Часто задаваемые вопросы</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Как купить?</a>
-                        <a class="dropdown-item" href="#">Как продать?</a>
-                      </div>
-                  </li>               
+                            <button class="btn btn-light " type="submit"><a class="text-muted " href="/search">
+                            <i class="fas fa-search white"></i>
+                            </a></button>
+                        </form>
+                    </li>
+                    <li class="nav-item"><a href="/add_lot" class="btn add_lot_header search-menu">Добавить лот</a></li>
+                    {{--<li><a href="/admin" class="btn add_lot_header">Админ</a></li>--}}
+                    <li class="nav-item dropdown  base-border-color">
+                        <a class="nav-link dropdown-toggle base-color regulations" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>
+                        <div class="dropdown-menu base-color">
+                            <a class="dropdown-item" href="#">О нас</a>
+                            <a class="dropdown-item" href="#">Правила</a>
+                            <a class="dropdown-item" href="#">Часто задаваемые вопросы</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Как купить?</a>
+                            <a class="dropdown-item" href="#">Как продать?</a>
+                        </div>
+                    </li>
                 </ul>
               </div>
             </div>
@@ -175,14 +183,15 @@
                 </ul>
               </div>
               <div class="col-12 col-lg-3">
-                <p class="base-text-color bold">Сменить язык интерфейса</p>
+                {{--<p class="base-text-color bold">Сменить язык интерфейса</p>--}}
                 <ul class="info">                  
-                  <li>
-                    <select class="base-color base-border-color">
-                      <option>Русский</option>
-                      <option>Украинский</option>
-                    </select>
-                  </li>
+                  {{--<li>--}}
+                    {{--<select class="base-color base-border-color">--}}
+                      {{--<option>Русский</option>--}}
+                      {{--<option>Украинский</option>--}}
+                    {{--</select>--}}
+                  {{--</li>--}}
+                  <li><a href="/add_lot" class="btn add_lot_header">Добавить лот</a></li>
                   <li><a href="#" class="btn btn-light top"><i class="fas fa-angle-up"></i></a></li>
                 </ul>
                 
