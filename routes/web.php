@@ -35,6 +35,12 @@ Route::get('/categories', function () {
 Route::get('/search', function () {
     return view('search');
 });
+Route::get('/regulations', function () {
+    return view('regulations');
+});
+Route::get('/questions', function () {
+    return view('questions');
+});
 Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');

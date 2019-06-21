@@ -223,6 +223,12 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 .messages{
     font-size: 20px;
 }
+.search-menu{
+    display: block;
+}
+.search-head{
+    display: none;
+}
 .language{
      font-size: 14px;
 }
@@ -988,11 +994,36 @@ ul{
 #pagination-flickr a:hover{ 
     border:solid 1px #ddd; 
 }
-.search-menu{
-    display: block;
+
+/*правила*/
+.registrations p{
+    color: #777;
+//text-align: center;
 }
-.search-head{
-    display: none;
+.registrations h1, .registrations h2{
+    margin: 30px 0;
+}
+/*вопросы*/
+#questions{
+   margin-bottom: 30px;
+}
+
+#questions .ui-state-active .ui-icon,#questions .ui-button:active .ui-icon {
+    background-image: url("../img/ui-icons_444444_256x240.png");
+}
+#questions .ui-state-default,#questions .ui-widget-content .ui-state-default,
+#questions .ui-widget-header .ui-state-default,#questions .ui-button,
+#questions html .ui-button.ui-state-disabled:hover,#questions html .ui-button.ui-state-disabled:active{
+    background: #fff;
+}
+#questions .ui-state-active,#questions .ui-widget-content .ui-state-active,
+#questions .ui-widget-header .ui-state-active,#questions a.ui-button:active,
+#questions .ui-button:active,#questions .ui-button.ui-state-active:hover {
+    background: #FDF2D3;
+    color: #212529;
+}
+.questions h1{
+    margin-bottom: 30px;
 }
 @media (max-width: 767px){
     .search-menu{

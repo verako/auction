@@ -94,6 +94,11 @@ $(document).ready(function () {
     	//карточка лота
     	$( "#tabs" ).tabs();
 
+    	//часто задаваемые вопросы
+        $( "#questions" ).accordion({
+            collapsible: false
+        });
+
 
   	});
 

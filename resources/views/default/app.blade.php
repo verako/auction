@@ -83,15 +83,7 @@
                               </ul>
                       </div>
                   @endif
-                    {{--<div class="top-right links search_hed">--}}
-                      {{--<form class="form-inline ">--}}
-                          {{--<input class="form-control search" type="text" placeholder="Поиск" aria-label="Search">--}}
 
-                          {{--<button class="btn btn-light " type="submit"><a class="text-muted " href="/search">--}}
-                                  {{--<i class="fas fa-search white"></i>--}}
-                              {{--</a></button>--}}
-                      {{--</form>--}}
-                    {{--</div>--}}
               </div>
             </div>
           </div>
@@ -134,8 +126,8 @@
                         <a class="nav-link dropdown-toggle base-color regulations" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>
                         <div class="dropdown-menu base-color">
                             <a class="dropdown-item" href="#">О нас</a>
-                            <a class="dropdown-item" href="#">Правила</a>
-                            <a class="dropdown-item" href="#">Часто задаваемые вопросы</a>
+                            <a class="dropdown-item" href="/regulations">Правила</a>
+                            <a class="dropdown-item" href="/questions">Часто задаваемые вопросы</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Как купить?</a>
                             <a class="dropdown-item" href="#">Как продать?</a>
