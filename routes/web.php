@@ -41,6 +41,12 @@ Route::get('/regulations', function () {
 Route::get('/questions', function () {
     return view('questions');
 });
+Route::get('/admin', function () {
+    return view('admin');
+});
+Route::get('/admin_cat', function () {
+    return view('admin_cat');
+});
 Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');
