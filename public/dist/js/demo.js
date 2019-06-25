@@ -364,5 +364,15 @@ $(function () {
         $(this).select();
         //$(this).lcs(this);
     });
+// в администрировании лота удаление/отмена удаления
+    $('.trash').click(function(){
+        $(this).next('.closes').toggleClass('none');
+        $(this).toggleClass('none');
+    });
+    $('.closes').click(function(){
+        $(this).prev('.trash').toggleClass('none');
+        $(this).toggleClass('none');
+    });
+
 
 })

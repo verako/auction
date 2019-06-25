@@ -93,7 +93,7 @@
               </select>
             </div>
 
-            <p style="color: #DD4B39;"><i class="fa fa-edit"></i> Или сразу вводите имя новой категории для добавления:</p>
+            <p class="red"><i class="fa fa-edit"></i> Или сразу вводите имя новой категории для добавления:</p>
 
             <!-- text input -->
             <div class="form-group">
@@ -126,7 +126,7 @@
           <form role="form">
             <!-- select -->
             <div class="form-group">
-              <label>Выберите категорию:</label>
+              <label>* Выберите категорию:</label>
               <select class="form-control">
                 <option>Старинные часы</option>
                 <option>Нумизматика</option>
@@ -141,12 +141,12 @@
               </select>
             </div>
 
-            <p style="color: #DD4B39;"><i class="fa fa-edit"></i> Или сразу вводите имя новой подкатегории для добавления:</p>
+            <p class="red"><i class="fa fa-edit"></i> Или сразу вводите имя новой подкатегории для добавления:</p>
 
             <!-- text input -->
             <div class="form-group">
-              <label>Название категории:</label>
-              <input type="text" class="form-control" placeholder="Название категории">
+              <label>Название подкатегории:</label>
+              <input type="text" class="form-control" placeholder="Название подкатегории">
             </div>
             <button type="button" class="btn btn-warning">Добавить</button>
             <button type="submit" class="btn btn-primary">Сохранить</button>
@@ -169,7 +169,7 @@
           <form role="form">
             <!-- select -->
             <div class="form-group">
-              <label>Выберите категорию:</label>
+              <label>* Выберите категорию:</label>
               <select class="form-control">
                 <option>Старинные часы</option>
                 <option>Нумизматика</option>
@@ -177,7 +177,7 @@
             </div>
             <!-- select -->
             <div class="form-group">
-              <label>Выберите подкатегорию:</label>
+              <label>* Выберите подкатегорию:</label>
               <select class="form-control">
                 <option>Наручные часы</option>
                 <option>Монеты СССР</option>
@@ -191,12 +191,12 @@
                 <option>Монеты СССР 1950</option>
               </select>
             </div>
-            <p style="color: #DD4B39;"><i class="fa fa-edit"></i> Или сразу вводите имя новой подкатегории для добавления:</p>
+            <p class="red"><i class="fa fa-edit"></i> Или сразу вводите имя новой подкатегории для добавления:</p>
 
             <!-- text input -->
             <div class="form-group">
               <label>Название для подкатегории:</label>
-              <input type="text" class="form-control" placeholder="Название категории">
+              <input type="text" class="form-control" placeholder="Название подкатегории">
             </div>
             <button type="button" class="btn btn-warning">Добавить</button>
             <button type="submit" class="btn btn-primary">Сохранить</button>

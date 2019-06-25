@@ -47,6 +47,24 @@ Route::get('/admin', function () {
 Route::get('/admin_cat', function () {
     return view('admin_cat');
 });
+Route::get('/admin_lot', function () {
+    return view('admin_lot');
+});
+Route::get('/admin_comment', function () {
+    return view('admin_comment');
+});
+Route::get('/admin_pages_questions', function () {
+    return view('admin_pages_questions');
+});
+Route::get('/admin_pages_regulations', function () {
+    return view('admin_pages_regulations');
+});
+Route::get('/admin_users', function () {
+    return view('admin_users');
+});
+Route::get('/admin_mailbox', function () {
+    return view('admin_mailbox');
+});
 Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');

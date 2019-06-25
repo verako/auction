@@ -102,20 +102,20 @@
             </div>
             <!-- text input -->
             <div class="form-group">
-              <label>Для первых</label>
+              <label><i class="fa fa-users"></i> Для первых </label>
               <input type="text" class="form-control" placeholder="Количество пользователей">
             </div>
 
             <div class="form-group">
               <label>Период</label>
-              <label for="datetime" class="col-form-label">с:</label>
+              <label for="datetime" class="col-form-label"> с: <i class="fa fa-calendar"></i></label>
               <input type="text" value="dd-mm-yy" id="datetime1"   onfocus="this.select();lcs(this)" >
-              <label for="datetime" class="col-form-label">по:</label>
+              <label for="datetime" class="col-form-label"> по: <i class="fa fa-calendar"></i></label>
               <input type="text" value="dd-mm-yy" id="datetime2"   onfocus="this.select();lcs(this)" >
             </div>
             <!-- text input -->
             <div class="form-group">
-              <label>Количество бонусных процентов:</label>
+              <label><i class="fa fa-gift"></i> Количество бонусных процентов:</label>
               <input type="text" class="form-control" placeholder="Количество бонусных %">
             </div>
 
@@ -134,6 +134,7 @@
                 </label>
               </div>
             </div>
+            <button type="submit" class="btn btn-primary">Сохранить</button>
           </form>
         </div>
         <!-- /.box-body -->
