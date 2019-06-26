@@ -5,11 +5,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Категории
+        Лоты
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Админка</a></li>
-        <li class="active">Категории</li>
+        <li class="active">Лоты</li>
       </ol>
     </section>
 

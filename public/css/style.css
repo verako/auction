@@ -192,6 +192,9 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 }
 
 /*navbar*/
+.home_menu a{
+    font-size: 14px;
+}
 .quantity{
     color: #c5c5c5;
 }

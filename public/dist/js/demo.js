@@ -374,5 +374,107 @@ $(function () {
         $(this).toggleClass('none');
     });
 
+// в админ комментариев выбрать все
+    $("#check_all_comment").click(function(){
+        var child=$('.check_comment');
+        //console.log(child);
+
+        child.each(function(i,elem) {
+            console.log(this);
+            if ($("#check_all_comment").prop("checked")==true){
+                if ($(this).prop("checked")==false) {
+                    $(this).prop("checked",true);
+                };
+            }
+            else {
+                if ($(this).prop("checked")==true) {
+                    $(this).prop("checked",false);
+                };
+            }
+
+        });
+    });
+    $("#check_all").click(function(){
+        var child=$('.all');
+        //console.log(child);
+
+        child.each(function(i,elem) {
+            console.log(this);
+            if ($("#check_all").prop("checked")==true){
+                if ($(this).prop("checked")==false) {
+                    $(this).prop("checked",true);
+                };
+            }
+            else {
+                if ($(this).prop("checked")==true) {
+                    $(this).prop("checked",false);
+                };
+            }
+
+        });
+    });
+//убираем check, если сняли хотябы одну галочку
+    $(".all").click(function(){
+        var all=$('.all');
+        var length=(all.length);
+        // console.log(length);
+        if ($(this).prop("checked")==false){
+            $("#check_all").prop("checked",false);
+        }
+        //return false;
+        else {
+            var i=0;
+            all.each(function(k,element){
+                if ($(this).prop("checked")==true)
+                //$(this).prop("checked",true);
+                i++;
+
+            });
+    //ставим check_all если все галочки стоят
+            if (length==i){
+                $("#check_all").prop("checked",true);
+            }
+
+        }
+    });
+
+    $(".check_comment").click(function(){
+        var all=$('.check_comment');
+        var length=(all.length);
+        // console.log(length);
+        if ($(this).prop("checked")==false){
+            $("#check_all_comment").prop("checked",false);
+        }
+        //return false;
+        else {
+            var i=0;
+            all.each(function(k,element){
+                if ($(this).prop("checked")==true)
+                //$(this).prop("checked",true);
+                    i++;
+
+            });
+            //ставим check_all если все галочки стоят
+            if (length==i){
+                $("#check_all_comment").prop("checked",true);
+            }
+
+        }
+    });
+//редактор страниц
+    $(function () {
+        // Replace the <textarea id="editor1"> with a CKEditor
+        // instance, using default configuration.
+        CKEDITOR.replace('editor1')
+        //bootstrap WYSIHTML5 - text editor
+        $('.textarea').wysihtml5()
+    })
+    $(function () {
+        // Replace the <textarea id="editor1"> with a CKEditor
+        // instance, using default configuration.
+        CKEDITOR.replace('editor2')
+        //bootstrap WYSIHTML5 - text editor
+        $('.textarea').wysihtml5()
+    })
 
 })

@@ -89,7 +89,7 @@
           </div>
           <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 base-color">
             <div class="container">
-              <a class="navbar-brand" href="/">LOGO</a>
+              <a class="navbar-brand" href="/"><img src="img/logo_gold.png" alt="" style="width: 8em"></a>
                 <form class="form-inline search-head" onsubmit="location.href='/search';return false">
                     <input class="form-control search" type="text" placeholder="Поиск" aria-label="Search"  >
 

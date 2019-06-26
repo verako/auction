@@ -19,6 +19,8 @@
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href={{ asset('dist/css/skins/_all-skins.min.css') }}>
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link rel="stylesheet" href={{ asset('plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}>
     <link rel="stylesheet" href={{ asset('dist/css/admin_style.css') }}>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -313,9 +315,10 @@
 
                 <li>
                     <a href="/admin_comment">
-                        <i class="fa fa-comment"></i> <span>Комментарии</span>
+                        <i class="fa fa-comment"></i> <span>Комментарии / отзывы</span>
                         <span class="pull-right-container">
-                            <small class="label pull-right bg-green">20</small>
+                            <small class="label pull-right bg-green">12</small>
+
                         </span>
                     </a>
                 </li>
@@ -388,10 +391,17 @@
 <script src="bower_components/chart.js/Chart.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="dist/js/pages/dashboard2.js"></script>
+<!-- CK Editor -->
+<script src="bower_components/ckeditor/ckeditor.js"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 {{--календарь--}}
 <script type="text/javascript" src={{ asset("js\calendar.js")}}></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+<script>
+
+</script>
 </body>
 </html>
 

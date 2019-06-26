@@ -26,49 +26,54 @@
               {{--</nav>--}}
             {{--</div>--}}
             <div class="col-12 col-lg-3 example about_lot_title" >
-              <div class="anchor ">
+              <h5>Разделы</h5>
+              <div class="anchor home_menu">
                 <ul >
                   <li >
                     <label class="ul">
-                      <i class="fas fa-angle-down open"></i>
-                      <i class="fas fa-angle-right "></i>
                       <a href="/categories"> Часы старинные</a>
+                      {{--<i class="fas fa-angle-down open"></i>--}}
+                      {{--<i class="fas fa-angle-left "></i>--}}
                     </label>
-                    <ul class="open">
-                      <li >
-                        <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Часы наручные</a></label>
-                        <ul class="open">
-                          <li><label><a href="#"> Чайка</a></label></li>
-                          <li><label><a href="#"> Haarlem</a></label></li>
-                          <li><label><a href="#"> Alkmaar</a></label></li>
-                        </ul>
-                      </li>
-                      <li >
-                        <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Часы настольные</a></label>
-                        <ul class="open">
-                          <li><label><a href="#"> Чайка</a></label></li>
-                          <li><label><a href="#"> Haarlem</a></label></li>
-                          <li><label><a href="#"> Alkmaar</a></label></li>
-                        </ul>
-                      </li>
-                    </ul>
+                    {{--<ul class="open">--}}
+                      {{--<li >--}}
+                        {{--<label class="ul"><a href="#"> Часы наручные</a> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i></label>--}}
+                        {{--<ul class="open">--}}
+                          {{--<li><label><a href="#"> Чайка</a></label></li>--}}
+                          {{--<li><label><a href="#"> Haarlem</a></label></li>--}}
+                          {{--<li><label><a href="#"> Alkmaar</a></label></li>--}}
+                        {{--</ul>--}}
+                      {{--</li>--}}
+                      {{--<li >--}}
+                        {{--<label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Часы настольные</a></label>--}}
+                        {{--<ul class="open">--}}
+                          {{--<li><label><a href="#"> Чайка</a></label></li>--}}
+                          {{--<li><label><a href="#"> Haarlem</a></label></li>--}}
+                          {{--<li><label><a href="#"> Alkmaar</a></label></li>--}}
+                        {{--</ul>--}}
+                      {{--</li>--}}
+                    {{--</ul>--}}
                   </li>
                   <li >
-                    <label class="ul"><i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Нумизматика</a></label>
-                    <ul class="open">
-                      <li >
-                        <label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Монеты СССР</a></label>
-                        <ul class="open">
-                          <li><label><a href="#"> Чайка</a></label></li>
-                          <li><label><a href="#"> Haarlem</a></label></li>
-                          <li><label><a href="#"> Alkmaar</a></label></li>
-                        </ul>
-                      </li>
-                      <li >
-                        <label class="ul"><a href="#">  Монеты Украины</a></label>
+                    <label class="ul">
+                      {{--<i class="fas fa-angle-down open"></i>--}}
+                      {{--<i class="fas fa-angle-right "></i>--}}
+                      <a href="#"> Нумизматика</a>
+                    </label>
+                    {{--<ul class="open">--}}
+                      {{--<li >--}}
+                        {{--<label class="ul"> <i class="fas fa-angle-down open"></i><i class="fas fa-angle-right "></i><a href="#"> Монеты СССР</a></label>--}}
+                        {{--<ul class="open">--}}
+                          {{--<li><label><a href="#"> Чайка</a></label></li>--}}
+                          {{--<li><label><a href="#"> Haarlem</a></label></li>--}}
+                          {{--<li><label><a href="#"> Alkmaar</a></label></li>--}}
+                        {{--</ul>--}}
+                      {{--</li>--}}
+                      {{--<li >--}}
+                        {{--<label class="ul"><a href="#">  Монеты Украины</a></label>--}}
 
-                      </li>
-                    </ul>
+                      {{--</li>--}}
+                    {{--</ul>--}}
                   </li>
                   <li>
 
