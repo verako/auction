@@ -21,6 +21,8 @@
     <link rel="stylesheet" href={{ asset('dist/css/skins/_all-skins.min.css') }}>
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href={{ asset('plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}>
+    <!-- iCheck -->
+    <link rel="stylesheet" href={{ asset('plugins/iCheck/flat/blue.css') }}>
     <link rel="stylesheet" href={{ asset('dist/css/admin_style.css') }}>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -40,7 +42,7 @@
     <header class="main-header">
 
         <!-- Logo -->
-        <a class="navbar-brand" href="/">LOGO</a>
+        <a class="navbar-brand" href="/"><img src="img/logo_white_text_.png" style="width:150px ;" alt=""></a>
     {{--<a href="/" class="logo">--}}
     {{--<!-- mini logo for sidebar mini 50x50 pixels -->--}}
     {{--<span class="logo-mini"><b>A</b>LT</span>--}}
@@ -391,10 +393,14 @@
 <script src="bower_components/chart.js/Chart.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="dist/js/pages/dashboard2.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
 <!-- CK Editor -->
 <script src="bower_components/ckeditor/ckeditor.js"></script>
 <!-- Bootstrap WYSIHTML5 -->
 <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<!-- iCheck -->
+<script src="plugins/iCheck/icheck.min.js"></script>
 {{--календарь--}}
 <script type="text/javascript" src={{ asset("js\calendar.js")}}></script>
 <!-- AdminLTE for demo purposes -->

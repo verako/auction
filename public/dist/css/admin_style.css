@@ -31,3 +31,12 @@ label{
 .center{
     text-align: center;
 }
+.plus{
+    color: #00A65A;
+}
+.minus{
+    color: #DD4B39;
+}
+.content-wrapper{
+    //margin-left: 0;
+}

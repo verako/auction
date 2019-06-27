@@ -65,6 +65,12 @@ Route::get('/admin_users', function () {
 Route::get('/admin_mailbox', function () {
     return view('admin_mailbox');
 });
+Route::get('/admin_compose', function () {
+    return view('admin_compose');
+});
+Route::get('/read_mail', function () {
+    return view('read_mail');
+});
 Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');
