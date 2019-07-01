@@ -40,7 +40,7 @@ $(document).ready(function () {
                 itemsDesktop:      [1400, 5],
 
                 // 3 блока на маленьких компьютерах (экран от 900px до 601px)
-                itemsDesktopSmall: [991, 0],
+                //itemsDesktopSmall: [991, 0],
 
                 // 2 элемента на планшетах (экран от 600 до 480 пикселей)
                // itemsTablet:       [600, 2],
@@ -101,7 +101,18 @@ $(document).ready(function () {
 
 
   	});
-
+//карусель рекламмы в категории
+    $( function()  {
+        $("#news-slider").owlCarousel({
+            items:3,
+            itemsDesktop:[1199,3],
+            itemsDesktopSmall:[992,2],
+            itemsMobile:[767,1],
+            pagination:false,
+            navigationText:false,
+            autoPlay:true
+        });
+    });
 
 //дерево категорий
   	$('.anchor').deepcheckbox({

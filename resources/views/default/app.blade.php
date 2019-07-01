@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Laravel</title>
+        <title>ANTIK-AS</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href={{ asset('css/jquery.bxslider.css') }}>
         <link rel="stylesheet" href={{ asset('owl-carousel\owl.carousel.css') }}>
         <link rel="stylesheet" type="text/css" href={{ asset('css/style.css') }}>
-
+        <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
         <!-- js -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
@@ -89,7 +89,7 @@
           </div>
           <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 base-color">
             <div class="container">
-              <a class="navbar-brand" href="/"><img src="img/logo_gold.png" alt="" style="width: 8em"></a>
+              <a class="navbar-brand logo-a" href="/"><img class="logo-img" src="img/logo_gold.png" alt="" ></a>
                 <form class="form-inline search-head" onsubmit="location.href='/search';return false">
                     <input class="form-control search" type="text" placeholder="Поиск" aria-label="Search"  >
 
@@ -153,11 +153,11 @@
           <div class="container">
             <div class="row">
               <div class="col-12 col-lg-3">
-                <a class="navbar-brand" href="#">LOGO</a><br>
+                <a class="navbar-brand logo-a-footer" href="/"><img class="logo-img" src="img/logo_gold.png" alt="" ></a><br>
                 <a href=""><i class="fab fa-facebook "></i></a>
                 <a href=""><i class="fab fa-twitter-square "></i></a>
               </div>
-              <div class="col-12 col-lg-3">
+              <div class="col-12 col-lg-3 info-footer">
                 <p class="base-text-color bold">Информация</p>
                 <ul class="info">
                   <li><a class="base-text-color" href="">Правила</a></li>

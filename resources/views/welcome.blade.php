@@ -92,7 +92,7 @@
               </ul>
               <div id="tabs-1">                
                 <div class="row">                
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href="/card"><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>                
@@ -105,7 +105,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
@@ -118,7 +118,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
@@ -131,7 +131,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>
@@ -144,7 +144,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
@@ -157,7 +157,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
@@ -175,7 +175,7 @@
               </div>
               <div id="tabs-2">
                 <div class="row">
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
@@ -188,7 +188,7 @@
                       </div>
                     </div>
                   </div> 
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
@@ -201,7 +201,7 @@
                       </div>
                     </div>
                   </div>               
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href="/card"><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>                
@@ -215,7 +215,7 @@
                     </div>
                   </div>            
                   
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>
@@ -228,7 +228,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
@@ -241,7 +241,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-6 col-lg-4">
+                  <div class="col-12 col-lg-6 col-xl-4">
                     <div class="card" >
                       <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                       <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
@@ -262,7 +262,7 @@
             </div>
 @endsection
 @section('content_home')          
-          <div class="row">
+          <div class="row advantages_working">
             <div class="col-12 col-lg-12 advantag">
               <h3>Преимущества работы с нами</h3>
             </div>

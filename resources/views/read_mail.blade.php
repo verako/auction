@@ -113,7 +113,7 @@
                       <!-- /.mailbox-read-message -->
                     </div>
                     <!-- /.box-body -->
-                    
+
                     <div class="box-footer">
                       <div class="pull-right">
                         <button type="button" class="btn btn-default"><i class="fa fa-reply"></i> Reply</button>

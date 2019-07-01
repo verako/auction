@@ -192,6 +192,12 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 }
 
 /*navbar*/
+.logo-a{
+    width: 15%;
+}
+.logo-img{
+    width: 100%;
+}
 .home_menu a{
     font-size: 14px;
 }
@@ -418,7 +424,7 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
     margin-bottom: 70px;
 }
 
-
+/*footer*/
 footer{
     
     padding-top: 30px;
@@ -439,6 +445,13 @@ footer{
     font-size: 25px;
     padding-right: 10px;
 }
+.logo-a-footer{
+    margin-bottom: 20px;
+}
+.info-footer{
+    padding-left: 30px;
+}
+/*/footer*/
 
 /*один товар*/
 /*карусель одного товара*/
@@ -937,6 +950,61 @@ ul{
     text-align: center;
     margin-bottom: 30px;
 }
+/*карусель в категории*/
+.post-slide{
+    margin: 0 15px;
+    border-bottom: 1px solid #dadada;
+    box-shadow: 0 0 5px rgba(167, 197, 167, 0.8);
+    transition: all 0.4s ease-in-out 0s;
+}
+.post-slide .post-img{
+    position: relative;
+    overflow: hidden;
+}
+.post-slide .post-img:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: all 0.4s linear 0s;
+}
+.post-slide:hover .post-img:before{
+    background: rgba(0, 0, 0, 0.6);
+}
+.post-slide .post-img img{
+    width: 100%;
+    height: auto;
+}
+.post-slide .category {
+    width: 35%;
+    font-size: 14px;
+    color: #fff;
+//line-height: 11px;
+    text-align: center;
+//text-transform: capitalize;
+    padding: 11px 0;
+    background: #953014;
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    transition: all 0.5s ease-in-out 0s;
+    border-radius: 5px;
+}
+.post-slide:hover .category{
+    left: 0;
+}
+.post-slide .post-review{
+    padding: 25px 20px;
+    background: #fff;
+    position: relative;
+}
+
+@media only screen and (max-width: 359px) {
+    .post-slide .category{ font-size: 13px; }
+}
 .categor .carousel-inner .carousel-item .row div:first-child .card,
 .categor .carousel-inner .carousel-item .row div:last-child .card{
     background-color: #FDF2D3;
@@ -944,8 +1012,9 @@ ul{
 .transition{
     width: 32px;
     height: 32px;
-
 }
+
+
 /*пагинация*/
 .page{
     margin-bottom: 20px;
@@ -1028,20 +1097,10 @@ ul{
 .questions h1{
     margin-bottom: 30px;
 }
-@media (max-width: 767px){
-    .search-menu{
-        display: none;
-    }
-    .search-head{
-        display: block;
-    }
-    .navbar-nav{
-        width: 100%;
-    }
-}
+
 @media (max-width: 991px){
     /*для планшетов скрывем одну карусель, показываем друю*/
-    .owl-wrapper-outer, .center-text, .bxslider, .bx-controls-direction, .bx-wrapper{
+    #bx-pager .owl-wrapper-outer, .center-text, .bxslider, .bx-controls-direction, .bx-wrapper{
         display: none;
     }
     .mobilever{
@@ -1055,21 +1114,66 @@ ul{
         width: 100px;
     }
     .row{
-        margin-left: -15px;
+        //margin-left: -15px;
     }
     .links ul{
         padding-left: 0;
     }
+    .logo-a {
+        width: 17%;
+    }
+    .welcome .ui-widget.ui-widget-content {
+        border-left: 1px  solid #c5c5c5;;
+    }
+    .follow {
+        margin-left: 0px;
+    }
+    .logo-a-footer{
+        width: 35%;
+    }
+    .info-footer{
+        padding-left: 0px;
+    }
+}
+@media (max-width: 767px){
+    .search-menu{
+        display: none;
+    }
+    .search-head{
+        display: block;
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+    .logo-a {
+        width: 35%;
+    }
+
+    .advantages_working{
+        display: none;
+    }
+
+}
+@media (max-width: 540px){
+    .reg{
+        font-size: 14px;
+    }
+    .ui-helper-reset {
+         font-size: 13px;
+     }
+    .logo-a-footer{
+          width: 50%;
+      }
 
 }
 @media (min-width: 1170px){
     .form-inline .form-control{
         margin: 0;
         margin-right: 5px;
-        width: 350px;
+        width: 300px;
     }
 }
-@media (min-width: 1210px){
+@media (min-width: 1200px){
     .form-inline .form-control{
         margin: 0;
         margin-right: 5px;
