@@ -511,7 +511,9 @@ footer{
 .lot h3{
     margin:30px 0;
 }
- 
+.oneproduct .mobilever img{
+    width: 320px;
+}
 .oneproduct{
    text-align: center;
     margin-bottom: 25px;
@@ -811,7 +813,6 @@ ul{
 }
 .check{
     display: flex;
-
 }
 
 .check p{
@@ -975,8 +976,12 @@ ul{
     background: rgba(0, 0, 0, 0.6);
 }
 .post-slide .post-img img{
-    width: 100%;
-    height: auto;
+    margin: auto;
+    width: auto;
+    height: 278px;
+}
+.post-img{
+    text-align: center;
 }
 .post-slide .category {
     width: 35%;
@@ -1005,8 +1010,10 @@ ul{
 @media only screen and (max-width: 359px) {
     .post-slide .category{ font-size: 13px; }
 }
-.categor .carousel-inner .carousel-item .row div:first-child .card,
-.categor .carousel-inner .carousel-item .row div:last-child .card{
+ /*div:first-child .card,*/
+  /*.row div:last-child .card*/
+.owl-item {
+    padding: 15px 0;
     background-color: #FDF2D3;
 }
 .transition{

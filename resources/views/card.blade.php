@@ -55,10 +55,10 @@
                 <a class="carousel-element" data-slide-index="5" href=""><img src="img/moneta.jpg" ></a>
                 <a class="carousel-element" data-slide-index="6" href=""><img src="img/antikvariat-metall.jpg" ></a>      
             </div>
-            <p class="center-text">
-                <a href="#" class="card-user" id="js-prev">Назад</a>
-                <a href="#" class="card-user" id="js-next">Вперед</a>
-            </p>
+            {{--<p class="center-text">--}}
+                {{--<a href="#" class="card-user" id="js-prev">Назад</a>--}}
+                {{--<a href="#" class="card-user" id="js-next">Вперед</a>--}}
+            {{--</p>--}}
 <!--  карусель мобильная версия -->
             <div class="carousel slide mobilever" data-ride="carousel" id="light1">
                 <div class="carousel-inner">

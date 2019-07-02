@@ -28,7 +28,7 @@ $(document).ready(function () {
             //carousel.owlCarousel();
             carousel.owlCarousel({
                 // Точки под каруселью
-                pagination: false,
+                pagination: true,
 
                 // Количество отображающихся блоков
                 // в зависимости от устройства (ширины экрана)
@@ -50,23 +50,23 @@ $(document).ready(function () {
                 //itemsMobile:       false
             });
 
-            $('#js-prev').click(function () {
-
-                // Запускаем перемотку влево
-                carousel.trigger('owl.prev');
-
-                return false;
-            });
+            // $('#js-prev').click(function () {
+			//
+            //     // Запускаем перемотку влево
+            //     carousel.trigger('owl.prev');
+			//
+            //     return false;
+            // });
 
 			// Вперед
 			// При клике на "Вперед"
-            $('#js-next').click(function () {
-
-                // Запускаем перемотку вправо
-                carousel.trigger('owl.next');
-
-                return false;
-            });
+            // $('#js-next').click(function () {
+			//
+            //     // Запускаем перемотку вправо
+            //     carousel.trigger('owl.next');
+			//
+            //     return false;
+            // });
 	});
 // \просмотр фото в карточке лота
 
@@ -108,8 +108,9 @@ $(document).ready(function () {
             itemsDesktop:[1199,3],
             itemsDesktopSmall:[992,2],
             itemsMobile:[767,1],
-            pagination:false,
             navigationText:false,
+            stopOnHover:true,
+            pagination:true,
             autoPlay:true
         });
     });

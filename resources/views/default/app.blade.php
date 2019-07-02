@@ -17,7 +17,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
         <!-- <link href="css/animate.min.css" rel="stylesheet"> -->
         <link rel="stylesheet" type="text/css" href={{ asset('css/jquery.bxslider.css') }}>
-        <link rel="stylesheet" href={{ asset('owl-carousel\owl.carousel.css') }}>
+        <link rel="stylesheet" href={{ asset('owl-carousel/owl.carousel.css') }}>
+        <link rel="stylesheet" href={{ asset("owl-carousel/owl.theme.css") }}>
         <link rel="stylesheet" type="text/css" href={{ asset('css/style.css') }}>
         <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
         <!-- js -->
