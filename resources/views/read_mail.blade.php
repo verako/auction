@@ -29,7 +29,7 @@
                     </div>
                     <div class="box-body no-padding">
                       <ul class="nav nav-pills nav-stacked">
-                        <li class="active"><a href="#"><i class="fa fa-inbox"></i> Входящие
+                        <li class="active"><a href="/admin_mailbox"><i class="fa fa-inbox"></i> Входящие
                             <span class="label label-primary pull-right">12</span></a></li>
                         <li class=""><a href="#"><i class="fa fa-bell-o"></i> Уведомления
                             <span class="label label-warning pull-right">2</span></a></li>

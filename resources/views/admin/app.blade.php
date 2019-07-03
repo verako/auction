@@ -24,6 +24,7 @@
     <!-- iCheck -->
     <link rel="stylesheet" href={{ asset('plugins/iCheck/flat/blue.css') }}>
     <link rel="stylesheet" href={{ asset('dist/css/admin_style.css') }}>
+    <link rel="shortcut icon" type="image/x-icon" href={{ asset("img/logo.ico") }} >
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -404,7 +405,7 @@
 {{--календарь--}}
 <script type="text/javascript" src={{ asset("js\calendar.js")}}></script>
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+<script src="dist/js/script_admin.js"></script>
 <script>
 
 </script>

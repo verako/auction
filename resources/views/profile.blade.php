@@ -107,7 +107,7 @@
             <h5>Подписка</h5>
             <div class="about_lot_title row feedback">
                 <div class="col-12">                           
-                    <table border="0" cellpadding="20">
+                    <table class="table" border="0" cellpadding="20">
                         <tr>
                             <th>№</th>
                             <th>Имя</th>
@@ -137,7 +137,7 @@
             <h5>Подписчики</h5>
             <div class="about_lot_title row feedback">
                 <div class="col-12">                           
-                    <table border="0" cellpadding="20">
+                    <table class="table" border="0" cellpadding="20">
                         <tr>
                             <th>№</th>
                             <th>Имя</th>
@@ -164,7 +164,7 @@
             <h5>Заблокированы для меня</h5>
             <div class="about_lot_title row feedback">
                 <div class="col-12">                           
-                    <table border="0" cellpadding="20">
+                    <table class="table" border="0" cellpadding="20">
                         <tr>
                             <th>№</th>
                             <th>Имя</th>

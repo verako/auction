@@ -130,7 +130,7 @@
             <div class="col-12 col-lg-9 sample" >
               <h1>По Вашему запросу найдено 25 лотов</h1>
               <div class="row">                
-                <div class="col-6 col-lg-4">
+                <div class="col-12 col-lg-6 col-xl-4">
                   <div class="card" >
                     <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href="/card"><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>                
@@ -143,7 +143,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-lg-4">
+                <div class="col-12 col-lg-6 col-xl-4">
                   <div class="card" >
                     <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
@@ -156,7 +156,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-lg-4">
+                <div class="col-12 col-lg-6 col-xl-4">
                   <div class="card" >
                     <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>
@@ -169,7 +169,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-lg-4">
+                <div class="col-12 col-lg-6 col-xl-4">
                   <div class="card" >
                     <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\antikvariat.jpg" alt="Card image cap"></a>
@@ -182,7 +182,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-lg-4">
+                <div class="col-12 col-lg-6 col-xl-4">
                   <div class="card" >
                     <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\antikvariat-metall.jpg" alt="Card image cap"></a>
@@ -195,7 +195,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-lg-4">
+                <div class="col-12 col-lg-6 col-xl-4">
                   <div class="card" >
                     <a href="" class="follow card-user"><i class="far fa-star "></i> Добавить в избранное</a>
                     <a href=""><img class="card-img-top" src="img\moneta.jpg" alt="Card image cap"></a>

@@ -20,7 +20,7 @@
         <link rel="stylesheet" href={{ asset('owl-carousel/owl.carousel.css') }}>
         <link rel="stylesheet" href={{ asset("owl-carousel/owl.theme.css") }}>
         <link rel="stylesheet" type="text/css" href={{ asset('css/style.css') }}>
-        <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+        <link rel="shortcut icon" type="image/x-icon" href={{ asset("img/logo.ico") }} >
         <!-- js -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->

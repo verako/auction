@@ -70,7 +70,7 @@
                             </button>
                           </div>
                           <div class="modal-body">
-                            <table border="0" cellpadding="10">
+                            <table class="table" border="0" cellpadding="10">
                                <tr>
                                 <th>Дата / время</th>
                                 <th>Комментарий</th>
@@ -94,7 +94,7 @@
                 <div id="my_lot_active">
                     <h5>Мои лоты</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="10">
+                        <table class="table" border="0" cellpadding="10">
                             <thead>
                                <tr>
                                 <th>№</th>
@@ -163,7 +163,7 @@
                 <div id="reserve_price">
                     <h5>Мои лоты с резервной ценой</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="10">
+                        <table class="table" border="0" cellpadding="10">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -226,7 +226,7 @@
                 <div id="advertised_lots">
                     <h5>Мои рекламирунмые лоты</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="10">
+                        <table class="table" border="0" cellpadding="10">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -285,7 +285,7 @@
                 <div id="completed_lots">
                     <h5>Мои завершенные лоты</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="10">
+                        <table class="table" border="0" cellpadding="10">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -344,7 +344,7 @@
                 <div id="sold_lots">
                     <h5>Мои проданные лоты</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="15">
+                        <table class="table" border="0" cellpadding="15">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -393,7 +393,7 @@
                 <div id="del_lots">
                     <h5>Мои удаленные лоты</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="10">
+                        <table class="table" border="0" cellpadding="10">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -452,7 +452,7 @@
                 <div id="archive_lots">
                     <h5>Мой ахив лотов</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="15">
+                        <table class="table" border="0" cellpadding="15">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -502,7 +502,7 @@
                 <div id="buy_lot">
                     <h5>Лоты на которые сделаны ставки</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="15">
+                        <table class="table" border="0" cellpadding="15">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -557,7 +557,7 @@
                 <div id="lots_follow">
                     <h5>Лоты за которыми слежу</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="10">
+                        <table class="table" border="0" cellpadding="10">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -613,7 +613,7 @@
                 <div id="completed_lot">
                     <h5>Купленные лоты</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="15">
+                        <table class="table" border="0" cellpadding="15">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -667,7 +667,7 @@
                 <div id="auto_delivery">
                     <h5>Лоты на которые сделана автоставка</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="10">
+                        <table class="table" border="0" cellpadding="10">
                             <thead>
                             <tr>
                                 <th>№</th>
@@ -721,7 +721,7 @@
                 <div id="archive_sold_lot">
                     <h5>Архив купленных лотов</h5>
                     <div class="about_lot_title row basic my_lot">
-                        <table border="0" cellpadding="15">
+                        <table class="table" border="0" cellpadding="15">
                             <thead>
                             <tr>
                                 <th>№</th>

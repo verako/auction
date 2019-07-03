@@ -25,8 +25,9 @@
                 </li>
             </ul>
             <hr class="hr">
-            <form>                
-                <textarea name="comment" cols="60" rows="3" placeholder="Напишите в чат"></textarea><br>
+            <form>
+                <textarea class="textarea" name="comment" cols="40" rows="3" placeholder="Напишите комментарий"></textarea><br>
+                <textarea class="mobilever" name="comment" cols="20" rows="3" placeholder="Напишите комментарий"></textarea><br>
                 <a href="#" type="submit" class="btn add-color white chat">Написать</a>
                 <a href="#" class="btn favorites">Пригласить модератора</a>
             </form>

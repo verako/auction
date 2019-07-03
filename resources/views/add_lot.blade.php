@@ -69,20 +69,20 @@
             </div> -->
         </div>
         <div class="form-group row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <input type="text" class="form-control" id="name" name="name" placeholder="* Название лота" required>
             </div>
-            <div class="col-6">
+            <div class="col-6 mobilever-hide">
                 <label for="name" class="col-form-label restrictions">Название лота (не более 60-ти символов) не должно быть написано заглавными (БОЛЬШИМИ) буквами, не должно содержать знаки пунктуации и символы ^#@&gt;&lt;.</label>
             </div>        
         </div> 
         <div class="form-group row">
-            <div class="col-6 custom-file">
+            <div class="col-12 col-md-6 custom-file">
                 <label class="custom-file-label" for="exampleInputFile">* Выберите фото</label>               
                 <input type='file' class="custom-file-input" name="image" id="exampleInputFile" onchange="preview(this);" multiple="multiple">
                 <div id='previewImg'></div>
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="exampleInputFile" class="col-form-label restrictions">В лоте
                     допускаются исключительно изображения конкретного предмета,
                     выставляемого данным продавцом на аукцион, не более 12 фото.
@@ -90,60 +90,62 @@
             </div>
         </div>        
         <div class="form-group check row">
-            <div class="col-6 left" >
+            <div class="col-12 col-md-6 left" >
                 <input type="checkbox" id="switch"><label class="switch" for="switch">1 грн</label>
                 <p>c 1 грн</p>
                 <input type="number" id="price" placeholder="* Стартовая цена:">
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="price" class="col-form-label restrictions">Стартовая цена должна быть такой во сколько Вы по минимуму оцениваете
                     продаваемый лот (цена за которую вы согласны продать лот), в случае отказа продавать лот будут предприняты
                     санкции согласно правил аукциона. </label>
             </div>
         </div>
         <div class="form-group check row">
-            <div class="col-6 left" >
+            <div class="col-12 col-md-6 left" >
                     <select id="step-select" name="select">
                         <option>Не менее чем</option>
                         <option>Равно</option>
                     </select>
                 <input type="number" id="step-price" placeholder="* Шаг цены">
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="step-price" class="col-form-label restrictions">Рекомендуем устанавливать "Не менее чем",
                     таким образом покупатели быстрее смогут дойти до реальной цены лота делая ставки выше указанного шага.</label>
             </div>
         </div>
         <div class="form-group check row">
-            <div class="col-6 left" >
+            <div class="col-12 col-md-6 left" >
                 <input type="checkbox" id="switch3"><label class="switch3" for="switch3">1 грн</label>
                 <p>Включить резервную цену</p>
                 <input type="number" id="reserve-price" placeholder="Резервная цена" disabled="true">
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="reserve-price" class="col-form-label restrictions">Резервная цена это наименьшая сумма,
                     за которую продавец готов продать лот. Функция платная: 1% от указанной резервной цены,
                     не подлежащей возврату вне зависимости от результатов торгов, списываются в момент создания лота. </label>
             </div>
         </div>
         <div class="form-group row">
-            <div class="col-6 left" >
+            <div class="col-12 col-md-4 left" >
                 <label for="datetime" class="col-form-label">* Выберите дату окончания:</label>
                 <input type="text" value="dd-mm-yy" id="datetime"   onfocus="this.select();lcs(this)" >
+            </div>
+            <div class="col-12 col-md-2 left" >
                 <label for="hour" class="col-form-label">Время:</label>
                 <input type="time" id="hour">
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="step-price" class="col-form-label restrictions">Выберите дату окончания аукциона.
                     Если не указывать время окончания, то оно установиться автоматически относительно времени создания лота.</label>
             </div>
         </div>
         <div class="form-group check row">
-            <div class="col-6 left" >
+            <div class="col-12 col-md-6 left" >
                 <input type="checkbox" id="switch2" /><label class="switch2" for="switch2">+5</label>
                 <p><span class="bold">Установить антиснайпинг:</span> +5 минут к последней ставке</p>
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="switch2" class="col-form-label restrictions">Эта функция позволяет продлевать торги на 5 минут после
                     каждой последней ставки, тем самым позволяя всем заинтересованным участникам торгов успеть сделать ставки независимо
                     от качества интернет-соединения, а продавцу получить наивысшую цену за свой лот. Если опция включена,
@@ -152,19 +154,19 @@
             </div>
         </div>
         <div class="form-group check row">
-            <div class="col-6" >
+            <div class="col-12 col-md-6" >
                 <input type="text" class="form-control" id="material" name="material" placeholder="* Материал" required>
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="material" class="col-form-label restrictions">Нельзя указывать прочерк, точку, а также другие знаки пунктуации и символы, указанные
                     вместо текстовой информации;</label>
             </div>
         </div>
         <div class="form-group check row">
-            <div class="col-6" >
+            <div class="col-12 col-md-6" >
                 <input type="text" class="form-control" id="defects" name="defects" placeholder="* Дефекты" required>
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="defects" class="col-form-label restrictions">Опишите состояние предмета, как можно более детально рассказав о скрытых
                     и видимых дефектах, что поможет Вам избежать в будущем проблем, связанных с сокрытием реального состояния.
                     Состояние "по фото" можно указывать только для монет, предметов металлопластики, бон, икон, картин при наличии
@@ -174,7 +176,7 @@
             </div>
         </div>
         <div class="form-group check row">
-            <div class="col-6 left" >
+            <div class="col-12 col-md-6 left" >
                     <select class="region" id="region-select" name="select">
                         <option disabled selected>* Выберите регион</option>
                         <option>Запорожская</option>
@@ -182,35 +184,35 @@
                     </select>
                 <input type="text" class="form-control" id="sity" name="sity" placeholder="* Город" required>
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="sity" class="col-form-label restrictions">Выберите регион и укажите город где находится лот.
                 </label>
             </div>
         </div>
         <div class="form-group check row">
-            <div class="col-6" >
+            <div class="col-12 col-md-6" >
                <input type="text" class="form-control" id="payment" name="payment" placeholder="* Оплата" required>
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="payment" class="col-form-label restrictions">Указывайте все методы оплаты которые Вас могут устроить,
                     с учетом аукционных правил оплаты лотов: оплата по факту получения, оплата на карту в банке и т.д.
                     Пожалуйста, не забывайте указывать банк-эмитент карты для оплаты. Например: оплата на карту Приват банка. </label>
             </div>
         </div>
         <div class="form-group check row">
-            <div class="col-6" >
+            <div class="col-12 col-md-6" >
                 <input type="text" class="form-control" id="delivery" name="delivery" placeholder="* Доставка" required>
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="delivery" class="col-form-label restrictions">Указывайте ВСЕ варианты отправки/доставки лота: грузоперевозчики, почта, лично при встрече и т.д.
                     Обязательно указывайте кто платит за доставку (покупатель или продавец).</label>
             </div>
         </div>
         <div class="form-group check row">
-            <div class="col-6" >
+            <div class="col-12 col-md-6" >
             <textarea class="form-control" id="description" name="description" placeholder ="* Описание" required></textarea>
             </div>
-            <div class="col-6" >
+            <div class="col-6 mobilever-hide" >
                 <label for="description" class="col-form-label restrictions">Детально опишите лот, что по Вашему мнению нужно для полного понимания покупателю.</label>
             </div>
         </div>

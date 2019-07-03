@@ -620,7 +620,7 @@ footer{
 #lots_follow,#auto_delivery, #completed_lot,#archive_sold_lot{
     display: none;
 }
-table{
+.table{
     width: 100%;
 }
 tbody tr:nth-child(odd) {
@@ -1162,7 +1162,7 @@ ul{
     .advantages_working{
         display: none;
     }
-    
+
 
 }
 @media (max-width: 540px){
@@ -1175,7 +1175,12 @@ ul{
     .logo-a-footer{
           width: 50%;
       }
-
+    .restrictions{
+        display: none;
+    }
+    .mobilever-hide{
+        display: none;
+    }
 
 }
 @media (min-width: 1170px){
