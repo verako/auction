@@ -454,6 +454,11 @@ footer{
 /*/footer*/
 
 /*один товар*/
+#tabs1{
+    width: 100%;
+    overflow: auto;
+    padding-left: 0;
+}
 /*карусель одного товара*/
 #bx-pager a img:hover,
 #bx-pager a.active img{
@@ -525,14 +530,13 @@ footer{
 .about_lot_title {
     border: 1px solid #c5c5c5;
     border-radius: 5px;
-    padding: 16px 0;
-    padding-left: 16px;
+    padding: 16px ;
     min-height: 72px;
     font-size: 16px;
     text-align: center;    
 }
 .info div{
-    margin-right: 30px;
+   //margin-right: 30px;
 }
 .about_lot_title span{
     font-size: 14px;
@@ -564,6 +568,7 @@ footer{
 }
 .rate input{
     margin: 20px;
+    width: 20%;
 }
 .step{
     background-color: #FDF2D3;
@@ -639,6 +644,7 @@ thead{
     overflow-y: auto;
     padding-left: 0;
 }
+
 .basic, .basic_edit{
     margin-left: 15px;
     margin-right: 0;
@@ -1107,11 +1113,11 @@ ul{
 
 @media (max-width: 991px){
     /*для планшетов скрывем одну карусель, показываем друю*/
-    #bx-pager .owl-wrapper-outer, .center-text, .bxslider, .bx-controls-direction, .bx-wrapper{
+    #bx-pager .owl-wrapper-outer, .owl-pagination, .center-text, .bxslider, .bx-controls-direction, .bx-wrapper, .textarea{
         display: none;
     }
     .mobilever{
-    display: block;
+        display: block;
     }
     .quantity{
         display: none;
@@ -1119,9 +1125,6 @@ ul{
     .form-inline .form-control{
         margin: 0;
         width: 100px;
-    }
-    .row{
-        //margin-left: -15px;
     }
     .links ul{
         padding-left: 0;
@@ -1159,6 +1162,7 @@ ul{
     .advantages_working{
         display: none;
     }
+    
 
 }
 @media (max-width: 540px){
@@ -1171,6 +1175,7 @@ ul{
     .logo-a-footer{
           width: 50%;
       }
+
 
 }
 @media (min-width: 1170px){

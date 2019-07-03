@@ -4,11 +4,8 @@
     <list default="true" id="47353ea5-4bde-46f7-86cd-cdd235a44d4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/card.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/default/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/default/app.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +28,10 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="config" value="2" />
-          <entry key="css" value="5" />
+          <entry key="css" value="7" />
           <entry key="env" value="1" />
-          <entry key="html" value="18" />
-          <entry key="js" value="5" />
+          <entry key="html" value="20" />
+          <entry key="js" value="6" />
           <entry key="php" value="66" />
           <entry key="rnc" value="1" />
         </counts>
@@ -42,9 +39,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Blade" value="58" />
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="18" />
-          <entry key="JavaScript" value="5" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="20" />
+          <entry key="JavaScript" value="6" />
           <entry key="PHP" value="8" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RNG Compact" value="1" />
@@ -52,18 +49,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1699" />
-          <entry key="html" value="34" />
-          <entry key="js" value="1437" />
-          <entry key="php" value="6987" />
+          <entry key="css" value="1849" />
+          <entry key="html" value="40" />
+          <entry key="js" value="1458" />
+          <entry key="php" value="7128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="6925" />
-          <entry key="CSS" value="1699" />
-          <entry key="HTML" value="35" />
-          <entry key="JavaScript" value="1437" />
+          <entry key="Blade" value="7066" />
+          <entry key="CSS" value="1849" />
+          <entry key="HTML" value="41" />
+          <entry key="JavaScript" value="1458" />
           <entry key="PHP" value="61" />
         </counts>
       </usages-collector>
@@ -74,23 +71,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="68" column="18" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="68" selection-end-column="18" />
+            <state relative-caret-position="360">
+              <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
               <folding>
                 <element signature="e#2965#3323#0" />
-                <element signature="e#3352#3634#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="514" column="16" selection-start-line="514" selection-start-column="16" selection-end-line="514" selection-end-column="16" />
+            <state relative-caret-position="-146">
+              <caret line="1164" column="4" selection-start-line="1164" selection-start-column="4" selection-end-line="1164" selection-end-column="4" />
               <folding>
-                <marker date="1562052317007" expanded="true" signature="2052:2214" ph="..." />
+                <marker date="1562141541131" expanded="true" signature="2052:2214" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,19 +95,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/card.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="51" column="19" selection-start-line="57" selection-start-column="11" selection-end-line="60" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../плагины/!!Cloud-zoom/Cloud-zoom/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="49" column="79" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="79" />
+            <state relative-caret-position="405">
+              <caret line="213" column="41" selection-start-line="213" selection-start-column="41" selection-end-line="213" selection-end-column="41" />
               <folding>
-                <element signature="n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#3310#4839#0#HTML" />
+                <element signature="e#4862#9017#0#HTML" />
+                <element signature="e#5389#7888#0#HTML" />
+                <element signature="e#8276#9002#0#HTML" />
+                <element signature="e#9142#9287#0#HTML" />
+                <element signature="e#9302#10175#0#HTML" />
+                <element signature="e#10190#10355#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -120,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/default/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="132">
+              <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -209,22 +202,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin_cat.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2332">
-              <caret line="164" column="27" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="27" />
-              <folding>
-                <element signature="e#499#3003#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="94" column="54" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="54" />
+            <state relative-caret-position="330">
+              <caret line="87" column="27" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="27" />
               <folding>
                 <element signature="e#1368#3797#0#HTML" />
                 <element signature="e#4244#5183#0#HTML" />
@@ -266,15 +247,6 @@
                 <element signature="e#19534#20438#0#HTML" />
                 <element signature="e#20455#21347#0#HTML" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/dist/css/admin_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -326,11 +298,13 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/../плагины/owl-carousel/index.html" />
         <option value="$PROJECT_DIR$/resources/views/categories.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$USER_HOME$/Desktop/1561981148660.html" />
+        <option value="$PROJECT_DIR$/../плагины/!!Cloud-zoom/Cloud-zoom/index.html" />
+        <option value="$PROJECT_DIR$/public/css/style_zoom.css" />
         <option value="$PROJECT_DIR$/resources/views/default/app.blade.php" />
         <option value="$PROJECT_DIR$/public/js/script.js" />
         <option value="$PROJECT_DIR$/resources/views/card.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -442,9 +416,8 @@
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="19" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
     <option name="width" value="1612" />
     <option name="height" value="820" />
   </component>
@@ -465,6 +438,12 @@
               <item name="auction" type="b2602c69:ProjectViewProjectNode" />
               <item name="auction" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auction" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auction" type="b2602c69:ProjectViewProjectNode" />
@@ -533,15 +512,15 @@
       <option name="presentableId" value="Default" />
       <updated>1560338254038</updated>
       <workItem from="1560338255279" duration="27356000" />
-      <workItem from="1560493520760" duration="175422000" />
+      <workItem from="1560493520760" duration="187247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202778000" />
+    <option name="totallyTimeSpent" value="214603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="19" width="1612" height="820" extended-state="1" />
+    <frame x="-4" y="0" width="1612" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15141752" />
@@ -573,31 +552,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="99" column="69" lean-forward="true" selection-start-line="99" selection-start-column="65" selection-end-line="99" selection-end-column="73" />
-          <folding>
-            <element signature="e#663#1437#0#HTML" />
-            <element signature="e#1463#2195#0#HTML" />
-            <element signature="e#2221#2988#0#HTML" />
-            <element signature="e#3014#3760#0#HTML" />
-            <element signature="e#3786#4530#0#HTML" />
-            <element signature="e#4556#5008#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/verify.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/channels.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -999,29 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="94" column="54" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="54" />
-          <folding>
-            <element signature="e#1368#3797#0#HTML" />
-            <element signature="e#4244#5183#0#HTML" />
-            <element signature="e#5202#6130#0#HTML" />
-            <element signature="e#6149#7065#0#HTML" />
-            <element signature="e#7523#8463#0#HTML" />
-            <element signature="e#8482#9429#0#HTML" />
-            <element signature="e#8971#9887#0#HTML" />
-            <element signature="e#10099#11027#0#HTML" />
-            <element signature="e#11047#11963#0#HTML" />
-            <element signature="e#11997#12943#0#HTML" />
-            <element signature="e#12993#13914#0#HTML" />
-            <element signature="e#13933#14861#0#HTML" />
-            <element signature="e#14880#15796#0#HTML" />
-            <element signature="e#16043#17385#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1048,16 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="514" column="16" selection-start-line="514" selection-start-column="16" selection-end-line="514" selection-end-column="16" />
-          <folding>
-            <marker date="1562052317007" expanded="true" signature="2052:2214" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/1561981148660.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1072,40 +993,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../плагины/!!Cloud-zoom/Cloud-zoom/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../плагины/!!Cloud-zoom/Cloud-zoom/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="120" column="13" lean-forward="true" selection-start-line="101" selection-start-column="12" selection-end-line="120" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/cloudzoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style_zoom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="200" column="24" selection-start-line="207" selection-start-column="22" selection-end-line="207" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/default/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="132">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/script.js">
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="68" column="18" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="68" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="87" column="27" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="27" />
           <folding>
-            <element signature="e#2965#3323#0" />
-            <element signature="e#3352#3634#0" />
+            <element signature="e#1368#3797#0#HTML" />
+            <element signature="e#4244#5183#0#HTML" />
+            <element signature="e#5202#6130#0#HTML" />
+            <element signature="e#6149#7065#0#HTML" />
+            <element signature="e#7523#8463#0#HTML" />
+            <element signature="e#8482#9429#0#HTML" />
+            <element signature="e#8971#9887#0#HTML" />
+            <element signature="e#10099#11027#0#HTML" />
+            <element signature="e#11047#11963#0#HTML" />
+            <element signature="e#11997#12943#0#HTML" />
+            <element signature="e#12993#13914#0#HTML" />
+            <element signature="e#13933#14861#0#HTML" />
+            <element signature="e#14880#15796#0#HTML" />
+            <element signature="e#16043#17385#0#HTML" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/card.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="51" column="19" selection-start-line="57" selection-start-column="11" selection-end-line="60" selection-end-column="20" />
+        <state relative-caret-position="405">
+          <caret line="213" column="41" selection-start-line="213" selection-start-column="41" selection-end-line="213" selection-end-column="41" />
+          <folding>
+            <element signature="e#3310#4839#0#HTML" />
+            <element signature="e#4862#9017#0#HTML" />
+            <element signature="e#5389#7888#0#HTML" />
+            <element signature="e#8276#9002#0#HTML" />
+            <element signature="e#9142#9287#0#HTML" />
+            <element signature="e#9302#10175#0#HTML" />
+            <element signature="e#10190#10355#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../плагины/!!Cloud-zoom/Cloud-zoom/index.html">
+    <entry file="file://$PROJECT_DIR$/public/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="49" column="79" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="79" />
+        <state relative-caret-position="360">
+          <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
           <folding>
-            <element signature="n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#2965#3323#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="1164" column="4" selection-start-line="1164" selection-start-column="4" selection-end-line="1164" selection-end-column="4" />
+          <folding>
+            <marker date="1562141541131" expanded="true" signature="2052:2214" ph="..." />
           </folding>
         </state>
       </provider>

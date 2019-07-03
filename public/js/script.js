@@ -8,7 +8,7 @@ $(document).ready(function () {
    			prevText: '',
 			pagerCustom: '#bx-pager',   //нажатие на картинку снизу
 			responsive: true            //адаптивность
-		});		
+		});
 
 		//увеличительное стекло на 1 товаре
 
@@ -68,6 +68,8 @@ $(document).ready(function () {
             //     return false;
             // });
 	});
+
+
 // \просмотр фото в карточке лота
 
 //просмотр изображений перед загрузкой
@@ -91,9 +93,10 @@ $(document).ready(function () {
       		//active: false 
     	});
 
-    	//карточка лота
+    	//главная
     	$( "#tabs" ).tabs();
-
+		//карточка лота
+        $( "#tabs1" ).tabs();
     	//часто задаваемые вопросы
         $( "#questions" ).accordion({
             collapsible: false

@@ -12,34 +12,34 @@
 @section('content')
 	
 	
-<div class="lot" >
+<div class="lot container" >
     <div class="about_lot_title row info">
-        <div>
+        <div class="col-6 col-md-2">
             <p>Ставок: <br><span>15</span> </p>
         </div>
-        <div>
+        <div class="col-6 col-md-2">
             <p>Максимальная ставка: <br><span>3000 грн</span> </p>
         </div>
-        <div>
+        <div class="col-6 col-md-2">
             <p>Следят за лотом: <br><span>15 человек</span> </p>
         </div>
-        <div>
+        <div class="col-6 col-md-2">
             <p>Добавлено: <br><span>15.04.2019 18:55</span> </p>
         </div>
-        <div>
+        <div class="col-6 col-md-2">
             <p><a href="" class="card-user"><i class="far fa-user"></i>User</a><br><span class="plus">+6</span> / <span class="minus">-1</span> </p>
         </div>
-        <div>
+        <div class="col-6 col-md-2">
             <a href="#" class="btn favorites">Подписаться на продавца</a>
           
         </div>        
     </div>
     <h3>Название лота </h3>
-    <div class="row">
-        <div class="col-12 col-lg-4 oneproduct">
+    <div class="row ">
+        <div class="col-12 col-md-12 col-lg-4 oneproduct">
             <ul class="bxslider">
                 <li><img src="img/moneta.jpg" data-zoom-image="img/moneta.jpg" id="zoom2"></li>
-                <li><img src="img/antikvariat-metall.jpg" data-zoom-image="img/antikvariat-metall.jpg" id="zoom1"></li>              
+                <li><img src="img/antikvariat-metall.jpg" data-zoom-image="img/antikvariat-metall.jpg" id="zoom1"></li>
                 <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom" ></li>
                 <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom3" ></li>
                 <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom4" ></li>
@@ -47,13 +47,13 @@
                 <li><img src="img/antikvariat-metall.jpg"  data-zoom-image="img/antikvariat-metall.jpg" id="zoom6" ></li>
             </ul>
             <div id="bx-pager" class ="carousel-min">
-                <a class="carousel-element" data-slide-index="0" href="" ><img src="img/moneta.jpg" ></a>              
-                <a class="carousel-element" data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>              
+                <a class="carousel-element" data-slide-index="0" href=""><img src="img/moneta.jpg" ></a>
+                <a class="carousel-element" data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>
                 <a class="carousel-element" data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>
                 <a class="carousel-element" data-slide-index="3" href=""><img src="img/antikvariat.jpg" ></a>
                 <a class="carousel-element" data-slide-index="4" href=""><img src="img/antikvariat.jpg" /></a>
                 <a class="carousel-element" data-slide-index="5" href=""><img src="img/moneta.jpg" ></a>
-                <a class="carousel-element" data-slide-index="6" href=""><img src="img/antikvariat-metall.jpg" ></a>      
+                <a class="carousel-element" data-slide-index="6" href=""><img src="img/antikvariat-metall.jpg" ></a>
             </div>
             {{--<p class="center-text">--}}
                 {{--<a href="#" class="card-user" id="js-prev">Назад</a>--}}
@@ -63,23 +63,23 @@
             <div class="carousel slide mobilever" data-ride="carousel" id="light1">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/moneta.jpg" alt="First slide"> 
+                        <img src="img/moneta.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
                         <img src="img/antikvariat-metall.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
                         <img src="img/antikvariat.jpg" alt="Third slide">
-                    </div> 
+                    </div>
                     <div class="carousel-item ">
-                        <img src="img/moneta.jpg" alt="First slide"> 
+                        <img src="img/moneta.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
                         <img src="img/antikvariat-metall.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
                         <img src="img/antikvariat.jpg" alt="Third slide">
-                    </div>                        
+                    </div>
                 </div>
             <!-- /.carousel-inner -->
                     <a class="carousel-control-prev" href="#light1" role="button" data-slide="prev">
@@ -91,12 +91,12 @@
             </div>
 <!--  /карусель мобильная версия -->
         </div>
-        <div class="col-12 col-lg-8 oneproduct">
+        <div class="col-12 col-md-12 col-lg-8 oneproduct">
             <div class="about_lot_title row prices">
-                <div class="col-6 col-lg-6">
+                <div class="col-12 col-lg-6">
                     <p>Стартовая цена: <br><span>150 грн</span> </p>
                 </div>
-                <div class="col-6 col-lg-6 actual">
+                <div class="col-12 col-lg-6 actual">
                     <p>Текущая ставка: (<a href="#" class="card-user" data-toggle="modal" data-target="#ratesModal">15 ставок</a>)<br><span>3000 грн</span> <span class="nbu"> ~ 111 $</span>  </p>
  <!-- modal окно ставок -->
                     <div class="modal fade" id="ratesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -138,10 +138,10 @@
                     </div>
 <!-- /modal окно ставок -->
                 </div>
-                <div class="col-6 col-lg-6">
+                <div class="col-12 col-lg-6">
                     <p>Окончание: <br><span>15.04.2019 18:55</span> </p>
                 </div>
-                <div class="col-6 col-lg-6 actual">
+                <div class="col-12 col-lg-6 actual">
                     <p>Осталось: <br><span>1 день 18:55:02</span> </p>
                 </div>                  
             </div>
@@ -161,7 +161,7 @@
         </div> 
         <div class="col-12 col-lg-12 description">
             <h4>Описание</h4>
-            <div id="tabs">
+            <div id="tabs1">
               <ul>
                 <li><a href="#tabs-1">Основное</a></li>
                 <li><a href="#tabs-2">Оплата / Доставка</a></li>
@@ -211,7 +211,8 @@
             </ul>
             <hr>
             <form>                
-                <textarea name="comment" cols="60" rows="3" placeholder="Напишите комментарий"></textarea><br>
+                <textarea class="textarea" name="comment" cols="40" rows="3" placeholder="Напишите комментарий"></textarea><br>
+                <textarea class="mobilever" name="comment" cols="20" rows="3" placeholder="Напишите комментарий"></textarea><br>
                 <input type="file" name="f"><br>
                 <a href="#" class="btn add-color white send">Оставить комментарий</a>
             </form>
