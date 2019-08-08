@@ -10,7 +10,33 @@
         </nav>
 @endsection
 @section('content')
-	
+    <style>
+
+        #surround {
+            width:100%;
+            min-width: 256px;
+            max-width: 480px;
+        }
+
+        /* Image expands to width of surround */
+        img.cloudzoom {
+            width:100%;
+        }
+
+        /* CSS for slider - will expand to width of surround */
+        #slider1 {
+            margin:10px 20px 0px;
+            height:90px;
+            position:relative;
+            /*width:60%;*/
+        }
+        .zoom-slider{
+            width:38%;
+        }
+        .thumbelina li img{
+            width: 52px;
+        }
+    </style>
 	
 <div class="lot container" >
     <div class="about_lot_title row info">
@@ -37,24 +63,54 @@
     <h3>Название лота </h3>
     <div class="row ">
         <div class="col-12 col-md-12 col-lg-4 oneproduct">
-            <ul class="bxslider">
-                <li><img src="img/moneta.jpg" data-zoom-image="img/moneta.jpg" id="zoom2"></li>
-                <li><img src="img/antikvariat-metall.jpg" data-zoom-image="img/antikvariat-metall.jpg" id="zoom1"></li>
-                <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom" ></li>
-                <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom3" ></li>
-                <li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom4" ></li>
-                <li><img src="img/moneta.jpg"  data-zoom-image="img/moneta.jpg" id="zoom5" ></li>
-                <li><img src="img/antikvariat-metall.jpg"  data-zoom-image="img/antikvariat-metall.jpg" id="zoom6" ></li>
-            </ul>
-            <div id="bx-pager" class ="carousel-min">
-                <a class="carousel-element" data-slide-index="0" href=""><img src="img/moneta.jpg" ></a>
-                <a class="carousel-element" data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>
-                <a class="carousel-element" data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>
-                <a class="carousel-element" data-slide-index="3" href=""><img src="img/antikvariat.jpg" ></a>
-                <a class="carousel-element" data-slide-index="4" href=""><img src="img/antikvariat.jpg" /></a>
-                <a class="carousel-element" data-slide-index="5" href=""><img src="img/moneta.jpg" ></a>
-                <a class="carousel-element" data-slide-index="6" href=""><img src="img/antikvariat-metall.jpg" ></a>
+            <div class="about_in">
+                <div class="zoom-slider">
+                    <div id="surround"> <img class="cloudzoom" alt ="Cloud Zoom small image" id ="zoom1" src="img/antikvariat.jpg"
+                                             data-cloudzoom='
+                                   zoomSizeMode:"image",
+                                   autoInside: 550
+                               '>
+                        <div id="slider1">
+                            <div class="thumbelina-but horiz left">&#706;</div>
+                            <ul>
+                                <li><img class='cloudzoom-gallery' src="img/antikvariat-metall.jpg"
+                                         data-cloudzoom ="useZoom:'.cloudzoom', image:'img/antikvariat-metall.jpg' "></li>
+                                <li><img class='cloudzoom-gallery' src="img/moneta.jpg"
+                                         data-cloudzoom ="useZoom:'.cloudzoom', image:'img/moneta.jpg' "></li>
+                                <li><img class='cloudzoom-gallery' src="img/antikvariat.jpg"
+                                         data-cloudzoom ="useZoom:'.cloudzoom', image:'img/antikvariat.jpg' "></li>
+                                <li><img class='cloudzoom-gallery' src="img/1.jpg"
+                                         data-cloudzoom ="useZoom:'.cloudzoom', image:'img/1.jpg' "></li>
+                                <li><img class='cloudzoom-gallery' src="img/2.jpg"
+                                         data-cloudzoom ="useZoom:'.cloudzoom', image:'img/2.jpg' "></li>
+                                <li><img class='cloudzoom-gallery' src="img/antikvariat-metall.jpg"
+                                         data-cloudzoom ="useZoom:'.cloudzoom', image:'img/antikvariat-metall.jpg' "></li>
+                            </ul>
+                            <div class="thumbelina-but horiz right">&#707;</div>
+                        </div>
+                    </div>
+                </div>
+                <!--zoom-slider-->
+
             </div>
+            {{--<ul class="bxslider">--}}
+                {{--<li><img src="img/moneta.jpg" data-zoom-image="img/moneta.jpg" id="zoom2"></li>--}}
+                {{--<li><img src="img/antikvariat-metall.jpg" data-zoom-image="img/antikvariat-metall.jpg" id="zoom1"></li>--}}
+                {{--<li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom" ></li>--}}
+                {{--<li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom3" ></li>--}}
+                {{--<li><img src="img/antikvariat.jpg"  data-zoom-image="img/antikvariat.jpg" id="zoom4" ></li>--}}
+                {{--<li><img src="img/moneta.jpg"  data-zoom-image="img/moneta.jpg" id="zoom5" ></li>--}}
+                {{--<li><img src="img/antikvariat-metall.jpg"  data-zoom-image="img/antikvariat-metall.jpg" id="zoom6" ></li>--}}
+            {{--</ul>--}}
+            {{--<div id="bx-pager" class ="carousel-min">--}}
+                {{--<a class="carousel-element" data-slide-index="0" href=""><img src="img/moneta.jpg" ></a>--}}
+                {{--<a class="carousel-element" data-slide-index="1" href=""><img src="img/antikvariat-metall.jpg" ></a>--}}
+                {{--<a class="carousel-element" data-slide-index="2" href=""><img src="img/antikvariat.jpg" ></a>--}}
+                {{--<a class="carousel-element" data-slide-index="3" href=""><img src="img/antikvariat.jpg" ></a>--}}
+                {{--<a class="carousel-element" data-slide-index="4" href=""><img src="img/antikvariat.jpg" /></a>--}}
+                {{--<a class="carousel-element" data-slide-index="5" href=""><img src="img/moneta.jpg" ></a>--}}
+                {{--<a class="carousel-element" data-slide-index="6" href=""><img src="img/antikvariat-metall.jpg" ></a>--}}
+            {{--</div>--}}
             {{--<p class="center-text">--}}
                 {{--<a href="#" class="card-user" id="js-prev">Назад</a>--}}
                 {{--<a href="#" class="card-user" id="js-next">Вперед</a>--}}

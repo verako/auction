@@ -19,6 +19,16 @@
         <link rel="stylesheet" type="text/css" href={{ asset('css/jquery.bxslider.css') }}>
         <link rel="stylesheet" href={{ asset('owl-carousel/owl.carousel.css') }}>
         <link rel="stylesheet" href={{ asset("owl-carousel/owl.theme.css") }}>
+
+        <!-- Include Cloud Zoom CSS -->
+        <link href={{ asset("css/cloudzoom.css")}} type="text/css" rel="stylesheet" />
+
+        <!-- Include Thumbelina CSS -->
+        <link href={{ asset("css/thumbelina.css")}} type="text/css" rel="stylesheet" />
+
+        <!-- popup -->
+        <link rel="stylesheet" href={{ asset("css/popupwindow.css")}}>
+
         <link rel="stylesheet" type="text/css" href={{ asset('css/style.css') }}>
         <link rel="shortcut icon" type="image/x-icon" href={{ asset("img/logo.ico") }} >
         <!-- js -->
@@ -32,6 +42,15 @@
         <script type="text/javascript" src={{ asset("js\calendar.js")}}></script>
         <script type="text/javascript" src={{ asset("owl-carousel\owl.carousel.min.js")}}></script>
         <!-- <script type="text/javascript" src="js\plugin.js"></script> --> <!-- галерея для миниатюр -->
+        <!-- Include Cloud Zoom JavaScript -->
+        <script type="text/javascript" src={{ asset("js/cloudzoom.js")}}></script>
+
+        <!-- Include Thumbelina JavaScript -->
+        <script type="text/javascript" src={{ asset("js/thumbelina.js")}}></script>
+
+        <!-- Include pop-up JavaScript -->
+        <script src={{ asset("js/popupwindow.js")}}></script>
+
         <script type="text/javascript" src={{ asset("js\script.js")}}></script>
     </head>
     <body>

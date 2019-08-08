@@ -3,70 +3,82 @@ $(document).ready(function () {
 	$(function (){
 
 // просмотр фото в карточке лота
-		$('.bxslider').bxSlider({
-			nextText: '',
-   			prevText: '',
-			pagerCustom: '#bx-pager',   //нажатие на картинку снизу
-			responsive: true            //адаптивность
-		});
+        CloudZoom.quickStart();
 
-		//увеличительное стекло на 1 товаре
-
-         $('#zoom').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
-         $('#zoom1').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
-         $('#zoom2').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
-         $('#zoom3').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
-         $('#zoom4').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
-         $('#zoom5').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
-         $('#zoom6').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
-         $('#zoom7').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
-
-		//карусель миниатюр в карточке лота
-		var carousel = $(".carousel-min");
-
-            // Запускаем плагин карусели
-            //carousel.owlCarousel();
-            carousel.owlCarousel({
-                // Точки под каруселью
-                pagination: true,
-
-                // Количество отображающихся блоков
-                // в зависимости от устройства (ширины экрана)
-
-                // Количество блоков на больших экранах
-                items:             5,
-
-                // 5 блоков на компьютерах (экран от 1400px до 901px)
-                itemsDesktop:      [1400, 5],
-
-                // 3 блока на маленьких компьютерах (экран от 900px до 601px)
-                //itemsDesktopSmall: [991, 0],
-
-                // 2 элемента на планшетах (экран от 600 до 480 пикселей)
-               // itemsTablet:       [600, 2],
-
-                // Настройки для телефона отключены, в этом случае будут
-                // использованы настройки планшета
-                //itemsMobile:       false
+        // Initialize the slider.
+        $(function(){
+            $('#slider1').Thumbelina({
+                $bwdBut:$('#slider1 .left'),
+                $fwdBut:$('#slider1 .right')
             });
+        });
 
-            // $('#js-prev').click(function () {
-			//
-            //     // Запускаем перемотку влево
-            //     carousel.trigger('owl.prev');
-			//
-            //     return false;
-            // });
 
-			// Вперед
-			// При клике на "Вперед"
-            // $('#js-next').click(function () {
-			//
-            //     // Запускаем перемотку вправо
-            //     carousel.trigger('owl.next');
-			//
-            //     return false;
-            // });
+
+// 		$('.bxslider').bxSlider({
+// 			nextText: '',
+//    			prevText: '',
+// 			pagerCustom: '#bx-pager',   //нажатие на картинку снизу
+// 			responsive: true            //адаптивность
+// 		});
+//
+// 		//увеличительное стекло на 1 товаре
+//
+//          $('#zoom').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
+//          $('#zoom1').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
+//          $('#zoom2').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
+//          $('#zoom3').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
+//          $('#zoom4').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
+//          $('#zoom5').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
+//          $('#zoom6').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
+//          $('#zoom7').elevateZoom({easing:true, tint:true,tintColour:'#999', tintOpacity:0.5, scrollZoom : false, borderColour:'#E4C7AD'});
+//
+// 		//карусель миниатюр в карточке лота
+// 		var carousel = $(".carousel-min");
+//
+//             // Запускаем плагин карусели
+//             //carousel.owlCarousel();
+//             carousel.owlCarousel({
+//                 // Точки под каруселью
+//                 pagination: true,
+//
+//                 // Количество отображающихся блоков
+//                 // в зависимости от устройства (ширины экрана)
+//
+//                 // Количество блоков на больших экранах
+//                 items:             5,
+//
+//                 // 5 блоков на компьютерах (экран от 1400px до 901px)
+//                 itemsDesktop:      [1400, 5],
+//
+//                 // 3 блока на маленьких компьютерах (экран от 900px до 601px)
+//                 //itemsDesktopSmall: [991, 0],
+//
+//                 // 2 элемента на планшетах (экран от 600 до 480 пикселей)
+//                // itemsTablet:       [600, 2],
+//
+//                 // Настройки для телефона отключены, в этом случае будут
+//                 // использованы настройки планшета
+//                 //itemsMobile:       false
+//             });
+//
+//             // $('#js-prev').click(function () {
+// 			//
+//             //     // Запускаем перемотку влево
+//             //     carousel.trigger('owl.prev');
+// 			//
+//             //     return false;
+//             // });
+//
+// 			// Вперед
+// 			// При клике на "Вперед"
+//             // $('#js-next').click(function () {
+// 			//
+//             //     // Запускаем перемотку вправо
+//             //     carousel.trigger('owl.next');
+// 			//
+//             //     return false;
+//             // });
 	});
 
 

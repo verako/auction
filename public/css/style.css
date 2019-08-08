@@ -342,6 +342,8 @@ input[type="text"]:focus, input[type="time"]:focus, input[type="number"]:focus, 
 .card-img-top{
     height: 278px;
     width: auto;
+    object-fit: contain;
+    max-width: 100%;
 }
 
 .follow{
