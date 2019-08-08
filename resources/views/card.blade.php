@@ -12,30 +12,6 @@
 @section('content')
     <style>
 
-        #surround {
-            width:100%;
-            min-width: 256px;
-            max-width: 480px;
-        }
-
-        /* Image expands to width of surround */
-        img.cloudzoom {
-            width:100%;
-        }
-
-        /* CSS for slider - will expand to width of surround */
-        #slider1 {
-            margin:10px 20px 0px;
-            height:90px;
-            position:relative;
-            /*width:60%;*/
-        }
-        .zoom-slider{
-            width:38%;
-        }
-        .thumbelina li img{
-            width: 52px;
-        }
     </style>
 	
 <div class="lot container" >
