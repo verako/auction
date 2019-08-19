@@ -7,7 +7,12 @@ html, body {
                 height: 100vh;
                 margin: 0;
             }
-
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
 /* all color */ 
 .btn{
     background-color: #FEF3D4;
@@ -986,6 +991,9 @@ ul{
 .sample h1{
     text-align: center;
     margin-bottom: 30px;
+}
+.categor h1, .categor h2{
+    margin-left: 20px;
 }
 /*карусель в категории*/
 .post-slide{

@@ -132,7 +132,7 @@
             <div class="col-12 col-lg-9 categor" >
                 <h1>Название категории</h1>
                 <hr>
-                <h3>Рекламируемые лоты:</h3>
+                <h2>Рекламируемые лоты:</h2>
                     <div class="row">
                         <div class="col-md-12">
                             <div id="news-slider" class="owl-carousel">
