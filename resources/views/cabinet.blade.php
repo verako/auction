@@ -84,7 +84,7 @@
                                 <td>250 грн</td>
                                </tr>               
                             </table>
-                            <a  href="#" type="submit" class=" btn add-color white " aria-haspopup="true" aria-expanded="false">Пополнить</a>  
+                            <a  href="/formpurse" type="submit" class=" btn add-color white " aria-haspopup="true" aria-expanded="false">Пополнить</a>
                           </div>                         
                         </div>
                       </div>

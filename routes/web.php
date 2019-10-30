@@ -71,6 +71,9 @@ Route::get('/admin_compose', function () {
 Route::get('/read_mail', function () {
     return view('read_mail');
 });
+Route::get('/formpurse', function () {
+    return view('formpurse');
+});
 Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');

@@ -726,6 +726,13 @@ html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:activ
 
     background: #E4C7AD;
 }
+/*пополнение кошелька*/
+.formpurse .form-control{
+    margin-bottom: 20px;
+}
+.formpurse{
+    height: 54vh;
+}
 /*профиль*/
 .feedback{
     margin:20px 0;
@@ -1121,10 +1128,14 @@ ul{
 /*правила*/
 .registrations p{
     color: #777;
+    font-weight: bold;
 //text-align: center;
 }
 .registrations h1, .registrations h2{
     margin: 30px 0;
+}
+.registrations li{
+    margin-bottom: 15px;
 }
 /*вопросы*/
 #questions{
